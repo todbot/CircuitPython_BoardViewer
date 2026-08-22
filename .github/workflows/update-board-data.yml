@@ -1,0 +1,43 @@
+name: Update board data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # weekly on Monday at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout this repo
+      uses: actions/checkout@v4
+
+    - name: Clone CircuitPython (shallow)
+      # Full shallow clone, not --filter=tree:0: the generator reads
+      # pins.c + mpconfigboard.h for ~1,300 files, which would otherwise
+      # trigger a blob fetch per file.
+      run: git clone --depth=1 https://github.com/adafruit/circuitpython.git
+
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.x'
+
+    - name: Generate board data
+      run: python tools/gen_board_data.py --cp circuitpython
+
+    - name: Commit if changed
+      run: |
+        git config user.name  "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/board_data.json
+        if git diff --staged --quiet; then
+          echo "No changes to board_data.json"
+        else
+          SHA=$(cd circuitpython && git rev-parse --short HEAD)
+          git commit -m "Update board data from CircuitPython ${SHA}"
+          git push
+        fi

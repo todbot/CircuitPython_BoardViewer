@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CircuitPython Board Viewer</title>
+<style>
+  /* Palette lifted from circuitpython.org: brand purple #652f8f, a light
+     grey page behind white rounded cards, and generous corner radii. */
+  :root {
+    --bg: #f0f0f0;
+    --panel: #ffffff;
+    --text: #222222;
+    --muted: #666a73;
+    --border: #e1e2e6;
+    --accent: #652f8f;
+    --accent-hover: #4a2269;
+    --accent-text: #ffffff;
+    --accent-bg: #f1e9f8;
+    --ok: #1b7f4d;
+    --ok-bg: #e7f6ee;
+    --warn: #9a6400;
+    --warn-bg: #fbf0d9;
+    --chip-bg: #eeeeee;
+    --code-bg: #f0f0f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #19171c;
+      --panel: #262229;
+      --text: #eeeaf1;
+      --muted: #a9a2b0;
+      --border: #3a3440;
+      --accent: #c9a4ea;
+      --accent-hover: #dabff0;
+      --accent-text: #241a2c;
+      --accent-bg: #372c42;
+      --ok: #6fd6a0;
+      --ok-bg: #1c3327;
+      --warn: #e0b64c;
+      --warn-bg: #3a2f14;
+      --chip-bg: #322c39;
+      --code-bg: #262229;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 "Proxima Nova", "Montserrat", "Lucida Grande",
+      "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 16px 64px;
+  }
+  .hero {
+    background: var(--panel);
+    border-radius: 24px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 24px; font-weight: 700; margin: 0 0 6px; color: var(--accent); }
+  .subtitle { color: var(--muted); margin: 0; font-size: 14px; }
+  .search-wrap { position: relative; margin-top: 18px; }
+  #search {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    border: 2px solid var(--accent);
+    border-radius: 12px;
+    background: var(--panel);
+    color: var(--text);
+  }
+  #dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0; right: 0;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-height: 320px;
+    overflow-y: auto;
+    z-index: 10;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  #dropdown.open { display: block; }
+  .dd-item { padding: 8px 14px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+  .dd-item:hover, .dd-item.active { background: var(--accent-bg); }
+  .dd-name { font-weight: 600; }
+  .dd-meta { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+  mark { background: var(--accent-bg); color: var(--accent); border-radius: 3px; padding: 0 1px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1.5px solid var(--accent);
+    background: var(--panel);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+  .chip:hover { background: var(--accent-bg); }
+  .chip.selected { background: var(--accent); color: var(--accent-text); }
+
+  .card {
+    background: var(--panel);
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  .board-header h2 { margin: 0 0 4px; font-size: 21px; font-weight: 700; }
+  .board-meta { color: var(--muted); font-size: 13.5px; }
+  .board-meta code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+
+  .obj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 8px; }
+  .obj-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 12px;
+    background: var(--bg);
+  }
+  .obj-card .obj-title { font-weight: 700; display: flex; align-items: center; gap: 6px; }
+  .badge { font-size: 11px; padding: 2px 9px; border-radius: 999px; font-weight: 600; }
+  .badge.ok { background: var(--ok-bg); color: var(--ok); }
+  .badge.no { background: var(--chip-bg); color: var(--muted); }
+  .badge.warn { background: var(--warn-bg); color: var(--warn); }
+  .obj-pins { font-size: 13px; margin-top: 6px; color: var(--muted); }
+  .obj-note { font-size: 12.5px; margin-top: 6px; color: var(--warn); }
+  .obj-names { font-size: 12.5px; margin-top: 4px; }
+
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13.5px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 12.5px; text-transform: uppercase; }
+  .pin-alias {
+    display: inline-block;
+    background: var(--chip-bg);
+    border-radius: 6px;
+    padding: 1px 7px;
+    margin: 1px 3px 1px 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 12.5px;
+  }
+  .mcu-pin { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
+
+  details.section { margin-top: 8px; }
+  details.section summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+
+  .empty-state { color: var(--muted); padding: 40px 0; text-align: center; }
+  footer { color: var(--muted); font-size: 12.5px; margin-top: 32px; text-align: center; }
+  footer a { color: var(--accent); }
+
+  .hero-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+  .hero-text { flex: 1; min-width: 0; }
+  .github-link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-top: 4px;
+    color: var(--muted);
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .github-link:hover { color: var(--accent); }
+  .github-link svg { width: 18px; height: 18px; fill: currentColor; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <div class="hero-top">
+      <div class="hero-text">
+        <h1>CircuitPython Board Viewer</h1>
+        <p class="subtitle">
+          Look up a board's pin names and which <code>board.SPI()</code>,
+          <code>board.I2C()</code>, <code>board.UART()</code>, and
+          <code>board.DISPLAY</code> objects it actually exposes.
+        </p>
+      </div>
+      <a class="github-link" href="https://github.com/todbot/CircuitPython_BoardViewer" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
+        </svg>
+        GitHub
+      </a>
+    </div>
+
+    <div class="search-wrap">
+      <input id="search" type="text" placeholder="Search boards by name or id&hellip;" autocomplete="off">
+      <div id="dropdown"></div>
+    </div>
+    <div class="chips" id="quick-chips"></div>
+  </div>
+
+  <div id="board-view"></div>
+
+  <footer id="footer"></footer>
+</main>
+
+<script>
+const QUICK_BOARDS = [
+  "feather_m4_express",
+  "raspberry_pi_pico",
+  "raspberry_pi_pico2",
+  "adafruit_feather_esp32s3_tft",
+  "adafruit_qtpy_esp32s3_nopsram",
+  "itsybitsy_m4_express",
+  "circuitplayground_express",
+  "metro_m4_express",
+];
+
+let DATA = null;
+let SEARCH_INDEX = [];
+let activeIndex = -1;
+let currentBoardId = null;
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+function highlightMatch(text, query) {
+  if (!query) return escapeHtml(text);
+  const idx = text.toLowerCase().indexOf(query.toLowerCase());
+  if (idx === -1) return escapeHtml(text);
+  return (
+    escapeHtml(text.slice(0, idx)) +
+    "<mark>" + escapeHtml(text.slice(idx, idx + query.length)) + "</mark>" +
+    escapeHtml(text.slice(idx + query.length))
+  );
+}
+
+async function init() {
+  const res = await fetch("board_data.json");
+  DATA = await res.json();
+
+  SEARCH_INDEX = Object.entries(DATA.boards).map(([id, b]) => ({
+    id, name: b.name, port: b.port,
+    haystack: [id, b.name, ...(b.aliases || [])].join(" ").toLowerCase(),
+  }));
+
+  renderQuickChips();
+  renderFooter();
+
+  const searchEl = document.getElementById("search");
+  searchEl.addEventListener("input", () => filterDropdown(searchEl.value));
+  searchEl.addEventListener("focus", () => filterDropdown(searchEl.value));
+  searchEl.addEventListener("keydown", onSearchKey);
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-wrap")) closeDropdown();
+  });
+
+  const initial = location.hash.match(/board=([\w.-]+)/);
+  if (initial && DATA.boards[initial[1]]) {
+    selectBoard(initial[1]);
+  } else {
+    renderEmptyState();
+  }
+}
+
+function renderQuickChips() {
+  const wrap = document.getElementById("quick-chips");
+  wrap.innerHTML = "";
+  for (const id of QUICK_BOARDS) {
+    const board = DATA.boards[id];
+    if (!board) continue;
+    const chip = document.createElement("button");
+    chip.className = "chip";
+    chip.type = "button";
+    chip.textContent = board.name;
+    chip.addEventListener("click", () => selectBoard(id));
+    wrap.appendChild(chip);
+  }
+}
+
+function filterDropdown(query) {
+  const dropdown = document.getElementById("dropdown");
+  const q = query.trim().toLowerCase();
+  if (!q) { closeDropdown(); return; }
+
+  const matches = SEARCH_INDEX.filter((e) => e.haystack.includes(q)).slice(0, 25);
+  if (matches.length === 0) {
+    dropdown.innerHTML = '<div class="dd-item"><span class="dd-meta">No boards found</span></div>';
+    dropdown.classList.add("open");
+    activeIndex = -1;
+    return;
+  }
+
+  dropdown.innerHTML = matches.map((m, i) => `
+    <div class="dd-item" data-id="${escapeHtml(m.id)}" data-index="${i}">
+      <span class="dd-name">${highlightMatch(m.name, query)}</span>
+      <span class="dd-meta">${escapeHtml(m.port)} &middot; ${highlightMatch(m.id, query)}</span>
+    </div>`).join("");
+  dropdown.classList.add("open");
+  activeIndex = -1;
+
+  dropdown.querySelectorAll(".dd-item[data-id]").forEach((el) => {
+    el.addEventListener("click", () => selectBoard(el.dataset.id));
+  });
+}
+
+function closeDropdown() {
+  const dropdown = document.getElementById("dropdown");
+  dropdown.classList.remove("open");
+  dropdown.innerHTML = "";
+  activeIndex = -1;
+}
+
+function onSearchKey(e) {
+  const dropdown = document.getElementById("dropdown");
+  const items = dropdown.querySelectorAll(".dd-item[data-id]");
+  if (!dropdown.classList.contains("open") || items.length === 0) return;
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    activeIndex = Math.min(activeIndex + 1, items.length - 1);
+    updateActiveItem(items);
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    activeIndex = Math.max(activeIndex - 1, 0);
+    updateActiveItem(items);
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    const target = activeIndex >= 0 ? items[activeIndex] : items[0];
+    if (target) selectBoard(target.dataset.id);
+  } else if (e.key === "Escape") {
+    closeDropdown();
+  }
+}
+
+function updateActiveItem(items) {
+  items.forEach((el, i) => el.classList.toggle("active", i === activeIndex));
+  if (activeIndex >= 0) items[activeIndex].scrollIntoView({ block: "nearest" });
+}
+
+function selectBoard(id) {
+  currentBoardId = id;
+  document.getElementById("search").value = DATA.boards[id].name;
+  closeDropdown();
+  history.replaceState(null, "", `#board=${id}`);
+  renderBoard(id);
+  document.querySelectorAll("#quick-chips .chip").forEach((chip) => {
+    chip.classList.toggle("selected", chip.textContent === DATA.boards[id].name);
+  });
+}
+
+function renderEmptyState() {
+  document.getElementById("board-view").innerHTML =
+    '<div class="empty-state">Search for a board above, or pick one of the quick links.</div>';
+}
+
+function objectCard(label, obj) {
+  if (!obj) {
+    return `<div class="obj-card">
+      <div class="obj-title">${label} <span class="badge no">not defined</span></div>
+    </div>`;
+  }
+  const available = obj.available !== false;
+  const badge = available
+    ? (obj.note ? '<span class="badge warn">defined, see note</span>' : '<span class="badge ok">available</span>')
+    : '<span class="badge warn">pins configured, not exposed</span>';
+  const pinsHtml = obj.pins
+    ? '<div class="obj-pins">' + Object.entries(obj.pins).map(([k, v]) =>
+        `<span class="mcu-pin">${escapeHtml(k)}: ${escapeHtml(v)}</span>`).join(" &middot; ") + '</div>'
+    : '<div class="obj-pins">pins not known</div>';
+  const namesHtml = obj.names && obj.names.length
+    ? `<div class="obj-names">as: ${obj.names.map((n) => `<span class="pin-alias">${escapeHtml(n)}</span>`).join("")}</div>`
+    : "";
+  const noteHtml = obj.note ? `<div class="obj-note">${escapeHtml(obj.note)}</div>` : "";
+  return `<div class="obj-card">
+    <div class="obj-title">${label} ${badge}</div>
+    ${namesHtml}
+    ${pinsHtml}
+    ${noteHtml}
+  </div>`;
+}
+
+function displayCard(display) {
+  if (!display) {
+    return `<div class="obj-card">
+      <div class="obj-title">DISPLAY <span class="badge no">not defined</span></div>
+    </div>`;
+  }
+  return `<div class="obj-card">
+    <div class="obj-title">DISPLAY <span class="badge ok">available</span></div>
+    <div class="obj-names">variant: <span class="pin-alias">${escapeHtml(display.variant)}</span></div>
+    <div class="obj-note">size/driver chip not extractable from board data</div>
+  </div>`;
+}
+
+function renderBoard(id) {
+  const b = DATA.boards[id];
+  const view = document.getElementById("board-view");
+
+  const aliasHtml = (b.aliases && b.aliases.length)
+    ? ` &middot; also known as ${b.aliases.map(escapeHtml).join(", ")}`
+    : "";
+
+  const objectsHtml = `
+    <div class="obj-grid">
+      ${objectCard("I2C()", b.objects.i2c)}
+      ${objectCard("SPI()", b.objects.spi)}
+      ${objectCard("UART()", b.objects.uart)}
+      ${displayCard(b.objects.display)}
+    </div>`;
+
+  const otherHtml = (b.other_objects && b.other_objects.length) ? `
+    <details class="section">
+      <summary>Other board objects (${b.other_objects.length})</summary>
+      <table>
+        <tr><th>Name(s)</th><th>Singleton</th><th>Pins</th></tr>
+        ${b.other_objects.map((o) => `
+          <tr>
+            <td>${o.names.map((n) => `<span class="pin-alias">${escapeHtml(n)}</span>`).join("")}</td>
+            <td class="mcu-pin">${escapeHtml(o.singleton)}</td>
+            <td>not extractable (set in board.c)</td>
+          </tr>`).join("")}
+      </table>
+    </details>` : "";
+
+  const pinRows = b.pins.map((p) => `
+    <tr>
+      <td class="mcu-pin">${escapeHtml(p.mcu_pin)}</td>
+      <td>${p.names.map((n) => `<span class="pin-alias">${escapeHtml(n)}</span>`).join("")}</td>
+    </tr>`).join("");
+
+  const unmappedHtml = (b.unmapped && b.unmapped.length) ? `
+    <details class="section">
+      <summary>Unrecognized pins.c rows (${b.unmapped.length})</summary>
+      <table>${b.unmapped.map((line) => `<tr><td class="mcu-pin">${escapeHtml(line)}</td></tr>`).join("")}</table>
+    </details>` : "";
+
+  view.innerHTML = `
+    <div class="card board-header">
+      <h2>${escapeHtml(b.name)}</h2>
+      <div class="board-meta">
+        <code>${escapeHtml(id)}</code> &middot; ${escapeHtml(b.port)} &middot; ${escapeHtml(b.mcu || "unknown MCU")}${aliasHtml}
+      </div>
+    </div>
+    <div class="card">
+      <h3>Board objects</h3>
+      ${objectsHtml}
+      ${otherHtml}
+    </div>
+    <div class="card">
+      <h3>Pins (${b.pins.length})</h3>
+      <table>
+        <tr><th>MCU pin</th><th>Board name(s)</th></tr>
+        ${pinRows}
+      </table>
+      ${unmappedHtml}
+    </div>`;
+}
+
+function renderFooter() {
+  const footer = document.getElementById("footer");
+  const boardCount = Object.keys(DATA.boards).length;
+  const skippedCount = Object.keys(DATA.skipped || {}).length;
+  footer.innerHTML = `
+    ${boardCount} boards (${skippedCount} skipped — non-classic layout) &middot;
+    data generated ${escapeHtml(DATA.generated || "?")}
+    ${DATA.cp_sha ? "from CircuitPython @ " + escapeHtml(DATA.cp_sha) : ""}
+    &middot; <a href="https://github.com/adafruit/circuitpython" target="_blank" rel="noopener">CircuitPython source</a>`;
+}
+
+init();
+</script>
+</body>
+</html>
