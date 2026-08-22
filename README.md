@@ -7,7 +7,9 @@ and which names alias the same physical pin), and does it define
 `board.SPI()`, `board.I2C()`, `board.UART()`, or `board.DISPLAY` —
 and if so, which pins actually back them.
 
-Live site (once deployed): `https://todbot.github.io/CircuitPython_BoardViewer/`
+[![View Boards](https://img.shields.io/badge/-View%20Boards-652f8f?style=for-the-badge)](https://todbot.github.io/CircuitPython_BoardViewer/)
+
+Live site: `https://todbot.github.io/CircuitPython_BoardViewer/`
 
 ## How it works
 
