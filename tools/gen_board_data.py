@@ -17,7 +17,6 @@ from pathlib import Path
 
 CP_CANDIDATES = [
     "../circuitpython",
-    "~/projects/adafruit/circuitpython-claudetest",
     "~/projects/adafruit/circuitpython-adafruit",
     "~/projects/adafruit/circuitpython",
 ]

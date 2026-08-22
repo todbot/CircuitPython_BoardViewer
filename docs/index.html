@@ -210,10 +210,12 @@ const QUICK_BOARDS = [
   "raspberry_pi_pico2",
   "adafruit_feather_esp32s3_tft",
   "adafruit_qtpy_esp32s3_nopsram",
-  "itsybitsy_m4_express",
   "circuitplayground_express",
-  "metro_m4_express",
+  "circuitplayground_bluefruit",
+  "adafruit_metro_rp2350",
 ];
+
+const DEFAULT_BOARD = "raspberry_pi_pico";
 
 let DATA = null;
 let SEARCH_INDEX = [];
@@ -258,8 +260,9 @@ async function init() {
   });
 
   const initial = location.hash.match(/board=([\w.-]+)/);
-  if (initial && DATA.boards[initial[1]]) {
-    selectBoard(initial[1]);
+  const initialId = initial && DATA.boards[initial[1]] ? initial[1] : DEFAULT_BOARD;
+  if (DATA.boards[initialId]) {
+    selectBoard(initialId);
   } else {
     renderEmptyState();
   }
