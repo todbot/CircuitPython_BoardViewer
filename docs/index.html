@@ -217,6 +217,12 @@ const QUICK_BOARDS = [
 
 const DEFAULT_BOARD = "raspberry_pi_pico";
 
+const DISPLAY_VARIANT_LABELS = {
+  display: "regular display",
+  epaper_display: "e-paper display",
+  framebuffer_display: "framebuffer display",
+};
+
 let DATA = null;
 let SEARCH_INDEX = [];
 let activeIndex = -1;
@@ -391,9 +397,10 @@ function displayCard(display) {
       <div class="obj-title">DISPLAY <span class="badge no">not defined</span></div>
     </div>`;
   }
+  const label = DISPLAY_VARIANT_LABELS[display.variant] || display.variant;
   return `<div class="obj-card">
     <div class="obj-title">DISPLAY <span class="badge ok">available</span></div>
-    <div class="obj-names">variant: <span class="pin-alias">${escapeHtml(display.variant)}</span></div>
+    <div class="obj-names">type: <span class="pin-alias">${escapeHtml(label)}</span></div>
     <div class="obj-note">size/driver chip not extractable from board data</div>
   </div>`;
 }

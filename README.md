@@ -23,10 +23,8 @@ Live site: [https://todbot.github.io/CircuitPython_BoardViewer/](https://todbot.
 - `.github/workflows/update-board-data.yml` refreshes
   `docs/board_data.json` weekly from the live CircuitPython repo.
 
-## Important nuance this tool surfaces
-
-`pins.c` is the only source of truth for what actually exists as a
-Python attribute on `board` — `mpconfigboard.h` enabling a bus does
+Note: `pins.c` is the only source of truth for what actually exists as a
+Python attribute on `board`. In `mpconfigboard.h` file, enabling a bus does
 not guarantee it's exposed, and a name being exposed does not
 guarantee pins are configured for it. Real board definitions have
 both kinds of mismatch, and the viewer shows both cases explicitly
@@ -50,7 +48,7 @@ cd docs && python3 -m http.server 8000
 
 Then open `http://localhost:8000/`.
 
-## Known v1 limitations
+## Current limitations
 
 - silabs (`pins.csv`) and zephyr-cp (`circuitpython.toml`) boards
   are not parsed — they use a different board-definition format.
@@ -59,4 +57,4 @@ Then open `http://localhost:8000/`.
 - Backing pins for non-standard board objects (e.g. `STEMMA_I2C`
   when it's a separate bus from `I2C`, `SD_SPI`) aren't extracted;
   only the standard I2C/SPI/UART buses resolve pins.
-- No pinout diagrams — text/table only.
+- No pinout diagrams — text/table only.  See the relevant Learn Guide.
