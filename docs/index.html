@@ -205,7 +205,7 @@
     </div>
 
     <div class="search-wrap">
-      <input id="search" type="text" placeholder="Search boards by name or id&hellip;" autocomplete="off">
+      <input id="search" type="text" placeholder="Search boards by name or id&hellip; (press / to focus)" autocomplete="off">
       <div id="dropdown"></div>
     </div>
     <div class="chips" id="quick-chips"></div>
@@ -277,6 +277,14 @@ async function init() {
   searchEl.addEventListener("keydown", onSearchKey);
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".search-wrap")) closeDropdown();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/") return;
+    const tag = document.activeElement && document.activeElement.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+    e.preventDefault();
+    searchEl.focus();
   });
 
   const initial = location.hash.match(/board=([\w.-]+)/);
