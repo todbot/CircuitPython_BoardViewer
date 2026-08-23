@@ -90,6 +90,18 @@
   #dropdown.open { display: block; }
   .dd-item { padding: 8px 14px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
   .dd-item:hover, .dd-item.active { background: var(--accent-bg); }
+  .dd-header {
+    position: sticky;
+    top: 0;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+  }
   .dd-name { font-weight: 600; }
   .dd-meta { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
   mark { background: var(--accent-bg); color: var(--accent); border-radius: 3px; padding: 0 1px; }
@@ -150,6 +162,7 @@
 
   details.section { margin-top: 8px; }
   details.section summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  .subsection { margin: 18px 0 0; font-size: 14px; color: var(--muted); }
 
   .empty-state { color: var(--muted); padding: 40px 0; text-align: center; }
   footer { color: var(--muted); font-size: 12.5px; margin-top: 32px; text-align: center; }
@@ -205,14 +218,16 @@
 
 <script>
 const QUICK_BOARDS = [
-  "feather_m4_express",
   "raspberry_pi_pico",
   "raspberry_pi_pico2",
   "adafruit_feather_esp32s3_tft",
   "adafruit_qtpy_esp32s3_nopsram",
+  "feather_m4_express",
   "circuitplayground_express",
   "circuitplayground_bluefruit",
   "adafruit_metro_rp2350",
+  "seeeduino_xiao_rp2040",
+  "seeeduino_xiao_rp2350",
 ];
 
 const DEFAULT_BOARD = "raspberry_pi_pico";
@@ -252,7 +267,7 @@ async function init() {
   SEARCH_INDEX = Object.entries(DATA.boards).map(([id, b]) => ({
     id, name: b.name, port: b.port,
     haystack: [id, b.name, ...(b.aliases || [])].join(" ").toLowerCase(),
-  }));
+  })).sort((a, b) => a.name.localeCompare(b.name));
 
   renderQuickChips();
   renderFooter();
@@ -292,9 +307,11 @@ function renderQuickChips() {
 function filterDropdown(query) {
   const dropdown = document.getElementById("dropdown");
   const q = query.trim().toLowerCase();
-  if (!q) { closeDropdown(); return; }
+  const browsingAll = !q;
+  const matches = browsingAll
+    ? SEARCH_INDEX
+    : SEARCH_INDEX.filter((e) => e.haystack.includes(q)).slice(0, 25);
 
-  const matches = SEARCH_INDEX.filter((e) => e.haystack.includes(q)).slice(0, 25);
   if (matches.length === 0) {
     dropdown.innerHTML = '<div class="dd-item"><span class="dd-meta">No boards found</span></div>';
     dropdown.classList.add("open");
@@ -302,7 +319,10 @@ function filterDropdown(query) {
     return;
   }
 
-  dropdown.innerHTML = matches.map((m, i) => `
+  const headerHtml = browsingAll
+    ? `<div class="dd-header">All ${matches.length} boards, A&ndash;Z</div>` : "";
+
+  dropdown.innerHTML = headerHtml + matches.map((m, i) => `
     <div class="dd-item" data-id="${escapeHtml(m.id)}" data-index="${i}">
       <span class="dd-name">${highlightMatch(m.name, query)}</span>
       <span class="dd-meta">${escapeHtml(m.port)} &middot; ${highlightMatch(m.id, query)}</span>
@@ -413,27 +433,34 @@ function renderBoard(id) {
     ? ` &middot; also known as ${b.aliases.map(escapeHtml).join(", ")}`
     : "";
 
+  const stemmaCardHtml = b.objects.stemma_i2c ? objectCard("STEMMA_I2C", b.objects.stemma_i2c) : "";
+
   const objectsHtml = `
     <div class="obj-grid">
       ${objectCard("I2C()", b.objects.i2c)}
       ${objectCard("SPI()", b.objects.spi)}
       ${objectCard("UART()", b.objects.uart)}
       ${displayCard(b.objects.display)}
+      ${stemmaCardHtml}
     </div>`;
 
+  const otherObjectPinsHtml = (o) => {
+    if (!o.pins) return '<span class="obj-pins">not extractable (set in board.c)</span>';
+    const pinsText = Object.entries(o.pins).map(([k, v]) => `${k}: ${v}`).join(" · ");
+    return `<span class="mcu-pin" title="${escapeHtml(o.note || "")}">${escapeHtml(pinsText)} (guess)</span>`;
+  };
+
   const otherHtml = (b.other_objects && b.other_objects.length) ? `
-    <details class="section">
-      <summary>Other board objects (${b.other_objects.length})</summary>
-      <table>
-        <tr><th>Name(s)</th><th>Singleton</th><th>Pins</th></tr>
-        ${b.other_objects.map((o) => `
-          <tr>
-            <td>${o.names.map((n) => `<span class="pin-alias">${escapeHtml(n)}</span>`).join("")}</td>
-            <td class="mcu-pin">${escapeHtml(o.singleton)}</td>
-            <td>not extractable (set in board.c)</td>
-          </tr>`).join("")}
-      </table>
-    </details>` : "";
+    <h4 class="subsection">Other board objects (${b.other_objects.length})</h4>
+    <table>
+      <tr><th>Name(s)</th><th>Singleton</th><th>Pins</th></tr>
+      ${b.other_objects.map((o) => `
+        <tr>
+          <td>${o.names.map((n) => `<span class="pin-alias">${escapeHtml(n)}</span>`).join("")}</td>
+          <td class="mcu-pin">${escapeHtml(o.singleton)}</td>
+          <td>${otherObjectPinsHtml(o)}</td>
+        </tr>`).join("")}
+    </table>` : "";
 
   const pinRows = b.pins.map((p) => `
     <tr>

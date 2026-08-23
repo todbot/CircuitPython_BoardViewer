@@ -117,8 +117,16 @@ def parse_pins_c(path):
     return pin_list, objects, displays, unmapped
 
 
-def parse_bus_pins(header_text, bus):
-    """Return a pins dict for the given bus (i2c/spi/uart), or None."""
+def parse_bus_pin_structs(header_text, bus):
+    """Return every pin-struct defined for a bus (i2c/spi/uart).
+
+    Usually just one. Boards with CIRCUITPY_BOARD_<BUS> > 1 define an
+    array of structs — the first backs the standard board.<BUS>() and
+    later ones typically back an extra non-standard singleton (e.g.
+    STEMMA_I2C) exposed only in pins.c. There's no macro that names
+    which extra singleton a given array position belongs to, so pairing
+    them (done in build_board_record) is a positional guess.
+    """
     fields = BUS_FIELDS[bus]
     direct = {}
     for field, macro in fields.items():
@@ -126,18 +134,20 @@ def parse_bus_pins(header_text, bus):
         if m:
             direct[field] = m.group(1)
     if len(direct) == len(fields):
-        return direct
+        return [direct]
 
     flag_macro, pin_macro = BUS_OVERRIDE_MACROS[bus]
     flag_match = re.search(rf"#define\s+{flag_macro}\s+\((\d+)\)", header_text)
     pin_match = re.search(rf"#define\s+{pin_macro}\s+(.*)", header_text)
     if flag_match and int(flag_match.group(1)) > 0 and pin_match:
         structs = re.findall(r"\{[^{}]*\}", pin_match.group(1))
+        result = []
         for struct in structs:
             pins = dict(re.findall(r"\.(\w+)\s*=\s*&pin_(\w+)", struct))
             if pins:
-                return pins
-    return None
+                result.append(pins)
+        return result
+    return []
 
 
 def join_line_continuations(text):
@@ -149,12 +159,25 @@ def parse_mpconfigboard_h(header_text):
     header_text = join_line_continuations(header_text)
     name_match = re.search(r'#define\s+MICROPY_HW_BOARD_NAME\s+"([^"]*)"', header_text)
     mcu_match = re.search(r'#define\s+MICROPY_HW_MCU_NAME\s+"([^"]*)"', header_text)
-    buses = {bus: parse_bus_pins(header_text, bus) for bus in STANDARD_BUSES}
+    bus_structs = {bus: parse_bus_pin_structs(header_text, bus) for bus in STANDARD_BUSES}
+    buses = {bus: (structs[0] if structs else None) for bus, structs in bus_structs.items()}
     return {
         "name": name_match.group(1) if name_match else None,
         "mcu": mcu_match.group(1) if mcu_match else None,
         "buses": buses,
+        "bus_structs": bus_structs,
     }
+
+
+def guess_bus_kind(singleton):
+    """Guess which standard bus a non-standard singleton is related to,
+    from its name (e.g. "stemma_i2c" -> "i2c"). Returns None if no
+    standard bus name appears in it."""
+    lowered = singleton.lower()
+    for bus in STANDARD_BUSES:
+        if bus in lowered:
+            return bus
+    return None
 
 
 def build_board_record(board_id, info, discrepancy_counts):
@@ -192,11 +215,35 @@ def build_board_record(board_id, info, discrepancy_counts):
             "note": note,
         }
 
-    other_objects = [
-        {"names": names, "singleton": f"board_{singleton}_obj", "pins": None}
-        for singleton, names in objects.items()
-        if singleton not in STANDARD_BUSES
-    ]
+    # Extra CIRCUITPY_BOARD_<BUS>_PIN array entries beyond the first (which
+    # backs the standard board.<BUS>()) usually belong to one of these
+    # non-standard singletons, in pins.c order — but nothing names which
+    # array position goes with which singleton, so this pairing is a guess.
+    next_struct_index = defaultdict(lambda: 1)
+    other_objects = []
+    stemma_i2c = None
+    for singleton, names in objects.items():
+        if singleton in STANDARD_BUSES:
+            continue
+        kind = guess_bus_kind(singleton)
+        pins = None
+        note = None
+        if kind:
+            idx = next_struct_index[kind]
+            next_struct_index[kind] += 1
+            structs = header_info["bus_structs"][kind]
+            if idx < len(structs):
+                pins = structs[idx]
+                note = f"guessed pins (position {idx}); not confirmed in board.c"
+        if singleton == "stemma_i2c":
+            # Common enough (STEMMA QT/Qwiic connector) to promote to a
+            # main board object alongside I2C/SPI/UART/DISPLAY, rather
+            # than burying it in the generic "other objects" list.
+            stemma_i2c = {"available": True, "names": names, "pins": pins, "note": note}
+            continue
+        other_objects.append(
+            {"names": names, "singleton": f"board_{singleton}_obj", "pins": pins, "note": note}
+        )
 
     display = None
     if displays:
@@ -209,7 +256,7 @@ def build_board_record(board_id, info, discrepancy_counts):
         "port": info["port"],
         "aliases": info.get("aliases", []),
         "pins": pin_list,
-        "objects": {**std_objects, "display": display},
+        "objects": {**std_objects, "display": display, "stemma_i2c": stemma_i2c},
         "other_objects": other_objects,
         "unmapped": unmapped,
     }

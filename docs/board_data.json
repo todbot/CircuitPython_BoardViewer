@@ -24,6 +24,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -143,6 +144,7 @@
       "sck": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -384,6 +386,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -614,6 +617,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -832,6 +836,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -1016,6 +1021,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -1125,6 +1131,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -1248,6 +1255,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -1545,6 +1553,7 @@
       "sck": "P1_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -1768,6 +1777,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -2052,6 +2062,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -2284,6 +2295,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -2506,6 +2518,7 @@
       "mosi": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -2697,6 +2710,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -2912,6 +2926,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -3162,6 +3177,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -3394,6 +3410,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -3604,6 +3621,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -3819,6 +3837,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -4069,6 +4088,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -4300,6 +4320,7 @@
       "mosi": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -4508,6 +4529,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -4698,6 +4720,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -4942,6 +4965,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -5180,6 +5204,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -5414,6 +5439,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -5648,6 +5674,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -5882,6 +5909,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -6114,6 +6142,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -6346,6 +6375,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -6561,6 +6591,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -6788,6 +6819,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -7017,6 +7049,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -7211,6 +7244,7 @@
       "sck": "GPIO30"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -7549,6 +7583,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -7745,6 +7780,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -7942,6 +7978,7 @@
       "mosi": "GPIO21"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -8128,6 +8165,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -8335,6 +8373,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -8510,6 +8549,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -8608,6 +8648,7 @@
       "sck": "GPIO26"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -8805,6 +8846,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -8986,6 +9028,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -9223,6 +9266,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -9454,6 +9498,7 @@
       "sck": "GPIO39"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -9705,6 +9750,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -9927,6 +9973,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -10166,6 +10213,7 @@
       "sck": "GPIO30"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -10499,6 +10547,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -10606,6 +10655,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -10650,6 +10700,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -10990,6 +11041,7 @@
       "mosi": "PA04"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -11049,6 +11101,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -11112,6 +11165,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -11185,6 +11239,17 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO19",
+      "sda": "GPIO22"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -11197,15 +11262,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO0",
@@ -11356,6 +11413,7 @@
       "mosi": "GPIO7"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -11498,6 +11556,17 @@
       "mosi": "GPIO35"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO40",
+      "sda": "GPIO41"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -11510,15 +11579,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO0",
@@ -11668,6 +11729,17 @@
       "mosi": "GPIO35"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO40",
+      "sda": "GPIO41"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -11680,15 +11752,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO0",
@@ -11837,6 +11901,17 @@
       "mosi": "GPIO35"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO40",
+      "sda": "GPIO41"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -11849,15 +11924,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO0",
@@ -12006,6 +12073,17 @@
       "mosi": "GPIO3"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO23",
+      "sda": "GPIO22"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -12018,15 +12096,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO29",
@@ -12169,6 +12239,7 @@
       "sck": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12250,6 +12321,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12306,6 +12378,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12346,6 +12419,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12392,6 +12466,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -12533,6 +12608,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12630,6 +12706,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -12825,6 +12902,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -12906,6 +12984,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -13010,6 +13089,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -13210,6 +13290,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -13392,6 +13473,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -13560,6 +13642,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -13822,6 +13905,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -14010,6 +14094,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -14699,6 +14784,7 @@
       "sck": "P0_01"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -14876,6 +14962,7 @@
       "sck": "P0_01"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -15033,6 +15120,7 @@
       "sck": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -15281,6 +15369,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -15508,6 +15597,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -15738,6 +15828,7 @@
       "sck": "P0_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -15992,6 +16083,7 @@
       "sck": "P0_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -16264,6 +16356,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -16505,6 +16598,7 @@
       "sck": "GPIO48"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -16716,6 +16810,7 @@
       "sck": "GPIO48"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -16919,6 +17014,7 @@
       "sck": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -17155,6 +17251,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -17334,6 +17431,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -17587,6 +17685,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -17812,6 +17911,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -18079,6 +18179,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -18354,6 +18455,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -18534,6 +18636,7 @@
       "sck": "P1_00"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -18719,6 +18822,7 @@
       "sck": "PC28"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -19210,6 +19314,7 @@
       "sck": "PC28"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -19644,6 +19749,7 @@
       "mosi": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -19797,6 +19903,7 @@
       "sck": "P0_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -19962,6 +20069,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -20084,6 +20192,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -20383,6 +20492,7 @@
       "sck": "P0_24"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -20722,6 +20832,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -20889,6 +21000,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -21107,6 +21219,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -21361,6 +21474,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -21616,6 +21730,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -21833,6 +21948,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -21935,6 +22051,7 @@
       "sck": "GPIO14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -21950,6 +22067,7 @@
      "names": [
       "VID"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_vid_obj"
     }
@@ -22196,6 +22314,7 @@
       "sck": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -22467,6 +22586,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -22665,6 +22785,18 @@
       "mosi": "GPIO7"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C1",
+      "I2C1"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO19",
+      "sda": "GPIO18"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -22677,16 +22809,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C1",
-      "I2C1"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO29",
@@ -22850,6 +22973,7 @@
       "sck": "PA01"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -23025,6 +23149,7 @@
       "sck": "PA19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -23135,6 +23260,7 @@
       "sck": "GPIO21"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -23346,6 +23472,7 @@
       "sck": "P0_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -23550,6 +23677,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -23807,6 +23935,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -24064,6 +24193,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -24312,6 +24442,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -24545,6 +24676,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -24802,6 +24934,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -25031,6 +25164,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -25254,6 +25388,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -25496,6 +25631,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -25746,6 +25882,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -26026,6 +26163,7 @@
       "sck": "PA11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -26179,6 +26317,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -26452,6 +26591,7 @@
       "sck": "P0_02"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -26658,6 +26798,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -26874,6 +27015,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -27090,6 +27232,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -27312,6 +27455,7 @@
       "sck": "P0_08"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -27587,6 +27731,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -27877,6 +28022,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -28102,6 +28248,7 @@
       "sck": "PA22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -28337,6 +28484,7 @@
       "sck": "PA19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -28441,6 +28589,7 @@
       "sck": "PA19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -28573,6 +28722,7 @@
       "sck": "PA19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -28676,6 +28826,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -28906,6 +29057,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -29158,6 +29310,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -29393,6 +29546,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -29630,6 +29784,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -29894,6 +30049,7 @@
       "sck": "GPIO17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -30142,6 +30298,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -30329,6 +30486,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -30546,6 +30704,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -30799,6 +30958,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -31015,6 +31175,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -31262,6 +31423,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -31480,6 +31642,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -31702,6 +31865,7 @@
       "sck": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -31908,6 +32072,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -32066,6 +32231,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -32236,6 +32402,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -32394,6 +32561,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -32553,6 +32721,7 @@
       "mosi": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -32781,6 +32950,7 @@
       "mosi": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -33007,6 +33177,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -33217,6 +33388,7 @@
       "mosi": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -33357,6 +33529,7 @@
       "mosi": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -33579,6 +33752,7 @@
       "mosi": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -33776,6 +33950,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -33963,6 +34138,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -34129,6 +34305,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -34338,6 +34515,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -34485,6 +34663,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -34678,6 +34857,7 @@
       "sck": "PB03"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -34890,6 +35070,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -35022,6 +35203,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -35238,6 +35420,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -35474,6 +35657,7 @@
       "mosi": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -35491,13 +35675,18 @@
      "names": [
       "TF_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO12",
+      "mosi": "GPIO11"
+     },
      "singleton": "board_tf_spi_obj"
     },
     {
      "names": [
       "EPD_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_epd_spi_obj"
     }
@@ -35713,6 +35902,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -35927,6 +36117,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -36209,6 +36400,7 @@
       "sck": "P0_25"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -36502,6 +36694,7 @@
       "sck": "P0_31"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -36663,6 +36856,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -36960,6 +37154,7 @@
       "sck": "PA14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -37158,6 +37353,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -37467,6 +37663,7 @@
       "mosi": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -37712,6 +37909,7 @@
       "mosi": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -37950,6 +38148,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -38050,6 +38249,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -38176,6 +38376,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -38300,6 +38501,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -38424,6 +38626,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -38627,6 +38830,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -38792,6 +38996,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -38916,6 +39121,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -39048,6 +39254,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -39373,6 +39580,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -39688,6 +39896,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -39937,6 +40146,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -40186,6 +40396,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -40440,6 +40651,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -40655,6 +40867,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -40865,6 +41078,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -41102,251 +41316,6 @@
    "port": "espressif",
    "unmapped": []
   },
-  "espressif_esp32s3_devkitc_1_n32r16": {
-   "aliases": [],
-   "mcu": "ESP32S3",
-   "name": "ESP32-S3-DevKitC-1-N32R16",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": null,
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO44",
-      "tx": "GPIO43"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "IO0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "IO1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "IO2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "IO3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "IO4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "IO5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "IO6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "IO7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "IO8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "IO9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "IO10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "IO11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "IO12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "IO13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "IO14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "IO15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "IO16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "IO17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "IO18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "IO19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "IO20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "IO21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO35",
-     "names": [
-      "IO35"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO36",
-     "names": [
-      "IO36"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO37",
-     "names": [
-      "IO37"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO38",
-     "names": [
-      "IO38",
-      "NEOPIXEL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO39",
-     "names": [
-      "IO39"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO40",
-     "names": [
-      "IO40"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO41",
-     "names": [
-      "IO41"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "IO42"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO43",
-     "names": [
-      "IO43",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO44",
-     "names": [
-      "IO44",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO45",
-     "names": [
-      "IO45"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO46",
-     "names": [
-      "IO46"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO47",
-     "names": [
-      "IO47"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO48",
-     "names": [
-      "IO48"
-     ]
-    }
-   ],
-   "port": "espressif",
-   "unmapped": []
-  },
   "espressif_esp32s3_devkitc_1_n32r8": {
    "aliases": [],
    "mcu": "ESP32S3",
@@ -41355,6 +41324,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -41600,6 +41570,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -41845,6 +41816,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -42090,6 +42062,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -42335,6 +42308,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -42596,6 +42570,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -42853,6 +42828,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -43136,6 +43112,7 @@
       "sck": "GPIO39"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -43295,6 +43272,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -43401,6 +43379,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -43497,6 +43476,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -43683,6 +43663,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -43819,6 +43800,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -44095,6 +44077,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -44412,6 +44395,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -44719,6 +44703,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -44960,6 +44945,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -45206,6 +45192,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -45384,6 +45371,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -45550,6 +45538,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -45761,6 +45750,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46000,6 +45990,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46194,6 +46185,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46366,6 +46358,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46544,6 +46537,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46722,6 +46716,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -46912,6 +46907,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -47102,6 +47098,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -47280,6 +47277,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -47508,6 +47506,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -47707,6 +47706,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -47887,6 +47887,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -48103,6 +48104,7 @@
       "sck": "GPIO_B1_07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -48283,6 +48285,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -48510,6 +48513,7 @@
       "sck": "PB13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -48706,6 +48710,7 @@
       "sck": "GPIO17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -48940,6 +48945,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -49205,6 +49211,7 @@
       "sck": "PA30"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -49380,6 +49387,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -49420,6 +49428,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -49661,6 +49670,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -49921,6 +49931,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -50015,6 +50026,7 @@
       "sck": "PD09"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -50554,6 +50566,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -50817,6 +50830,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -51072,6 +51086,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -51335,6 +51350,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -51606,6 +51622,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -51862,6 +51879,7 @@
       "sck": "PB23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -52100,6 +52118,7 @@
       "sck": "PA22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -52357,6 +52376,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -52524,6 +52544,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -52775,6 +52796,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -53021,6 +53043,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -53354,6 +53377,7 @@
       "mosi": "GPIO1"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -53371,13 +53395,19 @@
      "names": [
       "EPD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO9",
+      "miso": "GPIO11",
+      "mosi": "GPIO10"
+     },
      "singleton": "board_epd_spi_obj"
     },
     {
      "names": [
       "LORA_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_lora_spi_obj"
     }
@@ -53589,6 +53619,7 @@
       "mosi": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -53762,6 +53793,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -53986,6 +54018,7 @@
       "sck": "P0_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -54367,6 +54400,7 @@
       "mosi": "GPIO42"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -54595,6 +54629,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -54725,6 +54760,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -54742,6 +54778,7 @@
      "names": [
       "SAO_I2C"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_sao_i2c_obj"
     }
@@ -54984,6 +55021,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -55066,6 +55104,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -55225,6 +55264,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -55426,6 +55466,7 @@
       "sck": "GPIO_AD_B0_10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -55671,6 +55712,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -55978,6 +56020,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -56417,6 +56460,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -56896,6 +56940,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -57373,6 +57418,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -57866,6 +57912,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -58081,6 +58128,7 @@
       "sck": "PA01"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -58283,6 +58331,7 @@
       "sck": "P0_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -58486,6 +58535,7 @@
       "sck": "GPIO26"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -58632,6 +58682,7 @@
      "pins": null
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -58744,6 +58795,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -58882,6 +58934,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -59068,6 +59121,7 @@
      "pins": null
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -59273,6 +59327,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -59456,6 +59511,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -59693,6 +59749,7 @@
       "sck": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -59942,6 +59999,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -60187,6 +60245,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -60466,6 +60525,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -60608,6 +60668,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -60900,6 +60961,7 @@
       "mosi": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -61072,6 +61134,7 @@
       "mosi": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -61218,6 +61281,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -61283,6 +61347,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -61394,6 +61459,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -61634,6 +61700,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -61857,6 +61924,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -62100,6 +62168,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -62261,6 +62330,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -62454,6 +62524,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -62461,7 +62532,11 @@
      "names": [
       "TOUCH_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO32",
+      "sda": "GPIO23"
+     },
      "singleton": "board_touch_i2c_obj"
     }
    ],
@@ -62627,6 +62702,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -62634,20 +62710,30 @@
      "names": [
       "TFT_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO3",
+      "miso": "GPIO4",
+      "mosi": "GPIO1"
+     },
      "singleton": "board_tft_spi_obj"
     },
     {
      "names": [
       "TOUCH_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO40",
+      "sda": "GPIO39"
+     },
      "singleton": "board_touch_i2c_obj"
     },
     {
      "names": [
       "RADIO_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_radio_spi_obj"
     }
@@ -62848,6 +62934,7 @@
       "sck": "PA01"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -63083,6 +63170,7 @@
       "mosi": "GPIO7"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -63237,6 +63325,7 @@
       "mosi": "GPIO4"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -63389,6 +63478,7 @@
       "sck": "GPIO7"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -63652,6 +63742,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -63855,6 +63946,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -64140,6 +64232,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -64423,6 +64516,7 @@
       "sck": "GPIO40"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -64623,6 +64717,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -64886,6 +64981,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -65006,6 +65102,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -65136,6 +65233,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -65249,6 +65347,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -65256,7 +65355,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO32",
+      "sda": "GPIO26"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -65374,6 +65477,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -65381,7 +65485,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO32",
+      "sda": "GPIO26"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -65496,6 +65604,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -65608,6 +65717,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -65615,7 +65725,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO2"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -65748,6 +65862,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -65755,7 +65870,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO2"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -65856,6 +65975,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -65970,6 +66090,7 @@
       "mosi": "GPIO35"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -65977,7 +66098,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO40",
+      "miso": "GPIO39",
+      "mosi": "GPIO14"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -66212,6 +66338,7 @@
       "mosi": "GPIO35"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -66219,7 +66346,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO40",
+      "miso": "GPIO39",
+      "mosi": "GPIO14"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -66454,6 +66586,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -66471,7 +66604,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO33",
+      "sda": "GPIO32"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -66687,6 +66824,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -66931,6 +67069,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -67148,6 +67287,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -67165,7 +67305,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO2"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -67427,6 +67571,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -67444,7 +67589,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO2"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -67649,6 +67798,7 @@
       "mosi": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -67656,7 +67806,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO15",
+      "sda": "GPIO13"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -67832,6 +67986,7 @@
       "mosi": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -67839,7 +67994,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO15",
+      "sda": "GPIO13"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -67993,6 +68152,7 @@
       "mosi": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -68010,7 +68170,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO32",
+      "sda": "GPIO25"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -68170,6 +68334,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -68322,6 +68487,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -68627,6 +68793,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -68634,7 +68801,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO33",
+      "sda": "GPIO32"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -68786,6 +68957,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -68793,7 +68965,11 @@
      "names": [
       "PORTA_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO33",
+      "sda": "GPIO32"
+     },
      "singleton": "board_porta_i2c_obj"
     }
    ],
@@ -68951,6 +69127,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -68958,7 +69135,11 @@
      "names": [
       "GROVE_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO33",
+      "sda": "GPIO32"
+     },
      "singleton": "board_grove_i2c_obj"
     }
    ],
@@ -69149,6 +69330,7 @@
       "sck": "GPIO5"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -69507,6 +69689,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -69514,14 +69697,22 @@
      "names": [
       "BM8563_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO14",
+      "sda": "GPIO12"
+     },
      "singleton": "board_bm8563_i2c_obj"
     },
     {
      "names": [
       "SSCB_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 2); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO23",
+      "sda": "GPIO25"
+     },
      "singleton": "board_sscb_i2c_obj"
     }
    ],
@@ -69695,6 +69886,7 @@
       "mosi": "GPIO4"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -69978,6 +70170,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -70229,6 +70422,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -70484,6 +70678,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -70698,6 +70893,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -71015,6 +71211,7 @@
       "sck": "P0_11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -71327,6 +71524,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -71579,6 +71777,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -71727,6 +71926,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -71876,6 +72076,7 @@
       "mosi": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -71990,6 +72191,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -72145,6 +72347,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -72378,6 +72581,7 @@
       "sck": "PA16"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -72640,6 +72844,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -73329,6 +73534,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -73502,6 +73708,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -73509,6 +73716,7 @@
      "names": [
       "BUZZ"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_buzz_obj"
     }
@@ -73788,6 +73996,7 @@
       "sck": "PA15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -73979,6 +74188,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -74185,6 +74395,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -74445,6 +74656,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -74664,6 +74876,7 @@
       "sck": "GPIO_AD_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -74902,6 +75115,7 @@
       "sck": "P0_07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -75124,6 +75338,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -75366,6 +75581,7 @@
       "mosi": "PB02"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -75383,14 +75599,23 @@
      "names": [
       "LCD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "PA05",
+      "mosi": "PA04"
+     },
      "singleton": "board_lcd_spi_obj"
     },
     {
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 2); not confirmed in board.c",
+     "pins": {
+      "clock": "PA17",
+      "miso": "PA18",
+      "mosi": "PA16"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -75672,6 +75897,7 @@
       "sck": "GPIO1"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -75866,6 +76092,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -76151,6 +76378,7 @@
       "sck": "PA01"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -76314,6 +76542,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -76555,6 +76784,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -76813,6 +77043,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -76984,6 +77215,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -77178,6 +77410,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -77193,6 +77426,7 @@
      "names": [
       "DAC"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_dac_obj"
     }
@@ -77417,6 +77651,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -77658,6 +77893,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -77920,6 +78156,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -78073,6 +78310,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -78229,6 +78467,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -78274,6 +78513,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -78396,6 +78636,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -78639,6 +78880,7 @@
       "sck": "P1_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -78837,6 +79079,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -78945,6 +79188,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -78952,6 +79196,7 @@
      "names": [
       "ID"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_module_id_obj"
     }
@@ -79281,6 +79526,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -79628,6 +79874,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -80286,6 +80533,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -80816,6 +81064,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -81001,6 +81250,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -81239,6 +81489,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -81382,6 +81633,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -81443,6 +81695,14 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C"
+     ],
+     "note": null,
+     "pins": null
+    },
     "uart": {
      "available": true,
      "names": [
@@ -81455,15 +81715,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO26",
@@ -81692,6 +81944,7 @@
       "sck": "P0_11"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -81814,6 +82067,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -82117,6 +82371,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -82393,6 +82648,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -82509,6 +82765,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -82734,6 +82991,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -82887,6 +83145,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -83057,6 +83316,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -83210,6 +83470,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -83358,6 +83619,7 @@
       "sck": "PD09"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -83655,6 +83917,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -83917,6 +84180,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -84196,6 +84460,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -84480,6 +84745,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -84713,6 +84979,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -85057,6 +85324,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -85253,6 +85521,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -85498,6 +85767,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -85643,6 +85913,7 @@
       "sck": "GPIO21"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -85828,6 +86099,7 @@
       "sck": "GPIO11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -85989,6 +86261,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -86159,6 +86432,7 @@
       "sck": "GPIO35"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -86337,6 +86611,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -86671,6 +86946,7 @@
       "sck": "PA31"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -86854,6 +87130,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -87004,6 +87281,7 @@
       "sck": "PA04"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -87173,6 +87451,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -87287,6 +87566,7 @@
       "sck": "P1_08"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -87517,6 +87797,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -87534,6 +87815,7 @@
      "names": [
       "ENABLE_DIO"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_enable_pin_obj"
     }
@@ -87717,6 +87999,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -87734,6 +88017,7 @@
      "names": [
       "ENABLE_DIO"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_enable_pin_obj"
     }
@@ -87955,6 +88239,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -87962,6 +88247,7 @@
      "names": [
       "I2C_POWER_EN"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_i2c_power_en_pin_obj"
     }
@@ -88172,6 +88458,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -88518,6 +88805,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -88535,6 +88823,7 @@
      "names": [
       "ENABLE_DIO"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_enable_pin_obj"
     },
@@ -88542,6 +88831,7 @@
      "names": [
       "KEYCODES"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_keycodes_obj"
     }
@@ -88762,6 +89052,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -88779,6 +89070,7 @@
      "names": [
       "ENABLE_DIO"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_enable_pin_obj"
     },
@@ -88786,6 +89078,7 @@
      "names": [
       "KEYCODES"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_keycodes_obj"
     }
@@ -88989,6 +89282,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -89181,6 +89475,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -89352,6 +89647,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -89570,6 +89866,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -89774,6 +90071,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -90077,6 +90375,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -90315,6 +90614,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -90561,6 +90861,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -90835,6 +91136,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -91068,6 +91370,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -91285,6 +91588,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -91503,6 +91807,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -91686,6 +91991,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -91814,6 +92120,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -92042,6 +92349,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -92230,6 +92538,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -92378,6 +92687,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -92584,6 +92894,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -92705,6 +93016,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -92836,6 +93148,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -92982,6 +93295,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -93110,6 +93424,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -93381,6 +93696,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -93633,6 +93949,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -93839,6 +94156,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -94072,6 +94390,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -94339,6 +94658,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -94586,6 +94906,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -94855,6 +95176,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -95124,6 +95446,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -95403,6 +95726,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -95688,6 +96012,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -95987,6 +96312,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -96278,6 +96604,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -96563,6 +96890,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -96722,6 +97050,7 @@
       "sck": "PA11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -96864,6 +97193,7 @@
       "sck": "PA11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -96994,6 +97324,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -97210,6 +97541,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -97426,6 +97758,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -97639,6 +97972,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -97847,6 +98181,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -98065,6 +98400,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -98286,6 +98622,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -98507,6 +98844,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -98722,6 +99060,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -98943,6 +99282,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -99143,6 +99483,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -99457,6 +99798,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -99487,6 +99829,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -99727,6 +100070,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -99765,6 +100109,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -99990,6 +100335,7 @@
       "sck": "PB09"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -100267,6 +100613,7 @@
       "sck": "PB13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -100581,6 +100928,7 @@
       "sck": "PC05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -101023,6 +101371,7 @@
       "sck": "GPIO7"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -101247,164 +101596,6 @@
     "{ MP_ROM_QSTR(MP_QSTR_CAM_DATA), MP_ROM_PTR(&camera_data_tuple) },"
    ]
   },
-  "seeed_xiao_esp32_s3_trmnl_diy_kit": {
-   "aliases": [],
-   "mcu": "ESP32S3",
-   "name": "Seeed Xiao ESP32-S3 Trmnl DIY Kit",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": {
-     "available": true,
-     "names": [
-      "SPI"
-     ],
-     "note": null,
-     "pins": {
-      "clock": "GPIO7",
-      "mosi": "GPIO9"
-     }
-    },
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO41",
-      "tx": "GPIO42"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "BAT_ADC"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "BTN1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "BTN2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "EDP_BUSY"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "BTN3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "ADC_EN"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "SPI0_CLK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "SPI0_MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "EDP_DC"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "SPI1_MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "SPI1_MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "SPI1_CLK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "LED"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO38",
-     "names": [
-      "EDP_RES"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO39",
-     "names": [
-      "SPI1_CS0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO40",
-     "names": [
-      "SPI1_CS1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO41",
-     "names": [
-      "D14",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "D15",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO43",
-     "names": [
-      "PWR_EN"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO44",
-     "names": [
-      "SPI0_CS"
-     ]
-    }
-   ],
-   "port": "espressif",
-   "unmapped": []
-  },
   "seeed_xiao_esp32c3": {
    "aliases": [],
    "mcu": "ESP32-C3FN4",
@@ -101434,6 +101625,7 @@
       "sck": "GPIO8"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -101558,6 +101750,7 @@
       "mosi": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -101724,6 +101917,7 @@
       "sck": "PB03"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -102143,6 +102337,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -102288,6 +102483,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -102437,6 +102633,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -102592,6 +102789,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -102794,6 +102992,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103022,6 +103221,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103276,6 +103476,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103511,6 +103712,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103627,6 +103829,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103740,6 +103943,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -103931,6 +104135,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104109,6 +104314,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104198,6 +104404,7 @@
       "sck": "GPIO48"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104418,6 +104625,7 @@
       "sck": "GPIO17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104662,6 +104870,7 @@
       "sck": "GPIO39"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104840,6 +105049,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -104982,6 +105192,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -105149,6 +105360,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -105389,6 +105601,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -105594,6 +105807,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -105794,6 +106008,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -106123,6 +106338,7 @@
       "sck": "PA19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -106217,6 +106433,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -106499,6 +106716,7 @@
       "sck": "P0_28"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -106846,6 +107064,7 @@
       "sck": "P0_30"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107038,6 +107257,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107221,6 +107441,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107404,6 +107625,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107538,6 +107760,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107672,6 +107895,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -107890,6 +108114,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -108123,6 +108348,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -108309,6 +108535,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -108634,6 +108861,7 @@
       "sck": "PB13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -108816,6 +109044,7 @@
       "sck": "PB13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -109004,6 +109233,7 @@
       "sck": "PA05"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -109303,6 +109533,7 @@
       "sck": "GPIO_B0_03"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -109743,6 +109974,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -109947,6 +110179,7 @@
       "sck": "GPIO2"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -110167,6 +110400,7 @@
       "sck": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -110372,6 +110606,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -110508,6 +110743,7 @@
       "mosi": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -110637,6 +110873,7 @@
       "sck": "SPI4_SCK"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -110944,6 +111181,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -111078,6 +111316,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -111290,6 +111529,7 @@
       "sck": "P0_06"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -111467,6 +111707,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -111671,6 +111912,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -111892,6 +112134,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -112103,6 +112346,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -112609,6 +112853,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -113012,6 +113257,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -113514,6 +113760,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -114144,6 +114391,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -114250,6 +114498,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -114509,6 +114758,7 @@
       "mosi": "GPIO7"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -114639,6 +114889,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -114646,13 +114897,19 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO14",
+      "miso": "GPIO12",
+      "mosi": "GPIO13"
+     },
      "singleton": "board_sd_spi_obj"
     },
     {
      "names": [
       "LCD_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_lcd_spi_obj"
     }
@@ -114829,6 +115086,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -114836,20 +115094,31 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO25",
+      "miso": "GPIO39",
+      "mosi": "GPIO32"
+     },
      "singleton": "board_sd_spi_obj"
     },
     {
      "names": [
       "LCD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 2); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO14",
+      "miso": "GPIO12",
+      "mosi": "GPIO13"
+     },
      "singleton": "board_lcd_spi_obj"
     },
     {
      "names": [
       "TOUCH_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_touch_spi_obj"
     }
@@ -115039,6 +115308,7 @@
       "mosi": "GPIO13"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [
@@ -115046,13 +115316,19 @@
      "names": [
       "LCD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO19",
+      "mosi": "GPIO23"
+     },
      "singleton": "board_lcd_spi_obj"
     },
     {
      "names": [
       "SD_SPI"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_sd_spi_obj"
     }
@@ -115232,6 +115508,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -115401,6 +115678,7 @@
       "sck": "GPIO12"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -115565,6 +115843,7 @@
       "sck": "P1_13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -115784,6 +116063,7 @@
       "sck": "PD01"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -116198,6 +116478,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -116400,6 +116681,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -116640,6 +116922,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -116890,6 +117173,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -117135,6 +117419,7 @@
       "sck": "GPIO_B0_03"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -117494,6 +117779,7 @@
       "sck": "GPIO_B0_03"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -117952,6 +118238,7 @@
       "sck": "P1_15"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -118132,6 +118419,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -118235,6 +118523,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -118369,6 +118658,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -118528,6 +118818,7 @@
       "sck": "P0_14"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -118739,6 +119030,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -118868,6 +119160,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -119006,6 +119299,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -119190,6 +119484,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -119300,6 +119595,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -119410,6 +119706,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -119614,6 +119911,7 @@
       "sck": "PA13"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -119873,6 +120171,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -120043,6 +120342,7 @@
       "sck": "PA07"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -120176,6 +120476,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -120321,6 +120622,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -120518,6 +120820,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -120794,6 +121097,7 @@
       "sck": "GPIO4"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -121063,6 +121367,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -121310,6 +121615,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -121585,6 +121891,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -121830,6 +122137,19 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_VERTICAL_I2C",
+      "STEMMA_I2C2",
+      "I2C2"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO15",
+      "sda": "GPIO16"
+     }
+    },
     "uart": {
      "available": true,
      "names": [
@@ -121842,17 +122162,7 @@
      }
     }
    },
-   "other_objects": [
-    {
-     "names": [
-      "STEMMA_VERTICAL_I2C",
-      "STEMMA_I2C2",
-      "I2C2"
-     ],
-     "pins": null,
-     "singleton": "board_stemma_i2c_obj"
-    }
-   ],
+   "other_objects": [],
    "pins": [
     {
      "mcu_pin": "GPIO0",
@@ -122119,6 +122429,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -122390,6 +122701,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -122667,6 +122979,7 @@
       "sck": "GPIO4"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -122878,6 +123191,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -123162,6 +123476,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -123295,6 +123610,7 @@
       "sck": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -123506,6 +123822,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -123700,6 +124017,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -123959,6 +124277,7 @@
       "sck": "GPIO37"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -124171,6 +124490,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -124385,6 +124705,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -124402,7 +124723,11 @@
      "names": [
       "TOUCH_I2C"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO10",
+      "sda": "GPIO5"
+     },
      "singleton": "board_touch_i2c_obj"
     }
    ],
@@ -124570,6 +124895,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -124804,6 +125130,7 @@
       "mosi": "GPIO23"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -125035,6 +125362,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -125193,6 +125521,7 @@
       "mosi": "GPIO6"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -125379,6 +125708,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -125618,6 +125948,7 @@
     },
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -125849,6 +126180,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -126135,6 +126467,7 @@
       "mosi": "GPIO11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -126152,7 +126485,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO36",
+      "miso": "GPIO37",
+      "mosi": "GPIO35"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -126345,6 +126683,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -126615,6 +126954,7 @@
       "mosi": "GPIO45"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -126632,7 +126972,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO14",
+      "miso": "GPIO16",
+      "mosi": "GPIO15"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -126778,6 +127123,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -126985,6 +127331,7 @@
       "sck": "GPIO36"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -127213,6 +127560,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -127482,6 +127830,7 @@
      "note": "no default pins configured; calling this may raise NotImplementedError",
      "pins": null
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -127760,6 +128109,7 @@
       "mosi": "GPIO39"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -127777,13 +128127,19 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO16",
+      "miso": "GPIO17",
+      "mosi": "GPIO15"
+     },
      "singleton": "board_sd_spi_obj"
     },
     {
      "names": [
       "TOUCH_I2C"
      ],
+     "note": null,
      "pins": null,
      "singleton": "board_touch_i2c_obj"
     }
@@ -127965,6 +128321,7 @@
       "mosi": "GPIO38"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -128235,6 +128592,7 @@
       "mosi": "GPIO45"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -128466,6 +128824,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -128783,6 +129142,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -129002,6 +129362,7 @@
       "mosi": "GPIO11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -129019,7 +129380,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO20",
+      "mosi": "GPIO19"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -129198,6 +129564,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -129414,6 +129781,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -129635,6 +130003,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -129873,6 +130242,7 @@
       "sck": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -130107,6 +130477,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -130313,6 +130684,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -130519,6 +130891,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -130682,6 +131055,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -130895,6 +131269,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -131137,6 +131512,7 @@
       "mosi": "GPIO11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -131154,7 +131530,12 @@
      "names": [
       "SD_SPI"
      ],
-     "pins": null,
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO20",
+      "mosi": "GPIO19"
+     },
      "singleton": "board_sd_spi_obj"
     }
    ],
@@ -131333,6 +131714,7 @@
       "mosi": "GPIO19"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -131549,6 +131931,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -131770,6 +132153,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -131987,6 +132371,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -132193,6 +132578,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -132356,6 +132742,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -132569,6 +132956,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -132786,6 +133174,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -132940,6 +133329,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -133094,6 +133484,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -133299,6 +133690,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -133504,6 +133896,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -133826,6 +134219,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -134031,6 +134425,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -134206,6 +134601,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -134269,6 +134665,7 @@
       "sck": "PA17"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -134358,6 +134755,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -134576,6 +134974,7 @@
      }
     },
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -134789,6 +135188,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -135032,6 +135432,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -135275,6 +135676,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -135518,6 +135920,7 @@
       "sck": "GPIO18"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -135732,233 +136135,6 @@
    "port": "raspberrypi",
    "unmapped": []
   },
-  "wiznet_w55rp20_evb_pico": {
-   "aliases": [],
-   "mcu": "rp2040",
-   "name": "W55RP20-EVB-Pico",
-   "objects": {
-    "display": null,
-    "i2c": {
-     "available": true,
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "note": "no default pins configured; calling this may raise NotImplementedError",
-     "pins": null
-    },
-    "spi": {
-     "available": true,
-     "names": [
-      "W5K_SPI"
-     ],
-     "note": null,
-     "pins": {
-      "miso": "GPIO22",
-      "mosi": "GPIO23",
-      "sck": "GPIO21"
-     }
-    },
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO1",
-      "tx": "GPIO0"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "GP0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "GP1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "GP2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "GP3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "GP4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "GP5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "GP6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "GP7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "GP8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "GP9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "GP10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "GP11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "GP12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "GP13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "GP14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "GP15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "VBUS_SENSE",
-      "GP18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "LED",
-      "GP19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "W5K_CS",
-      "GP20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "W5K_SCK",
-      "GP21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "W5K_MISO",
-      "GP22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "W5K_MOSI",
-      "GP23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "W5K_INT",
-      "GP24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "W5K_RST",
-      "GP25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "GP26_A0",
-      "GP26",
-      "A0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "GP27_A1",
-      "GP27",
-      "A1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO28",
-     "names": [
-      "GP28_A2",
-      "GP28",
-      "A2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO29",
-     "names": [
-      "A3",
-      "VOLTAGE_MONITOR"
-     ]
-    }
-   ],
-   "port": "raspberrypi",
-   "unmapped": []
-  },
   "wk-50": {
    "aliases": [],
    "mcu": "rp2040",
@@ -135967,6 +136143,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -136148,6 +136325,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -136238,6 +136416,7 @@
       "sck": "PB11"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -136352,6 +136531,7 @@
       "mosi": "GPIO10"
      }
     },
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -136455,6 +136635,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -136690,6 +136871,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": {
      "available": true,
      "names": [
@@ -136941,6 +137123,7 @@
       "mosi": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -136981,6 +137164,7 @@
       "mosi": "GPIO22"
      }
     },
+    "stemma_i2c": null,
     "uart": {
      "available": false,
      "names": [],
@@ -137004,6 +137188,7 @@
     "display": null,
     "i2c": null,
     "spi": null,
+    "stemma_i2c": null,
     "uart": null
    },
    "other_objects": [],
@@ -137145,13 +137330,9 @@
    "unmapped": []
   }
  },
- "cp_sha": "cd3da4a",
- "generated": "2026-08-22T22:31:26Z",
+ "cp_sha": "42cf63a5fd",
+ "generated": "2026-08-23T17:31:39Z",
  "skipped": {
-  "adafruit_clue_nrf52840_zephyr": {
-   "port": "zephyr-cp",
-   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
-  },
   "adafruit_feather_nrf52840_sense_zephyr": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
@@ -137177,10 +137358,6 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "native_nrf5340bsim": {
-   "port": "zephyr-cp",
-   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
-  },
-  "native_nrf54lm20bsim": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },

@@ -55,6 +55,13 @@ Then open `http://localhost:8000/`.
 - `board.DISPLAY` is shown as present/absent only; its size and
   driver chip live in board-specific C code and aren't extracted.
 - Backing pins for non-standard board objects (e.g. `STEMMA_I2C`
-  when it's a separate bus from `I2C`, `SD_SPI`) aren't extracted;
-  only the standard I2C/SPI/UART buses resolve pins.
+  when it's a separate bus from `I2C`, `SD_SPI`) usually aren't
+  extractable, since they're wired up in board-specific C code with
+  no fixed macro to parse. When a board defines more pin-structs in
+  `mpconfigboard.h` than it has standard buses (e.g.
+  `CIRCUITPY_BOARD_I2C_PIN` with two entries but only one `I2C`),
+  the viewer makes a best-effort guess pairing the extra struct with
+  the extra bus-like object name (by position, in `pins.c` order) —
+  shown with a "(guess)" label since there's no macro confirming the
+  pairing is correct.
 - No pinout diagrams — text/table only.  See the relevant Learn Guide.
