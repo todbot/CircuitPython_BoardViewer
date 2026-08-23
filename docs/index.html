@@ -160,6 +160,8 @@
   .board-header h2 { margin: 0 0 4px; font-size: 21px; font-weight: 700; }
   .board-meta { color: var(--muted); font-size: 13.5px; }
   .board-meta code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+  .board-meta [title] { cursor: help; }
+  .board-meta span[title] { border-bottom: 1px dotted var(--muted); }
 
   .obj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 8px; }
   .obj-card {
@@ -519,7 +521,9 @@ function renderBoard(id) {
       <div class="board-header-text">
         <h2>${escapeHtml(b.name)}</h2>
         <div class="board-meta">
-          <code>${escapeHtml(id)}</code> &middot; ${escapeHtml(b.port)} &middot; ${escapeHtml(b.mcu || "unknown MCU")}${aliasHtml}
+          <code title="Board id — matches the board's directory name in the CircuitPython source and this tool's #board= URL">${escapeHtml(id)}</code>
+          &middot; <span title="CircuitPython port — the ports/ directory grouping boards by microcontroller family/toolchain">${escapeHtml(b.port)}</span>
+          &middot; <span title="Microcontroller — from MICROPY_HW_MCU_NAME in the board's mpconfigboard.h">${escapeHtml(b.mcu || "unknown MCU")}</span>${aliasHtml}
           &middot; <a href="${cpyorgUrl}" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
         </div>
       </div>
