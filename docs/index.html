@@ -452,6 +452,7 @@ function renderBoard(id) {
       <h2>${escapeHtml(b.name)}</h2>
       <div class="board-meta">
         <code>${escapeHtml(id)}</code> &middot; ${escapeHtml(b.port)} &middot; ${escapeHtml(b.mcu || "unknown MCU")}${aliasHtml}
+        &middot; <a href="https://circuitpython.org/board/${encodeURIComponent(id)}/" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
       </div>
     </div>
     <div class="card">
