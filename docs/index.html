@@ -126,6 +126,22 @@
     padding: 18px 20px;
     margin-bottom: 16px;
   }
+  .card.board-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    overflow: hidden;
+  }
+  .board-thumb {
+    flex: none;
+    display: block;
+    height: 96px;
+    margin: -18px -20px -18px 0;
+    background: transparent;
+  }
+  .board-thumb img { display: block; height: 100%; width: auto; }
+  .board-header-text { min-width: 0; }
   .board-header h2 { margin: 0 0 4px; font-size: 21px; font-weight: 700; }
   .board-meta { color: var(--muted); font-size: 13.5px; }
   .board-meta code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
@@ -481,13 +497,22 @@ function renderBoard(id) {
       <table>${b.unmapped.map((line) => `<tr><td class="mcu-pin">${escapeHtml(line)}</td></tr>`).join("")}</table>
     </details>` : "";
 
+  const cpyorgUrl = `https://circuitpython.org/board/${encodeURIComponent(id)}/`;
+
   view.innerHTML = `
     <div class="card board-header">
-      <h2>${escapeHtml(b.name)}</h2>
-      <div class="board-meta">
-        <code>${escapeHtml(id)}</code> &middot; ${escapeHtml(b.port)} &middot; ${escapeHtml(b.mcu || "unknown MCU")}${aliasHtml}
-        &middot; <a href="https://circuitpython.org/board/${encodeURIComponent(id)}/" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
+      <div class="board-header-text">
+        <h2>${escapeHtml(b.name)}</h2>
+        <div class="board-meta">
+          <code>${escapeHtml(id)}</code> &middot; ${escapeHtml(b.port)} &middot; ${escapeHtml(b.mcu || "unknown MCU")}${aliasHtml}
+          &middot; <a href="${cpyorgUrl}" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
+        </div>
       </div>
+      <a class="board-thumb" href="${cpyorgUrl}" target="_blank" rel="noopener">
+        <img src="https://circuitpython.org/assets/images/boards/small/${encodeURIComponent(id)}.jpg"
+             alt="${escapeHtml(b.name)}"
+             onerror="this.closest('.board-thumb').style.display='none'">
+      </a>
     </div>
     <div class="card">
       <h3>Board objects</h3>
