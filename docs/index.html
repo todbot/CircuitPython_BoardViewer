@@ -154,8 +154,9 @@
     height: 96px;
     margin: -18px -20px -18px 0;
     background: transparent;
+    overflow: hidden;
   }
-  .board-thumb img { display: block; height: 100%; width: auto; }
+  .board-thumb img { display: block; height: 100%; width: auto; transform: scale(1.1); }
   .board-header-text { min-width: 0; }
   .board-header h2 { margin: 0 0 4px; font-size: 21px; font-weight: 700; }
   .board-meta { color: var(--muted); font-size: 13.5px; }
@@ -527,11 +528,12 @@ function renderBoard(id) {
           &middot; <a href="${cpyorgUrl}" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
         </div>
       </div>
+      ${b.image ? `
       <a class="board-thumb" href="${cpyorgUrl}" target="_blank" rel="noopener">
-        <img src="https://circuitpython.org/assets/images/boards/small/${encodeURIComponent(id)}.jpg"
+        <img src="https://circuitpython.org/assets/images/boards/small/${encodeURIComponent(b.image)}"
              alt="${escapeHtml(b.name)}"
              onerror="this.closest('.board-thumb').style.display='none'">
-      </a>
+      </a>` : ""}
     </div>
     <div class="card">
       <h3>Board objects</h3>

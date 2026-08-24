@@ -2,6 +2,7 @@
  "boards": {
   "01space_lcd042_esp32c3": {
    "aliases": [],
+   "image": "01space_lcd042_esp32c3.jpg",
    "mcu": "ESP32-C3FH4",
    "name": "01Space 0.42 OLED ESP32C3",
    "objects": {
@@ -117,6 +118,7 @@
   },
   "0xcb_gemini": {
    "aliases": [],
+   "image": "0xcb_gemini.jpg",
    "mcu": "rp2040",
    "name": "0xCB Gemini",
    "objects": {
@@ -359,6 +361,7 @@
   },
   "0xcb_helios": {
    "aliases": [],
+   "image": "0xcb_helios.jpg",
    "mcu": "rp2040",
    "name": "0xCB Helios",
    "objects": {
@@ -590,6 +593,7 @@
   },
   "42keebs_frood": {
    "aliases": [],
+   "image": "42keebs_frood.jpg",
    "mcu": "rp2040",
    "name": "42. Keebs Frood",
    "objects": {
@@ -813,6 +817,7 @@
   },
   "8086_commander": {
    "aliases": [],
+   "image": "8086_commander.jpg",
    "mcu": "samd21g18",
    "name": "8086 Commander",
    "objects": {
@@ -1004,6 +1009,7 @@
   },
   "8086_rp2040_interfacer": {
    "aliases": [],
+   "image": "8086_rp2040_interfacer.jpg",
    "mcu": "rp2040",
    "name": "8086 RP2040 Interfacer",
    "objects": {
@@ -1114,6 +1120,7 @@
   },
   "8086_usb_interposer": {
    "aliases": [],
+   "image": "8086_usb_interposer.jpg",
    "mcu": "rp2040",
    "name": "8086 USB Interposer",
    "objects": {
@@ -1249,6 +1256,7 @@
   },
   "ADM_B_NRF52840_1": {
    "aliases": [],
+   "image": "ADM_B_NRF52840_1.jpg",
    "mcu": "nRF52840",
    "name": "AtelierDuMaker nRF52840 Breakout",
    "objects": {
@@ -1526,6 +1534,7 @@
   },
   "Seeed_XIAO_nRF52840_Sense": {
    "aliases": [],
+   "image": "Seeed_XIAO_nRF52840_Sense.jpg",
    "mcu": "nRF52840",
    "name": "Seeed XIAO nRF52840 Sense",
    "objects": {
@@ -1750,6 +1759,7 @@
   },
   "TG-Watch": {
    "aliases": [],
+   "image": "TG-Watch.jpg",
    "mcu": "nRF52840",
    "name": "TG-Watch",
    "objects": {
@@ -2029,6 +2039,7 @@
   },
   "adafruit_esp32s3_camera": {
    "aliases": [],
+   "image": "adafruit_esp32s3_camera.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Camera",
    "objects": {
@@ -2267,6 +2278,7 @@
   },
   "adafruit_feather_esp32_v2": {
    "aliases": [],
+   "image": "adafruit_feather_esp32_v2.jpg",
    "mcu": "ESP32",
    "name": "Adafruit Feather ESP32 V2",
    "objects": {
@@ -2490,6 +2502,7 @@
   },
   "adafruit_feather_esp32c6_4mbflash_nopsram": {
    "aliases": [],
+   "image": "adafruit_feather_esp32c6_4mbflash_nopsram.jpg",
    "mcu": "ESP32C6",
    "name": "Adafruit Feather ESP32-C6 4MB Flash No PSRAM",
    "objects": {
@@ -2682,6 +2695,7 @@
   },
   "adafruit_feather_esp32s2": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s2.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit Feather ESP32S2",
    "objects": {
@@ -2893,6 +2907,7 @@
   },
   "adafruit_feather_esp32s2_reverse_tft": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s2_reverse_tft.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit Feather ESP32-S2 Reverse TFT",
    "objects": {
@@ -3144,6 +3159,7 @@
   },
   "adafruit_feather_esp32s2_tft": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s2_tft.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit Feather ESP32-S2 TFT",
    "objects": {
@@ -3382,6 +3398,7 @@
   },
   "adafruit_feather_esp32s3_4mbflash_2mbpsram": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s3_4mbflash_2mbpsram.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Feather ESP32S3 4MB Flash 2MB PSRAM",
    "objects": {
@@ -3593,6 +3610,7 @@
   },
   "adafruit_feather_esp32s3_nopsram": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s3_nopsram.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Feather ESP32S3 No PSRAM",
    "objects": {
@@ -3804,6 +3822,7 @@
   },
   "adafruit_feather_esp32s3_reverse_tft": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s3_reverse_tft.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Feather ESP32-S3 Reverse TFT",
    "objects": {
@@ -4055,6 +4074,7 @@
   },
   "adafruit_feather_esp32s3_tft": {
    "aliases": [],
+   "image": "adafruit_feather_esp32s3_tft.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Feather ESP32-S3 TFT",
    "objects": {
@@ -4293,6 +4313,7 @@
   },
   "adafruit_feather_huzzah32": {
    "aliases": [],
+   "image": "adafruit_feather_huzzah32.jpg",
    "mcu": "ESP32",
    "name": "Adafruit Feather HUZZAH32",
    "objects": {
@@ -4501,6 +4522,7 @@
   },
   "adafruit_feather_rp2040": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040",
    "objects": {
@@ -4692,6 +4714,7 @@
   },
   "adafruit_feather_rp2040_adalogger": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_adalogger.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 Adalogger",
    "objects": {
@@ -4937,6 +4960,7 @@
   },
   "adafruit_feather_rp2040_can": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_can.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 CAN",
    "objects": {
@@ -5171,6 +5195,7 @@
   },
   "adafruit_feather_rp2040_dvi": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_dvi.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 DVI",
    "objects": {
@@ -5411,6 +5436,7 @@
   },
   "adafruit_feather_rp2040_prop_maker": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_prop_maker.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 Prop-Maker",
    "objects": {
@@ -5646,6 +5672,7 @@
   },
   "adafruit_feather_rp2040_rfm": {
    "aliases": [],
+   "image": null,
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 RFM",
    "objects": {
@@ -5881,6 +5908,7 @@
   },
   "adafruit_feather_rp2040_scorpio": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_scorpio.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 Scorpio",
    "objects": {
@@ -6114,6 +6142,7 @@
   },
   "adafruit_feather_rp2040_thinkink": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_thinkink.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 ThinkInk",
    "objects": {
@@ -6347,6 +6376,7 @@
   },
   "adafruit_feather_rp2040_usb_host": {
    "aliases": [],
+   "image": "adafruit_feather_rp2040_usb_host.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Feather RP2040 USB Host",
    "objects": {
@@ -6563,6 +6593,7 @@
   },
   "adafruit_feather_rp2350": {
    "aliases": [],
+   "image": "adafruit_feather_rp2350.jpg",
    "mcu": "rp2350a",
    "name": "Adafruit Feather RP2350",
    "objects": {
@@ -6791,6 +6822,7 @@
   },
   "adafruit_feather_rp2350_adalogger": {
    "aliases": [],
+   "image": "adafruit_feather_rp2350_adalogger.jpg",
    "mcu": "rp2350a",
    "name": "Adafruit Feather RP2350 Adalogger",
    "objects": {
@@ -7016,6 +7048,7 @@
   },
   "adafruit_floppsy_rp2040": {
    "aliases": [],
+   "image": "adafruit_floppsy_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Floppsy RP2040",
    "objects": {
@@ -7216,6 +7249,7 @@
   },
   "adafruit_fruit_jam": {
    "aliases": [],
+   "image": "adafruit_fruit_jam.jpg",
    "mcu": "rp2350b",
    "name": "Adafruit Fruit Jam",
    "objects": {
@@ -7561,6 +7595,7 @@
   },
   "adafruit_funhouse": {
    "aliases": [],
+   "image": "adafruit_funhouse.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit FunHouse",
    "objects": {
@@ -7774,6 +7809,7 @@
   },
   "adafruit_huzzah32_breakout": {
    "aliases": [],
+   "image": "adafruit_huzzah32_breakout.jpg",
    "mcu": "ESP32",
    "name": "Adafruit HUZZAH32 Breakout",
    "objects": {
@@ -7951,6 +7987,7 @@
   },
   "adafruit_itsybitsy_esp32": {
    "aliases": [],
+   "image": "adafruit_itsybitsy_esp32.jpg",
    "mcu": "ESP32",
    "name": "Adafruit ItsyBitsy ESP32",
    "objects": {
@@ -8138,6 +8175,7 @@
   },
   "adafruit_itsybitsy_rp2040": {
    "aliases": [],
+   "image": "adafruit_itsybitsy_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit ItsyBitsy RP2040",
    "objects": {
@@ -8345,6 +8383,7 @@
   },
   "adafruit_kb2040": {
    "aliases": [],
+   "image": "adafruit_kb2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit KB2040",
    "objects": {
@@ -8532,6 +8571,7 @@
   },
   "adafruit_led_glasses_nrf52840": {
    "aliases": [],
+   "image": "adafruit_led_glasses_nrf52840.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit LED Glasses Driver nRF52840",
    "objects": {
@@ -8615,6 +8655,7 @@
   },
   "adafruit_macropad_rp2040": {
    "aliases": [],
+   "image": "adafruit_macropad_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Macropad RP2040",
    "objects": {
@@ -8824,6 +8865,7 @@
   },
   "adafruit_magtag_2.9_grayscale": {
    "aliases": [],
+   "image": "adafruit_magtag_2.9_grayscale.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit MagTag",
    "objects": {
@@ -9011,6 +9053,7 @@
   },
   "adafruit_matrixportal_s3": {
    "aliases": [],
+   "image": "adafruit_matrixportal_s3.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit MatrixPortal S3",
    "objects": {
@@ -9238,6 +9281,7 @@
   },
   "adafruit_metro_esp32s2": {
    "aliases": [],
+   "image": "adafruit_metro_esp32s2.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit Metro ESP32S2",
    "objects": {
@@ -9470,6 +9514,7 @@
   },
   "adafruit_metro_esp32s3": {
    "aliases": [],
+   "image": "adafruit_metro_esp32s3.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit Metro ESP32S3",
    "objects": {
@@ -9722,6 +9767,7 @@
   },
   "adafruit_metro_m7_1011_sd": {
    "aliases": [],
+   "image": "adafruit_metro_m7_1011_sd.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "Metro MIMXRT1011",
    "objects": {
@@ -9945,6 +9991,7 @@
   },
   "adafruit_metro_rp2040": {
    "aliases": [],
+   "image": "adafruit_metro_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit Metro RP2040",
    "objects": {
@@ -10185,6 +10232,7 @@
   },
   "adafruit_metro_rp2350": {
    "aliases": [],
+   "image": "adafruit_metro_rp2350.jpg",
    "mcu": "rp2350b",
    "name": "Adafruit Metro RP2350",
    "objects": {
@@ -10530,6 +10578,7 @@
   },
   "adafruit_mini_sparkle_motion": {
    "aliases": [],
+   "image": "adafruit_mini_sparkle_motion.jpg",
    "mcu": "ESP32",
    "name": "Adafruit Mini Sparkle Motion",
    "objects": {
@@ -10649,6 +10698,7 @@
   },
   "adafruit_neokey_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_neokey_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit NeoKey Trinkey M0",
    "objects": {
@@ -10684,6 +10734,7 @@
   },
   "adafruit_p4gpio": {
    "aliases": [],
+   "image": "adafruit_p4gpio.jpg",
    "mcu": "ESP32P4",
    "name": "Adafruit P4 GPIO",
    "objects": {
@@ -11024,6 +11075,7 @@
   },
   "adafruit_pixel_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_pixel_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit Pixel Trinkey M0",
    "objects": {
@@ -11085,6 +11137,7 @@
   },
   "adafruit_proxlight_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_proxlight_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit ProxLight Trinkey M0",
    "objects": {
@@ -11148,6 +11201,7 @@
   },
   "adafruit_qt2040_trinkey": {
    "aliases": [],
+   "image": "adafruit_qt2040_trinkey.jpg",
    "mcu": "rp2040",
    "name": "Adafruit QT2040 Trinkey",
    "objects": {
@@ -11212,6 +11266,7 @@
   },
   "adafruit_qtpy_esp32_pico": {
    "aliases": [],
+   "image": "adafruit_qtpy_esp32_pico.jpg",
    "mcu": "ESP32",
    "name": "Adafruit QT Py ESP32 PICO",
    "objects": {
@@ -11385,6 +11440,7 @@
   },
   "adafruit_qtpy_esp32c3": {
    "aliases": [],
+   "image": "adafruit_qtpy_esp32c3.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "Adafruit QT Py ESP32C3",
    "objects": {
@@ -11529,6 +11585,7 @@
   },
   "adafruit_qtpy_esp32s2": {
    "aliases": [],
+   "image": "adafruit_qtpy_esp32s2.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit QT Py ESP32S2",
    "objects": {
@@ -11702,6 +11759,7 @@
   },
   "adafruit_qtpy_esp32s3_4mbflash_2mbpsram": {
    "aliases": [],
+   "image": "adafruit_qtpy_esp32s3_4mbflash_2mbpsram.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit QT Py ESP32-S3 4MB Flash 2MB PSRAM",
    "objects": {
@@ -11874,6 +11932,7 @@
   },
   "adafruit_qtpy_esp32s3_nopsram": {
    "aliases": [],
+   "image": "adafruit_qtpy_esp32s3_nopsram.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit QT Py ESP32-S3 no psram",
    "objects": {
@@ -12046,6 +12105,7 @@
   },
   "adafruit_qtpy_rp2040": {
    "aliases": [],
+   "image": "adafruit_qtpy_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Adafruit QT Py RP2040",
    "objects": {
@@ -12211,6 +12271,7 @@
   },
   "adafruit_qualia_s3_rgb666": {
    "aliases": [],
+   "image": "adafruit_qualia_s3_rgb666.jpg",
    "mcu": "ESP32S3",
    "name": "Adafruit-Qualia-S3-RGB666",
    "objects": {
@@ -12315,6 +12376,7 @@
   },
   "adafruit_rotary_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_rotary_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit Rotary Trinkey M0",
    "objects": {
@@ -12362,6 +12424,7 @@
   },
   "adafruit_sht4x_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_sht4x_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit SHT4x Trinkey M0",
    "objects": {
@@ -12413,6 +12476,7 @@
   },
   "adafruit_slide_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_slide_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit Slide Trinkey M0",
    "objects": {
@@ -12449,6 +12513,7 @@
   },
   "adafruit_sparkle_motion": {
    "aliases": [],
+   "image": "adafruit_sparkle_motion.jpg",
    "mcu": "ESP32",
    "name": "Adafruit Sparkle Motion",
    "objects": {
@@ -12602,6 +12667,7 @@
   },
   "adafruit_sparkle_motion_stick": {
    "aliases": [],
+   "image": "adafruit_sparkle_motion_stick.jpg",
    "mcu": "ESP32",
    "name": "Adafruit Sparkle Motion Stick",
    "objects": {
@@ -12678,6 +12744,7 @@
   },
   "adafruit_tinychad_rp2350": {
    "aliases": [],
+   "image": "adafruit_tinychad_rp2350.jpg",
    "mcu": "rp2350a",
    "name": "Adafruit Tinychad RP2350",
    "objects": {
@@ -12885,6 +12952,7 @@
   },
   "adafruit_trrs_trinkey_m0": {
    "aliases": [],
+   "image": "adafruit_trrs_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit TRRS Trinkey M0",
    "objects": {
@@ -12967,6 +13035,7 @@
   },
   "adafruit_vindie_s2": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S2",
    "name": "Adafruit Vindie S2",
    "objects": {
@@ -13062,6 +13131,7 @@
   },
   "ai-thinker-esp32-cam": {
    "aliases": [],
+   "image": "ai-thinker-esp32-cam.jpg",
    "mcu": "ESP32",
    "name": "Ai Thinker ESP32-CAM",
    "objects": {
@@ -13270,6 +13340,7 @@
   },
   "ai_thinker_esp32-c3s": {
    "aliases": [],
+   "image": "ai_thinker_esp32-c3s.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "AITHinker ESP32-C3S_Kit",
    "objects": {
@@ -13453,6 +13524,7 @@
   },
   "ai_thinker_esp32-c3s-2m": {
    "aliases": [],
+   "image": "ai_thinker_esp32-c3s.jpg",
    "mcu": "ESP32-C3",
    "name": "AITHinker ESP32-C3S_Kit_2M",
    "objects": {
@@ -13636,6 +13708,7 @@
   },
   "ai_thinker_esp_12k_nodemcu": {
    "aliases": [],
+   "image": "ai_thinker_esp_12k_nodemcu.jpg",
    "mcu": "ESP32S2",
    "name": "ESP 12k NodeMCU",
    "objects": {
@@ -13877,6 +13950,7 @@
   },
   "aloriumtech_evo_m51": {
    "aliases": [],
+   "image": "aloriumtech_evo_m51.jpg",
    "mcu": "samd51p19",
    "name": "AloriumTech Evo M51",
    "objects": {
@@ -14088,6 +14162,7 @@
   },
   "apard32690": {
    "aliases": [],
+   "image": "apard32690.jpg",
    "mcu": "max32690",
    "name": "APARD32690",
    "objects": {
@@ -14757,6 +14832,7 @@
   },
   "aramcon2_badge": {
    "aliases": [],
+   "image": "aramcon2_badge.jpg",
    "mcu": "nRF52840",
    "name": "ARAMCON2 Badge",
    "objects": {
@@ -14939,6 +15015,7 @@
   },
   "aramcon_badge_2019": {
    "aliases": [],
+   "image": "aramcon_badge_2019.jpg",
    "mcu": "nRF52840",
    "name": "ARAMCON Badge 2019",
    "objects": {
@@ -15093,6 +15170,7 @@
   },
   "archi": {
    "aliases": [],
+   "image": "archi.jpg",
    "mcu": "rp2040",
    "name": "Archi RP2040",
    "objects": {
@@ -15342,6 +15420,7 @@
   },
   "arduino_mkr1300": {
    "aliases": [],
+   "image": "arduino_mkr1300_01.jpg",
    "mcu": "samd21g18",
    "name": "Arduino MKR1300",
    "objects": {
@@ -15570,6 +15649,7 @@
   },
   "arduino_mkrzero": {
    "aliases": [],
+   "image": "arduino_mkr_zero.jpg",
    "mcu": "samd21g18",
    "name": "Arduino MKR Zero",
    "objects": {
@@ -15801,6 +15881,7 @@
   },
   "arduino_nano_33_ble": {
    "aliases": [],
+   "image": "arduino_nano_33_ble.jpg",
    "mcu": "nRF52840",
    "name": "Arduino Nano 33 BLE",
    "objects": {
@@ -16056,6 +16137,7 @@
   },
   "arduino_nano_33_ble_rev2": {
    "aliases": [],
+   "image": "arduino_nano_33_ble_rev2.jpg",
    "mcu": "nRF52840",
    "name": "Arduino Nano 33 BLE Rev2",
    "objects": {
@@ -16329,6 +16411,7 @@
   },
   "arduino_nano_33_iot": {
    "aliases": [],
+   "image": "arduino_nano_33_iot.jpg",
    "mcu": "samd21g18",
    "name": "Arduino Nano 33 IoT",
    "objects": {
@@ -16571,6 +16654,7 @@
   },
   "arduino_nano_esp32s3": {
    "aliases": [],
+   "image": "arduino_nano_esp32s3.jpg",
    "mcu": "ESP32S3",
    "name": "Arduino Nano ESP32",
    "objects": {
@@ -16783,6 +16867,7 @@
   },
   "arduino_nano_esp32s3_inverted_statusled": {
    "aliases": [],
+   "image": "arduino_nano_esp32s3.jpg",
    "mcu": "ESP32S3",
    "name": "Arduino Nano ESP32",
    "objects": {
@@ -16987,6 +17072,7 @@
   },
   "arduino_nano_rp2040_connect": {
    "aliases": [],
+   "image": "arduino_nano_rp2040_connect.jpg",
    "mcu": "rp2040",
    "name": "Arduino Nano RP2040 Connect",
    "objects": {
@@ -17224,6 +17310,7 @@
   },
   "arduino_zero": {
    "aliases": [],
+   "image": "arduino_zero.jpg",
    "mcu": "samd21g18",
    "name": "Arduino Zero",
    "objects": {
@@ -17425,6 +17512,7 @@
   },
   "artisense_rd00": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S2",
    "name": "Artisense Reference Design RD00",
    "objects": {
@@ -17658,6 +17746,7 @@
   },
   "atmegazero_esp32s2": {
    "aliases": [],
+   "image": "atmegazero_esp32s2.jpg",
    "mcu": "ESP32S2",
    "name": "ATMegaZero ESP32-S2",
    "objects": {
@@ -17905,6 +17994,7 @@
   },
   "autosportlabs_esp32_can_x2": {
    "aliases": [],
+   "image": "autosportlabs_esp32_can_x2.jpg",
    "mcu": "ESP32S3",
    "name": "AutosportLabs-ESP32-CAN-X2",
    "objects": {
@@ -18152,6 +18242,7 @@
   },
   "barduino": {
    "aliases": [],
+   "image": "barduino.jpg",
    "mcu": "ESP32S3",
    "name": "BARDUINO 4.0.2",
    "objects": {
@@ -18428,6 +18519,7 @@
   },
   "bast_pro_mini_m0": {
    "aliases": [],
+   "image": "bast_pro_mini_m0.jpg",
    "mcu": "samd21e18",
    "name": "Electronic Cats Bast Pro Mini M0",
    "objects": {
@@ -18609,6 +18701,7 @@
   },
   "bastble": {
    "aliases": [],
+   "image": "bastble.jpg",
    "mcu": "nRF52840",
    "name": "BastBLE",
    "objects": {
@@ -18795,6 +18888,7 @@
   },
   "bdmicro_vina_d51": {
    "aliases": [],
+   "image": "bdmicro_vina_d51.jpg",
    "mcu": "samd51n20",
    "name": "BDMICRO VINA-D51",
    "objects": {
@@ -19287,6 +19381,7 @@
   },
   "bdmicro_vina_d51_pcb7": {
    "aliases": [],
+   "image": "bdmicro_vina_d51.jpg",
    "mcu": "samd51n20",
    "name": "BDMICRO VINA-D51",
    "objects": {
@@ -19722,6 +19817,7 @@
   },
   "beetle-esp32-c3": {
    "aliases": [],
+   "image": "beetle-esp32-c3.png",
    "mcu": "ESP32-C3FN4",
    "name": "DFRobot Beetle ESP32-C3",
    "objects": {
@@ -19875,6 +19971,7 @@
   },
   "bless_dev_board_multi_sensor": {
    "aliases": [],
+   "image": "bless_dev_board_multi_sensor.jpg",
    "mcu": "nRF52840",
    "name": "BLE-SS dev board Multi Sensor",
    "objects": {
@@ -20052,6 +20149,7 @@
   },
   "blm_badge": {
    "aliases": [],
+   "image": "blmbadge.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit BLM Badge",
    "objects": {
@@ -20172,6 +20270,7 @@
   },
   "bluemicro833": {
    "aliases": [],
+   "image": "bluemicro833.jpg",
    "mcu": "nRF52833",
    "name": "BlueMicro833",
    "objects": {
@@ -20465,6 +20564,7 @@
   },
   "bluemicro840": {
    "aliases": [],
+   "image": "bluemicro840.jpg",
    "mcu": "nRF52840",
    "name": "BlueMicro840",
    "objects": {
@@ -20805,6 +20905,7 @@
   },
   "blues_cygnet": {
    "aliases": [],
+   "image": "blues_cygnet.jpg",
    "mcu": "STM32L433CCT6",
    "name": "Cygnet",
    "objects": {
@@ -20980,6 +21081,7 @@
   },
   "boardsource_blok": {
    "aliases": [],
+   "image": "boardsource_blok.jpg",
    "mcu": "rp2040",
    "name": "BLOK",
    "objects": {
@@ -21192,6 +21294,7 @@
   },
   "bpi_bit_s2": {
    "aliases": [],
+   "image": "bpi_bit_s2.jpg",
    "mcu": "ESP32S2",
    "name": "BPI-Bit-S2",
    "objects": {
@@ -21446,6 +21549,7 @@
   },
   "bpi_leaf_s3": {
    "aliases": [],
+   "image": "bpi_leaf_s3.jpg",
    "mcu": "ESP32S3",
    "name": "BPI-Leaf-S3",
    "objects": {
@@ -21724,6 +21828,7 @@
   },
   "bpi_picow_s3": {
    "aliases": [],
+   "image": "bpi_picow_s3.jpg",
    "mcu": "ESP32S3",
    "name": "BPI-PicoW-S3",
    "objects": {
@@ -21942,6 +22047,7 @@
   },
   "bradanlanestudio_coin_m0": {
    "aliases": [],
+   "image": "bradanlanestudio_coin_m0.jpg",
    "mcu": "samd21g18",
    "name": "Brad\u00e1n Lane STUDIO Coin M0",
    "objects": {
@@ -22019,6 +22125,7 @@
   },
   "bradanlanestudio_explorer_rp2040": {
    "aliases": [],
+   "image": "bradanlanestudio_explorer_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Brad\u00e1n Lane STUDIO Explorer Badge",
    "objects": {
@@ -22287,6 +22394,7 @@
   },
   "brainboardz_neuron": {
    "aliases": [],
+   "image": "brainboardz_neuron.jpg",
    "mcu": "ESP32S3",
    "name": "Neuron",
    "objects": {
@@ -22559,6 +22667,7 @@
   },
   "breadstick_raspberry": {
    "aliases": [],
+   "image": "breadstick_raspberry.jpg",
    "mcu": "rp2040",
    "name": "Raspberry Breadstick",
    "objects": {
@@ -22757,6 +22866,7 @@
   },
   "bwshockley_figpi": {
    "aliases": [],
+   "image": "bwshockley_figpi.jpg",
    "mcu": "rp2040",
    "name": "Fig Pi",
    "objects": {
@@ -22945,6 +23055,7 @@
   },
   "capablerobot_usbhub": {
    "aliases": [],
+   "image": "capablerobot_usbhub.jpg",
    "mcu": "samd51g19",
    "name": "Capable Robot Programmable USB Hub",
    "objects": {
@@ -23132,6 +23243,7 @@
   },
   "catwan_usbstick": {
    "aliases": [],
+   "image": "catwan_usbstick.jpg",
    "mcu": "samd21e18",
    "name": "Electronic Cats CatWAN USBStick",
    "objects": {
@@ -23232,6 +23344,7 @@
   },
   "cezerio_dev_ESP32C6": {
    "aliases": [],
+   "image": "cezerio_dev_esp32c6.jpg",
    "mcu": "ESP32C6",
    "name": "cezerio dev ESP32C6",
    "objects": {
@@ -23445,6 +23558,7 @@
   },
   "challenger_840": {
    "aliases": [],
+   "image": "challenger_840.jpg",
    "mcu": "nRF52840",
    "name": "iLabs Challenger 840",
    "objects": {
@@ -23654,6 +23768,7 @@
   },
   "challenger_nb_rp2040_wifi": {
    "aliases": [],
+   "image": "challenger_nb_rp2040_wifi.jpg",
    "mcu": "rp2040",
    "name": "Challenger NB RP2040 WiFi",
    "objects": {
@@ -23908,6 +24023,7 @@
   },
   "challenger_rp2040_lora": {
    "aliases": [],
+   "image": "challenger_rp2040_lora.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 LoRa",
    "objects": {
@@ -24166,6 +24282,7 @@
   },
   "challenger_rp2040_lte": {
    "aliases": [],
+   "image": "challenger_rp2040_lte.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 LTE",
    "objects": {
@@ -24415,6 +24532,7 @@
   },
   "challenger_rp2040_sdrtc": {
    "aliases": [],
+   "image": "challenger_rp2040_sdrtc.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 SD/RTC",
    "objects": {
@@ -24649,6 +24767,7 @@
   },
   "challenger_rp2040_subghz": {
    "aliases": [],
+   "image": "challenger_rp2040_subghz.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 SubGHz",
    "objects": {
@@ -24907,6 +25026,7 @@
   },
   "challenger_rp2040_wifi": {
    "aliases": [],
+   "image": "challenger_rp2040_wifi.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 WiFi",
    "objects": {
@@ -25137,6 +25257,7 @@
   },
   "challenger_rp2040_wifi_ble": {
    "aliases": [],
+   "image": "challenger_rp2040_wifi_ble.jpg",
    "mcu": "rp2040",
    "name": "Challenger RP2040 WiFi/BLE",
    "objects": {
@@ -25361,6 +25482,7 @@
   },
   "challenger_rp2350_bconnect": {
    "aliases": [],
+   "image": "challenger_rp2350_bconnect.jpg",
    "mcu": "rp2350a",
    "name": "Challenger+ RP2350 BConnect",
    "objects": {
@@ -25604,6 +25726,7 @@
   },
   "challenger_rp2350_wifi6_ble5": {
    "aliases": [],
+   "image": "challenger_rp2350_wifi6_ble5.jpg",
    "mcu": "rp2350a",
    "name": "Challenger+ RP2350 WiFi6/BLE5",
    "objects": {
@@ -25855,6 +25978,7 @@
   },
   "circuitart_zero_s3": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S3",
    "name": "CircuitART Zero S3",
    "objects": {
@@ -26136,6 +26260,7 @@
   },
   "circuitbrains_basic_m0": {
    "aliases": [],
+   "image": "circuitbrains_basic.jpg",
    "mcu": "samd21e18",
    "name": "CircuitBrains Basic",
    "objects": {
@@ -26290,6 +26415,7 @@
   },
   "circuitbrains_deluxe_m4": {
    "aliases": [],
+   "image": "circuitbrains_deluxe.jpg",
    "mcu": "samd51j19",
    "name": "CircuitBrains Deluxe",
    "objects": {
@@ -26564,6 +26690,7 @@
   },
   "circuitplayground_bluefruit": {
    "aliases": [],
+   "image": "circuitplayground_bluefruit.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit Circuit Playground Bluefruit",
    "objects": {
@@ -26771,6 +26898,7 @@
     "circuitplayground_express_4h",
     "circuitplayground_express_digikey_pycon2019"
    ],
+   "image": "circuitplayground_express.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit CircuitPlayground Express",
    "objects": {
@@ -26988,6 +27116,7 @@
   },
   "circuitplayground_express_crickit": {
    "aliases": [],
+   "image": "circuitplayground_express_crickit.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit CircuitPlayground Express with Crickit libraries",
    "objects": {
@@ -27205,6 +27334,7 @@
   },
   "circuitplayground_express_displayio": {
    "aliases": [],
+   "image": "circuitplayground_express_displayio.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit CircuitPlayground Express with displayio",
    "objects": {
@@ -27422,6 +27552,7 @@
   },
   "clue_nrf52840_express": {
    "aliases": [],
+   "image": "clue_nrf52840_express.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit CLUE nRF52840 Express",
    "objects": {
@@ -27715,6 +27846,7 @@
   },
   "columbia-dsl-sensor": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S3",
    "name": "ColumbiaDSL-Sensor-Board-V1",
    "objects": {
@@ -28016,6 +28148,7 @@
   },
   "cosmo_pico": {
    "aliases": [],
+   "image": "cosmo_pico.jpg",
    "mcu": "rp2040",
    "name": "COSMO-Pico",
    "objects": {
@@ -28221,6 +28354,7 @@
   },
   "cp32-m4": {
    "aliases": [],
+   "image": "cp32-m4.jpg",
    "mcu": "samd51j20",
    "name": "CP32-M4",
    "objects": {
@@ -28456,6 +28590,7 @@
   },
   "cp_sapling_m0": {
    "aliases": [],
+   "image": "cp_sapling_m0.jpg",
    "mcu": "samd21e18",
    "name": "CP Sapling M0",
    "objects": {
@@ -28561,6 +28696,7 @@
   },
   "cp_sapling_m0_revb": {
    "aliases": [],
+   "image": "cp_sapling_m0_revb.jpg",
    "mcu": "samd21e18",
    "name": "CP Sapling M0",
    "objects": {
@@ -28694,6 +28830,7 @@
   },
   "cp_sapling_m0_spiflash": {
    "aliases": [],
+   "image": "cp_sapling_m0.jpg",
    "mcu": "samd21e18",
    "name": "CP Sapling M0 w/ SPI Flash",
    "objects": {
@@ -28799,6 +28936,7 @@
   },
   "crcibernetica-ideaboard": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32",
    "name": "CRCibernetica IdeaBoard",
    "objects": {
@@ -29051,6 +29189,7 @@
   },
   "crumpspace_crumps2": {
    "aliases": [],
+   "image": "crumpspace_crumps2.jpg",
    "mcu": "ESP32S2",
    "name": "CrumpS2",
    "objects": {
@@ -29282,6 +29421,7 @@
   },
   "cytron_edu_pico_w": {
    "aliases": [],
+   "image": "cytron_edu_pico_w.jpg",
    "mcu": "rp2040",
    "name": "Cytron EDU PICO W",
    "objects": {
@@ -29518,6 +29658,7 @@
   },
   "cytron_edu_v2_pico_2w": {
    "aliases": [],
+   "image": "cytron_edu_v2_pico_2w.jpg",
    "mcu": "rp2350a",
    "name": "Cytron EDU PICO 2",
    "objects": {
@@ -29757,6 +29898,7 @@
   },
   "cytron_iriv_io_controller": {
    "aliases": [],
+   "image": "cytron_iriv_io_controller.png",
    "mcu": "rp2350a",
    "name": "Cytron IRIV IO Controller",
    "objects": {
@@ -30021,6 +30163,7 @@
   },
   "cytron_maker_feather_aiot_s3": {
    "aliases": [],
+   "image": "cytron_maker_feather_aiot_s3.jpg",
    "mcu": "ESP32S3",
    "name": "Cytron Maker Feather AIoT S3",
    "objects": {
@@ -30275,6 +30418,7 @@
   },
   "cytron_maker_nano_rp2040": {
    "aliases": [],
+   "image": "cytron_maker_nano_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Cytron Maker Nano RP2040",
    "objects": {
@@ -30480,6 +30624,7 @@
   },
   "cytron_maker_pi_rp2040": {
    "aliases": [],
+   "image": "cytron_maker_pi_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Cytron Maker Pi RP2040",
    "objects": {
@@ -30677,6 +30822,7 @@
   },
   "cytron_maker_uno_rp2040": {
    "aliases": [],
+   "image": "cytron_maker_uno_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Cytron Maker Uno RP2040",
    "objects": {
@@ -30930,6 +31076,7 @@
   },
   "cytron_motion_2350_pro": {
    "aliases": [],
+   "image": "cytron_motion_2350_pro.png",
    "mcu": "rp2350",
    "name": "Cytron MOTION 2350 Pro",
    "objects": {
@@ -31169,6 +31316,7 @@
   },
   "daisy_seed_with_sdram": {
    "aliases": [],
+   "image": "daisy_seed_with_sdram.jpg",
    "mcu": "STM32H750xx",
    "name": "DAISY_SEED",
    "objects": {
@@ -31396,6 +31544,7 @@
   },
   "datalore_ip_m4": {
    "aliases": [],
+   "image": "datalore_ip_m4.jpg",
    "mcu": "samd51j19",
    "name": "TG-Boards' Datalore IP M4",
    "objects": {
@@ -31614,6 +31763,7 @@
   },
   "datanoise_picoadk": {
    "aliases": [],
+   "image": "datanoise_picoadk.jpg",
    "mcu": "rp2040",
    "name": "Datanoise PicoADK",
    "objects": {
@@ -31837,6 +31987,7 @@
   },
   "datanoise_picoadk_v2": {
    "aliases": [],
+   "image": "datanoise_picoadk_v2.jpg",
    "mcu": "rp2350a",
    "name": "Datanoise PicoADK V2",
    "objects": {
@@ -32045,6 +32196,7 @@
   },
   "datum_distance": {
    "aliases": [],
+   "image": "datum_distance.jpg",
    "mcu": "samd21g18",
    "name": "J&J Studios datum-Distance",
    "objects": {
@@ -32204,6 +32356,7 @@
   },
   "datum_imu": {
    "aliases": [],
+   "image": "datum_imu.jpg",
    "mcu": "samd21g18",
    "name": "J&J Studios datum-IMU",
    "objects": {
@@ -32375,6 +32528,7 @@
   },
   "datum_light": {
    "aliases": [],
+   "image": "datum_light.jpg",
    "mcu": "samd21g18",
    "name": "J&J Studios datum-Light",
    "objects": {
@@ -32534,6 +32688,7 @@
   },
   "datum_weather": {
    "aliases": [],
+   "image": "datum_weather.jpg",
    "mcu": "samd21g18",
    "name": "J&J Studios datum-Weather",
    "objects": {
@@ -32693,6 +32848,7 @@
   },
   "deneyap_kart": {
    "aliases": [],
+   "image": "deneyapkart.jpg",
    "mcu": "ESP32",
    "name": "Deneyap Kart",
    "objects": {
@@ -32922,6 +33078,7 @@
   },
   "deneyap_kart_1a": {
    "aliases": [],
+   "image": "deneyapkart1A.jpg",
    "mcu": "ESP32",
    "name": "Deneyap Kart 1A",
    "objects": {
@@ -33149,6 +33306,7 @@
   },
   "deneyap_kart_1a_v2": {
    "aliases": [],
+   "image": "deneyapkart1Av2.jpg",
    "mcu": "ESP32S3",
    "name": "Deneyap Kart 1A v2",
    "objects": {
@@ -33360,6 +33518,7 @@
   },
   "deneyap_kart_g": {
    "aliases": [],
+   "image": "deneyapkartg.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "Deneyap Kart G",
    "objects": {
@@ -33501,6 +33660,7 @@
   },
   "deneyap_mini": {
    "aliases": [],
+   "image": "deneyapmini.jpg",
    "mcu": "ESP32S2",
    "name": "Deneyap Mini",
    "objects": {
@@ -33724,6 +33884,7 @@
   },
   "deneyap_mini_v2": {
    "aliases": [],
+   "image": "deneyapminiv2.jpg",
    "mcu": "ESP32S2",
    "name": "Deneyap Mini v2",
    "objects": {
@@ -33939,6 +34100,7 @@
   },
   "deshipu_ugame_s3": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S3",
    "name": "uGame S3",
    "objects": {
@@ -34117,6 +34279,7 @@
   },
   "diodes_delight_piunora": {
    "aliases": [],
+   "image": "diodes_delight_piunora.jpg",
    "mcu": null,
    "name": "Diodes Delight Piunora",
    "objects": {
@@ -34278,6 +34441,7 @@
   },
   "doit_esp32_devkit_v1": {
    "aliases": [],
+   "image": "doit_esp32_devkit_v1.jpg",
    "mcu": "ESP32",
    "name": "ESP32 Devkit V1",
    "objects": {
@@ -34488,6 +34652,7 @@
   },
   "dynalora_usb": {
    "aliases": [],
+   "image": "dynalora_usb.jpg",
    "mcu": "samd21e18",
    "name": "DynaLoRa_USB",
    "objects": {
@@ -34636,6 +34801,7 @@
   },
   "dynossat_edu_eps": {
    "aliases": [],
+   "image": "dynossat_edu_eps.jpg",
    "mcu": "samd21g18",
    "name": "DynOSSAT-EDU-EPS",
    "objects": {
@@ -34830,6 +34996,7 @@
   },
   "dynossat_edu_obc": {
    "aliases": [],
+   "image": "dynossat_edu_obc.jpg",
    "mcu": "samd51j20",
    "name": "DynOSSAT-EDU-OBC",
    "objects": {
@@ -35064,6 +35231,7 @@
   },
   "e_fidget": {
    "aliases": [],
+   "image": "e_fidget.jpg",
    "mcu": "rp2040",
    "name": "E-Fidget",
    "objects": {
@@ -35197,6 +35365,7 @@
   },
   "elecfreaks_picoed": {
    "aliases": [],
+   "image": "elecfreaks_picoed.jpg",
    "mcu": "rp2040",
    "name": "ELECFREAKS PICO:ED",
    "objects": {
@@ -35388,6 +35557,7 @@
   },
   "elecrow_crowpanel_3.5": {
    "aliases": [],
+   "image": "elecrow_crowpanel_3.5.jpg",
    "mcu": "ESP32",
    "name": "Elecrow CrowPanel",
    "objects": {
@@ -35637,6 +35807,7 @@
   },
   "elecrow_crowpanel_4_2_epaper": {
    "aliases": [],
+   "image": "elecrow_crowpanel_4_2_epaper.jpg",
    "mcu": "ESP32S3",
    "name": "CrowPanel 4.2 EPaper",
    "objects": {
@@ -35896,6 +36067,7 @@
   },
   "electrolama_minik": {
    "aliases": [],
+   "image": "electrolama_minik.jpg",
    "mcu": "rp2040",
    "name": "Electrolama minik",
    "objects": {
@@ -36097,6 +36269,7 @@
   },
   "electroniccats_bastwifi": {
    "aliases": [],
+   "image": "bast_wifi.jpg",
    "mcu": "ESP32S2",
    "name": "BastWiFi",
    "objects": {
@@ -36373,6 +36546,7 @@
   },
   "electronut_labs_blip": {
    "aliases": [],
+   "image": "electronut_labs_blip.png",
    "mcu": "nRF52840",
    "name": "Electronut Labs Blip",
    "objects": {
@@ -36667,6 +36841,7 @@
   },
   "electronut_labs_papyr": {
    "aliases": [],
+   "image": "electronut_labs_papyr.jpg",
    "mcu": "nRF52840",
    "name": "Electronut Labs Papyr",
    "objects": {
@@ -36828,6 +37003,7 @@
   },
   "es3ink": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S3",
    "name": "ES3ink",
    "objects": {
@@ -37127,6 +37303,7 @@
   },
   "escornabot_makech": {
    "aliases": [],
+   "image": "escornabot_makech.jpg",
    "mcu": "samd21g18",
    "name": "Escornabot Makech",
    "objects": {
@@ -37337,6 +37514,7 @@
   },
   "esp32-wrover-dev-cam": {
    "aliases": [],
+   "image": "esp32-wrover-dev-cam.jpg",
    "mcu": "ESP32",
    "name": "Freenove ESP32-WROVER-DEV-CAM",
    "objects": {
@@ -37640,6 +37818,7 @@
   },
   "espressif_esp32_devkitc_v4_wroom_32e": {
    "aliases": [],
+   "image": "espressif_esp32_devkitc_v4_wroom_32e.jpg",
    "mcu": "ESP32",
    "name": "Espressif ESP32 DevKitc V4 WROOM-32E",
    "objects": {
@@ -37886,6 +38065,7 @@
   },
   "espressif_esp32_devkitc_v4_wrover": {
    "aliases": [],
+   "image": "espressif_esp32_devkitc_v4_wrover.jpg",
    "mcu": "ESP32",
    "name": "Espressif ESP32 DevKitc V4 WROVER",
    "objects": {
@@ -38132,6 +38312,7 @@
   },
   "espressif_esp32_eye": {
    "aliases": [],
+   "image": "espressif_esp32_eye.jpg",
    "mcu": "ESP32",
    "name": "Espressif ESP32-EYE",
    "objects": {
@@ -38222,6 +38403,7 @@
   },
   "espressif_esp32_lyrat": {
    "aliases": [],
+   "image": "espressif_esp32_lyrat.jpg",
    "mcu": "ESP32",
    "name": "Espressif ESP32-LyraT",
    "objects": {
@@ -38370,6 +38552,7 @@
   },
   "espressif_esp32c3_devkitm_1_n4": {
    "aliases": [],
+   "image": "espressif_esp32c3_devkitm_1_n4.jpg",
    "mcu": "ESP32-C3N4",
    "name": "ESP32-C3-DevKitM-1",
    "objects": {
@@ -38495,6 +38678,7 @@
   },
   "espressif_esp32c3_lyra_v2": {
    "aliases": [],
+   "image": "espressif_esp32c3_lyra_v2.jpg",
    "mcu": "ESP32-C3N4",
    "name": "ESP32-C3-Lyra-V2",
    "objects": {
@@ -38620,6 +38804,7 @@
   },
   "espressif_esp32c61_devkitc_1_n8r2": {
    "aliases": [],
+   "image": "espressif_esp32c61_devkitc_1.jpg",
    "mcu": "ESP32C61",
    "name": "ESP32-C61-DevKitC-1-N8R2",
    "objects": {
@@ -38824,6 +39009,7 @@
   },
   "espressif_esp32c6_devkitc_1_n8": {
    "aliases": [],
+   "image": "espressif_esp32c6_devkitc_1.jpg",
    "mcu": "ESP32C6",
    "name": "ESP32-C6-DevKitC-1-N8",
    "objects": {
@@ -38990,6 +39176,7 @@
   },
   "espressif_esp32c6_devkitm_1_n4": {
    "aliases": [],
+   "image": "espressif_esp32c6_devkitc_1.jpg",
    "mcu": "ESP32-C6N4",
    "name": "ESP32-C6-DevKitM-1",
    "objects": {
@@ -39115,6 +39302,7 @@
   },
   "espressif_esp32h2_devkitm_1_n4": {
    "aliases": [],
+   "image": "espressif_esp32h2_devkitm_1.jpg",
    "mcu": "ESP32-H2N4",
    "name": "ESP32-H2-DevKitM-1",
    "objects": {
@@ -39238,6 +39426,7 @@
   },
   "espressif_esp32p4_function_ev": {
    "aliases": [],
+   "image": "espressif_esp32p4_function_ev.jpg",
    "mcu": "ESP32P4",
    "name": "ESP32-P4-Function-EV",
    "objects": {
@@ -39564,6 +39753,7 @@
   },
   "espressif_esp32p4x_function_ev": {
    "aliases": [],
+   "image": "espressif_esp32p4_function_ev.jpg",
    "mcu": "ESP32P4",
    "name": "ESP32-P4X-Function-EV",
    "objects": {
@@ -39890,6 +40080,7 @@
   },
   "espressif_esp32s2_devkitc_1_n4": {
    "aliases": [],
+   "image": "espressif_esp32s2_devkitc_1_n4.jpg",
    "mcu": "ESP32S2",
    "name": "ESP32-S2-DevKitC-1-N4",
    "objects": {
@@ -40140,6 +40331,7 @@
   },
   "espressif_esp32s2_devkitc_1_n4r2": {
    "aliases": [],
+   "image": "espressif_esp32s2_devkitc_1r.jpg",
    "mcu": "ESP32S2",
    "name": "ESP32-S2-DevKitC-1-N4R2",
    "objects": {
@@ -40390,6 +40582,7 @@
   },
   "espressif_esp32s2_devkitc_1_n8r2": {
    "aliases": [],
+   "image": "espressif_esp32s2_devkitc_1_n8r2.jpg",
    "mcu": "ESP32S2",
    "name": "ESP32-S2-DevKitC-1-N8R2",
    "objects": {
@@ -40640,6 +40833,7 @@
   },
   "espressif_esp32s3_box": {
    "aliases": [],
+   "image": "espressif_esp32s3_box.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-Box-2.5",
    "objects": {
@@ -40856,6 +41050,7 @@
   },
   "espressif_esp32s3_box_lite": {
    "aliases": [],
+   "image": "espressif_esp32s3_box_lite.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-Box-Lite",
    "objects": {
@@ -41072,6 +41267,7 @@
   },
   "espressif_esp32s3_devkitc_1_n16": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N16",
    "objects": {
@@ -41318,6 +41514,7 @@
   },
   "espressif_esp32s3_devkitc_1_n32r8": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N32R8",
    "objects": {
@@ -41564,6 +41761,7 @@
   },
   "espressif_esp32s3_devkitc_1_n8": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N8",
    "objects": {
@@ -41810,6 +42008,7 @@
   },
   "espressif_esp32s3_devkitc_1_n8r2": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N8R2",
    "objects": {
@@ -42056,6 +42255,7 @@
   },
   "espressif_esp32s3_devkitc_1_n8r2_ros": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N8R2 (ROS version)",
    "objects": {
@@ -42302,6 +42502,7 @@
   },
   "espressif_esp32s3_devkitc_1_n8r8": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N8R8",
    "objects": {
@@ -42548,6 +42749,7 @@
   },
   "espressif_esp32s3_devkitc_1_n8r8_hacktablet": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitc_1_n8r8_hacktablet.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitC-1-N8R8-with-HACKTABLET",
    "objects": {
@@ -42822,6 +43024,7 @@
   },
   "espressif_esp32s3_devkitm_1_n8": {
    "aliases": [],
+   "image": "espressif_esp32s3_devkitm_1_n8.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-DevKitM-1-N8",
    "objects": {
@@ -43080,6 +43283,7 @@
   },
   "espressif_esp32s3_eye": {
    "aliases": [],
+   "image": "espressif_esp32s3_eye.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-EYE",
    "objects": {
@@ -43251,6 +43455,7 @@
   },
   "espressif_esp32s3_lcd_ev": {
    "aliases": [],
+   "image": "espressif_esp32s3_lcd_ev.jpg",
    "mcu": "ESP32S3",
    "name": "Espressif-ESP32-S3-LCD-EV-Board",
    "objects": {
@@ -43358,6 +43563,7 @@
   },
   "espressif_esp32s3_lcd_ev_v1.5": {
    "aliases": [],
+   "image": "espressif_esp32s3_lcd_ev_v1.5.jpg",
    "mcu": "ESP32S3",
    "name": "Espressif-ESP32-S3-LCD-EV-Board_v1.5",
    "objects": {
@@ -43465,6 +43671,7 @@
   },
   "espressif_esp32s3_usb_otg_n8": {
    "aliases": [],
+   "image": "espressif_esp32s3_usb_otg_n8.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-USB-OTG-N8",
    "objects": {
@@ -43657,6 +43864,7 @@
   },
   "espressif_esp8684_devkitc_02_n4": {
    "aliases": [],
+   "image": "espressif_esp8684_devkitc_02_n4.jpg",
    "mcu": "ESP32C2",
    "name": "ESP8684-DevKitC-02-N4",
    "objects": {
@@ -43773,6 +43981,7 @@
   },
   "espressif_hmi_devkit_1": {
    "aliases": [],
+   "image": "espressif_hmi_devkit_1.jpg",
    "mcu": "ESP32S2",
    "name": "HMI-DevKit-1.1",
    "objects": {
@@ -44071,6 +44280,7 @@
   },
   "espressif_kaluga_1": {
    "aliases": [],
+   "image": "espressif_kaluga_1.jpg",
    "mcu": "ESP32S2",
    "name": "Kaluga 1",
    "objects": {
@@ -44379,6 +44589,7 @@
   },
   "espressif_kaluga_1.3": {
    "aliases": [],
+   "image": "espressif_kaluga_1.jpg",
    "mcu": "ESP32S2",
    "name": "Kaluga 1",
    "objects": {
@@ -44697,6 +44908,7 @@
   },
   "espressif_saola_1_wroom": {
    "aliases": [],
+   "image": "espressif_saola_1_wroom.jpg",
    "mcu": "ESP32S2",
    "name": "Saola 1 w/Wroom",
    "objects": {
@@ -44939,6 +45151,7 @@
   },
   "espressif_saola_1_wrover": {
    "aliases": [],
+   "image": "espressif_saola_1_wrover.jpg",
    "mcu": "ESP32S2",
    "name": "Saola 1 w/Wrover",
    "objects": {
@@ -45181,6 +45394,7 @@
   },
   "espruino_banglejs2": {
    "aliases": [],
+   "image": "espruino_banglejs2.jpg",
    "mcu": "nRF52840",
    "name": "Espruino Bangle.js 2",
    "objects": {
@@ -45365,6 +45579,7 @@
   },
   "espruino_pico": {
    "aliases": [],
+   "image": "espruino_pico.jpg",
    "mcu": "STM32F401xD",
    "name": "Espruino Pico",
    "objects": {
@@ -45532,6 +45747,7 @@
   },
   "espruino_wifi": {
    "aliases": [],
+   "image": "espruino_wifi.jpg",
    "mcu": "STM32F411xE",
    "name": "Espruino Wifi",
    "objects": {
@@ -45723,6 +45939,7 @@
   },
   "feather_bluefruit_sense": {
    "aliases": [],
+   "image": "feather_bluefruit_sense.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit Feather Bluefruit Sense",
    "objects": {
@@ -45963,6 +46180,7 @@
   },
   "feather_m0_adalogger": {
    "aliases": [],
+   "image": "feather_m0_adalogger.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 Adalogger",
    "objects": {
@@ -46158,6 +46376,7 @@
   },
   "feather_m0_basic": {
    "aliases": [],
+   "image": "feather_m0_basic.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 Basic",
    "objects": {
@@ -46331,6 +46550,7 @@
   },
   "feather_m0_express": {
    "aliases": [],
+   "image": "feather_m0_express.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 Express",
    "objects": {
@@ -46510,6 +46730,7 @@
   },
   "feather_m0_express_crickit": {
    "aliases": [],
+   "image": "feather_m0_express_crickit.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 Express with Crickit libraries",
    "objects": {
@@ -46689,6 +46910,7 @@
   },
   "feather_m0_rfm69": {
    "aliases": [],
+   "image": "feather_m0_rfm69.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 RFM69",
    "objects": {
@@ -46880,6 +47102,7 @@
   },
   "feather_m0_rfm9x": {
    "aliases": [],
+   "image": "feather_m0_rfm9x.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Feather M0 RFM9x",
    "objects": {
@@ -47071,6 +47294,7 @@
   },
   "feather_m0_supersized": {
    "aliases": [],
+   "image": "feather_m0_supersized.jpg",
    "mcu": "samd21g18",
    "name": "Hacked Feather M0 Express with 8Mbyte SPI flash",
    "objects": {
@@ -47250,6 +47474,7 @@
   },
   "feather_m4_can": {
    "aliases": [],
+   "image": "feather_m4_can.jpg",
    "mcu": "same51j19a",
    "name": "Adafruit Feather M4 CAN",
    "objects": {
@@ -47479,6 +47704,7 @@
   },
   "feather_m4_express": {
    "aliases": [],
+   "image": "feather_m4_express.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Feather M4 Express",
    "objects": {
@@ -47678,6 +47904,7 @@
   },
   "feather_m7_1011": {
    "aliases": [],
+   "image": "feather_m7_1011.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "Adafruit Feather MIMXRT1011",
    "objects": {
@@ -47860,6 +48087,7 @@
   },
   "feather_mimxrt1011": {
    "aliases": [],
+   "image": "feather_mimxrt1011.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "Feather MIMXRT1011",
    "objects": {
@@ -48077,6 +48305,7 @@
   },
   "feather_mimxrt1062": {
    "aliases": [],
+   "image": "feather_mimxrt1062.jpg",
    "mcu": "IMXRT1062DVJ6A",
    "name": "Feather MIMXRT1062",
    "objects": {
@@ -48258,6 +48487,7 @@
   },
   "feather_nrf52840_express": {
    "aliases": [],
+   "image": "feather_nrf52840_express.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit Feather nRF52840 Express",
    "objects": {
@@ -48485,6 +48715,7 @@
   },
   "feather_stm32f405_express": {
    "aliases": [],
+   "image": "feather_stm32f405_express.jpg",
    "mcu": "STM32F405RG",
    "name": "Adafruit Feather STM32F405 Express",
    "objects": {
@@ -48683,6 +48914,7 @@
   },
   "firebeetle2_esp32s3": {
    "aliases": [],
+   "image": "firebeetle2_esp32s3.jpg",
    "mcu": "ESP32S3",
    "name": "DFRobot FireBeetle 2 ESP32-S3",
    "objects": {
@@ -48918,6 +49150,7 @@
   },
   "flipperzero_wifi_dev": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S2",
    "name": "Flipper Zero Wi-Fi Dev",
    "objects": {
@@ -49184,6 +49417,7 @@
   },
   "fluff_m0": {
    "aliases": [],
+   "image": "fluff_m0.jpg",
    "mcu": "samd21e18",
    "name": "Fluff M0",
    "objects": {
@@ -49381,6 +49615,7 @@
   },
   "fomu": {
    "aliases": [],
+   "image": "fomu.jpg",
    "mcu": "VexRiscv",
    "name": "Fomu",
    "objects": {
@@ -49422,6 +49657,7 @@
   },
   "franzininho_wifi_wroom": {
    "aliases": [],
+   "image": "Franzininho-wifi-wroom.jpg",
    "mcu": "ESP32S2",
    "name": "Franzininho WIFI w/Wroom",
    "objects": {
@@ -49664,6 +49900,7 @@
   },
   "franzininho_wifi_wrover": {
    "aliases": [],
+   "image": "Franzininho-wifi-wrover.jpg",
    "mcu": "ESP32S2",
    "name": "Franzininho WIFI w/Wrover",
    "objects": {
@@ -49908,6 +50145,7 @@
    "aliases": [
     "gemma_m0_pycon2018"
    ],
+   "image": "gemma_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit Gemma M0",
    "objects": {
@@ -49999,6 +50237,7 @@
   },
   "grandcentral_m4_express": {
    "aliases": [],
+   "image": "grandcentral_m4_express.jpg",
    "mcu": "samd51p20",
    "name": "Adafruit Grand Central M4 Express",
    "objects": {
@@ -50560,6 +50799,7 @@
   },
   "gravitech_cucumber_m": {
    "aliases": [],
+   "image": "gravitech_cucumber_m.jpg",
    "mcu": "ESP32S2",
    "name": "Gravitech Cucumber M",
    "objects": {
@@ -50814,6 +51054,7 @@
   },
   "gravitech_cucumber_ms": {
    "aliases": [],
+   "image": "gravitech_cucumber_ms.jpg",
    "mcu": "ESP32S2",
    "name": "Gravitech Cucumber MS",
    "objects": {
@@ -51080,6 +51321,7 @@
   },
   "gravitech_cucumber_r": {
    "aliases": [],
+   "image": "gravitech_cucumber_r.jpg",
    "mcu": "ESP32S2",
    "name": "Gravitech Cucumber R",
    "objects": {
@@ -51334,6 +51576,7 @@
   },
   "gravitech_cucumber_rs": {
    "aliases": [],
+   "image": "gravitech_cucumber_rs.jpg",
    "mcu": "ESP32S2",
    "name": "Gravitech Cucumber RS",
    "objects": {
@@ -51600,6 +51843,7 @@
   },
   "hack_club_sprig": {
    "aliases": [],
+   "image": "hack_club_sprig.jpeg",
    "mcu": "rp2040",
    "name": "Hack Club Sprig",
    "objects": {
@@ -51846,6 +52090,7 @@
   },
   "hallowing_m0_express": {
    "aliases": [],
+   "image": "hallowing_m0_express.jpg",
    "mcu": "samd21g18",
    "name": "HalloWing M0 Express",
    "objects": {
@@ -52085,6 +52330,7 @@
   },
   "hallowing_m4_express": {
    "aliases": [],
+   "image": "hallowing_m4_express.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Hallowing M4 Express",
    "objects": {
@@ -52354,6 +52600,7 @@
   },
   "hardkernel_odroid_go": {
    "aliases": [],
+   "image": "hardkernel_odroid_go.jpg",
    "mcu": "ESP32",
    "name": "Hardkernel Odroid Go",
    "objects": {
@@ -52516,6 +52763,7 @@
   },
   "heiafr_picomo_v2": {
    "aliases": [],
+   "image": null,
    "mcu": "rp2040",
    "name": "HEIA-FR Picomo V2",
    "objects": {
@@ -52768,6 +53016,7 @@
   },
   "heiafr_picomo_v3": {
    "aliases": [],
+   "image": null,
    "mcu": "rp2040",
    "name": "HEIA-FR Picomo V3",
    "objects": {
@@ -53022,6 +53271,7 @@
   },
   "heltec_esp32s3_wifi_lora_v3": {
    "aliases": [],
+   "image": "heltec_esp32s3_wifi_lora_v3.jpg",
    "mcu": "ESP32S3",
    "name": "Heltec ESP32-S3-WIFI-LoRa-V3",
    "objects": {
@@ -53348,6 +53598,7 @@
   },
   "heltec_vision_master_e290": {
    "aliases": [],
+   "image": "heltec_vision_master_e290.jpg",
    "mcu": "ESP32S3",
    "name": "Heltec Vison Master E290",
    "objects": {
@@ -53598,6 +53849,7 @@
   },
   "heltec_wireless_paper": {
    "aliases": [],
+   "image": "heltec_wireless_paper.jpg",
    "mcu": "ESP32S3",
    "name": "Heltec Wireless Paper",
    "objects": {
@@ -53761,6 +54013,7 @@
   },
   "hexky_s2": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S2",
    "name": "HexKyS2",
    "objects": {
@@ -53985,6 +54238,7 @@
   },
   "hiibot_bluefi": {
    "aliases": [],
+   "image": "hiibot_bluefi.jpg",
    "mcu": "nRF52840",
    "name": "HiiBot BlueFi",
    "objects": {
@@ -54367,6 +54621,7 @@
   },
   "hiibot_iots2": {
    "aliases": [],
+   "image": "hiibot_iots2.jpg",
    "mcu": "ESP32S2",
    "name": "IoTs2",
    "objects": {
@@ -54606,6 +54861,7 @@
   },
   "huntercat_nfc": {
    "aliases": [],
+   "image": "huntercat_nfc.jpg",
    "mcu": "samd21e18",
    "name": "Electronic Cats Hunter Cat NFC",
    "objects": {
@@ -54743,6 +54999,7 @@
   },
   "hxr_sao_dmm": {
    "aliases": [],
+   "image": "hxr_sao_dmm.jpg",
    "mcu": "rp2040",
    "name": "HXR.DK SAO Digital Multimeter",
    "objects": {
@@ -55005,6 +55262,7 @@
   },
   "ikea_alpstuga_esp32_s3": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S3",
    "name": "Ikea Alpstuga Drop-In ESP32S3 4MB Flash 2MB PSRAM",
    "objects": {
@@ -55088,6 +55346,7 @@
   },
   "ikigaisense_vita": {
    "aliases": [],
+   "image": "ikigaisense_vita.jpg",
    "mcu": "nRF52840",
    "name": "IkigaiSense Vita nRF52840",
    "objects": {
@@ -55237,6 +55496,7 @@
   },
   "imxrt1010_evk": {
    "aliases": [],
+   "image": "imxrt1010_evk.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "IMXRT1010-EVK",
    "objects": {
@@ -55439,6 +55699,7 @@
   },
   "imxrt1015_evk": {
    "aliases": [],
+   "image": "imxrt1015_evk.jpg",
    "mcu": "IMXRT1015DAF5A",
    "name": "IMXRT1015-EVK",
    "objects": {
@@ -55696,6 +55957,7 @@
   },
   "imxrt1020_evk": {
    "aliases": [],
+   "image": "imxrt1020_evk.jpg",
    "mcu": "IMXRT1021DAG5A",
    "name": "iMX RT 1020 EVK",
    "objects": {
@@ -56004,6 +56266,7 @@
   },
   "imxrt1040_evk": {
    "aliases": [],
+   "image": "imxrt1040_evk.jpg",
    "mcu": "IMXRT1042XJM5B",
    "name": "iMX RT 1040 EVK",
    "objects": {
@@ -56444,6 +56707,7 @@
   },
   "imxrt1050_evkb": {
    "aliases": [],
+   "image": "imxrt1050_evkb.jpg",
    "mcu": "IMXRT1052DVL6B",
    "name": "iMX RT 1050 EVKB",
    "objects": {
@@ -56924,6 +57188,7 @@
   },
   "imxrt1060_evk": {
    "aliases": [],
+   "image": "imxrt1060_evk.jpg",
    "mcu": "IMXRT1062DVJ6A",
    "name": "iMX RT 1060 EVK",
    "objects": {
@@ -57402,6 +57667,7 @@
   },
   "imxrt1060_evkb": {
    "aliases": [],
+   "image": "imxrt1060_evk.jpg",
    "mcu": "IMXRT1062DVJ6A",
    "name": "iMX RT 1060 EVKB",
    "objects": {
@@ -57885,6 +58151,7 @@
   },
   "itsybitsy_m0_express": {
    "aliases": [],
+   "image": "itsybitsy_m0_express.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit ItsyBitsy M0 Express",
    "objects": {
@@ -58101,6 +58368,7 @@
   },
   "itsybitsy_m4_express": {
    "aliases": [],
+   "image": "itsybitsy_m4_express.jpg",
    "mcu": "samd51g19",
    "name": "Adafruit ItsyBitsy M4 Express",
    "objects": {
@@ -58304,6 +58572,7 @@
   },
   "itsybitsy_nrf52840_express": {
    "aliases": [],
+   "image": "itsybitsy_nrf52840_express.jpg",
    "mcu": "nRF52840",
    "name": "Adafruit ItsyBitsy nRF52840 Express",
    "objects": {
@@ -58508,6 +58777,7 @@
   },
   "jpconstantineau_encoderpad_rp2040": {
    "aliases": [],
+   "image": "jpconstantineau_encoderpad_rp2040.jpg",
    "mcu": "rp2040",
    "name": "EncoderPad RP2040",
    "objects": {
@@ -58668,6 +58938,7 @@
   },
   "jpconstantineau_pykey18": {
    "aliases": [],
+   "image": "jpconstantineau_pykey18.jpg",
    "mcu": "rp2040",
    "name": "PyKey 18 Numpad",
    "objects": {
@@ -58789,6 +59060,7 @@
   },
   "jpconstantineau_pykey44": {
    "aliases": [],
+   "image": "jpconstantineau_pykey44.jpg",
    "mcu": "rp2040",
    "name": "PyKey 44 Ergo",
    "objects": {
@@ -58914,6 +59186,7 @@
   },
   "jpconstantineau_pykey60": {
    "aliases": [],
+   "image": "jpconstantineau_pykey60.jpg",
    "mcu": "rp2040",
    "name": "PyKey 60",
    "objects": {
@@ -59107,6 +59380,7 @@
   },
   "jpconstantineau_pykey87": {
    "aliases": [],
+   "image": "jpconstantineau_pykey87.jpg",
    "mcu": "rp2040",
    "name": "PyKey 87 TKL",
    "objects": {
@@ -59300,6 +59574,7 @@
   },
   "kicksat-sprite": {
    "aliases": [],
+   "image": "kicksat-sprite.jpg",
    "mcu": "samd51G19",
    "name": "Sprite_v2b",
    "objects": {
@@ -59486,6 +59761,7 @@
   },
   "lilygo_t_display_rp2040": {
    "aliases": [],
+   "image": "lilygo_t_display_rp2040.jpg",
    "mcu": "rp2040",
    "name": "LILYGO T-DISPLAY",
    "objects": {
@@ -59717,6 +59993,7 @@
   },
   "lilygo_tdeck": {
    "aliases": [],
+   "image": "lilygo_tdeck.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-Deck (Plus)",
    "objects": {
@@ -59988,6 +60265,7 @@
   },
   "lilygo_tdisplay_s3": {
    "aliases": [],
+   "image": "lilygo_tdisplay_s3.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-DISPLAY S3 v1.2",
    "objects": {
@@ -60212,6 +60490,7 @@
   },
   "lilygo_tdisplay_s3_pro": {
    "aliases": [],
+   "image": "lilygo_tdisplay_s3_pro.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-Display S3 Pro",
    "objects": {
@@ -60504,6 +60783,7 @@
   },
   "lilygo_tdongle_s3": {
    "aliases": [],
+   "image": "lilygo_tdongle_s3.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-Dongle S3",
    "objects": {
@@ -60657,6 +60937,7 @@
   },
   "lilygo_tembed_esp32s3": {
    "aliases": [],
+   "image": "lilygo_tembed_esp32s3.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO TEMBED ESP32S3",
    "objects": {
@@ -60929,6 +61210,7 @@
   },
   "lilygo_tqt_pro_nopsram": {
    "aliases": [],
+   "image": "lilygo_tqt_pro.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-QT PRO NO PSRAM",
    "objects": {
@@ -61102,6 +61384,7 @@
   },
   "lilygo_tqt_pro_psram": {
    "aliases": [],
+   "image": "lilygo_tqt_pro.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-QT PRO PSRAM",
    "objects": {
@@ -61275,6 +61558,7 @@
   },
   "lilygo_ttgo_t-01c3": {
    "aliases": [],
+   "image": "lilygo_ttgo_t-01c3.jpg",
    "mcu": "ESP32-C3",
    "name": "LILYGO TTGO T-01C3",
    "objects": {
@@ -61341,6 +61625,7 @@
   },
   "lilygo_ttgo_t-oi-plus": {
    "aliases": [],
+   "image": "lilygo_ttgo_t-oi-plus.jpg",
    "mcu": "ESP32-C3",
    "name": "LILYGO TTGO T-OI PLUS",
    "objects": {
@@ -61453,6 +61738,7 @@
   },
   "lilygo_ttgo_t8_esp32_s2_wroom": {
    "aliases": [],
+   "image": "lilygo_ttgo_t8_esp32_s2_wroom.jpg",
    "mcu": "ESP32S2",
    "name": "TTGO T8 ESP32-S2-WROOM",
    "objects": {
@@ -61694,6 +61980,7 @@
   },
   "lilygo_ttgo_t8_s2": {
    "aliases": [],
+   "image": "lilygo_ttgo_t8_s2.jpg",
    "mcu": "ESP32S2",
    "name": "LILYGO TTGO T8 ESP32-S2",
    "objects": {
@@ -61913,6 +62200,7 @@
   },
   "lilygo_ttgo_t8_s2_st7789": {
    "aliases": [],
+   "image": "lilygo_ttgo_t8_s2_st7789.jpg",
    "mcu": "ESP32S2",
    "name": "LILYGO TTGO T8 ESP32-S2 w/Display",
    "objects": {
@@ -62157,6 +62445,7 @@
   },
   "lilygo_ttgo_tdisplay_esp32_16m": {
    "aliases": [],
+   "image": "lilygo_ttgo_tdisplay_esp32_16m.jpg",
    "mcu": "ESP32",
    "name": "LILYGO TTGO T-DISPLAY v1.1",
    "objects": {
@@ -62319,6 +62608,7 @@
   },
   "lilygo_ttgo_tdisplay_esp32_4m": {
    "aliases": [],
+   "image": "lilygo_ttgo_tdisplay_esp32_4m.jpg",
    "mcu": "ESP32",
    "name": "LILYGO TTGO T-DISPLAY v1.1 4M",
    "objects": {
@@ -62493,6 +62783,7 @@
   },
   "lilygo_twatch_2020_v3": {
    "aliases": [],
+   "image": "lilygo_twatch_2020_v3.jpg",
    "mcu": "ESP32",
    "name": "Lilygo T-watch 2020 V3",
    "objects": {
@@ -62673,6 +62964,7 @@
   },
   "lilygo_twatch_s3": {
    "aliases": [],
+   "image": "lilygo_twatch_s3.jpg",
    "mcu": "ESP32S3",
    "name": "LILYGO T-Watch-S3",
    "objects": {
@@ -62907,6 +63199,7 @@
   },
   "loc_ber_m4_base_board": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "samd51g19",
    "name": "LoC BeR M4 base board",
    "objects": {
@@ -63143,6 +63436,7 @@
   },
   "lolin_c3_mini": {
    "aliases": [],
+   "image": "lolin_c3_mini.png",
    "mcu": "ESP32-C3FH4",
    "name": "Wemos Lolin C3 Mini",
    "objects": {
@@ -63298,6 +63592,7 @@
   },
   "lolin_c3_pico": {
    "aliases": [],
+   "image": "lolin_c3_pico.jpg",
    "mcu": "ESP32-C3FH4",
    "name": "Wemos Lolin C3 Pico",
    "objects": {
@@ -63453,6 +63748,7 @@
   },
   "lolin_s2_mini": {
    "aliases": [],
+   "image": "lolin_s2_mini.jpg",
    "mcu": "ESP32S2-S2FN4R2",
    "name": "S2Mini",
    "objects": {
@@ -63712,6 +64008,7 @@
   },
   "lolin_s2_pico": {
    "aliases": [],
+   "image": "lolin_s2_pico.jpg",
    "mcu": "ESP32S2-S2FN4R2",
    "name": "S2Pico",
    "objects": {
@@ -63918,6 +64215,7 @@
   },
   "lolin_s3": {
    "aliases": [],
+   "image": "lolin_s3.png",
    "mcu": "ESP32S3",
    "name": "LOLIN S3 16MB Flash 8MB PSRAM",
    "objects": {
@@ -64205,6 +64503,7 @@
   },
   "lolin_s3_mini": {
    "aliases": [],
+   "image": "lolin_s3_mini.jpg",
    "mcu": "ESP32S3",
    "name": "LOLIN S3 MINI 4MB Flash 2MB PSRAM",
    "objects": {
@@ -64484,6 +64783,7 @@
   },
   "lolin_s3_mini_pro": {
    "aliases": [],
+   "image": "lolin_s3_mini_pro.jpg",
    "mcu": "ESP32S3",
    "name": "LOLIN S3 MINI PRO 4MB Flash 2MB PSRAM",
    "objects": {
@@ -64689,6 +64989,7 @@
   },
   "lolin_s3_pro": {
    "aliases": [],
+   "image": "lolin_s3_pro.jpg",
    "mcu": "ESP32S3",
    "name": "LOLIN S3 PRO 16MB Flash 8MB PSRAM",
    "objects": {
@@ -64975,6 +65276,7 @@
   },
   "luatos_core_esp32c3": {
    "aliases": [],
+   "image": "luatos_core_esp32c3.jpg",
    "mcu": "ESP32-C3",
    "name": "Luatos Core-ESP32C3",
    "objects": {
@@ -65096,6 +65398,7 @@
   },
   "luatos_core_esp32c3_ch343": {
    "aliases": [],
+   "image": "luatos_core_esp32c3_ch343.jpg",
    "mcu": "ESP32-C3",
    "name": "Luatos Core-ESP32C3",
    "objects": {
@@ -65217,6 +65520,7 @@
   },
   "m5stack_atom_echo": {
    "aliases": [],
+   "image": "m5stack_atom_echo.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Atom Echo",
    "objects": {
@@ -65320,6 +65624,7 @@
   },
   "m5stack_atom_lite": {
    "aliases": [],
+   "image": "m5stack_atom_lite.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Atom Lite",
    "objects": {
@@ -65450,6 +65755,7 @@
   },
   "m5stack_atom_matrix": {
    "aliases": [],
+   "image": "m5stack_atom_matrix.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Atom Matrix",
    "objects": {
@@ -65579,6 +65885,7 @@
   },
   "m5stack_atom_u": {
    "aliases": [],
+   "image": "m5stack_atom_u.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Atom U",
    "objects": {
@@ -65689,6 +65996,7 @@
   },
   "m5stack_atoms3": {
    "aliases": [],
+   "image": "m5stack_atoms3.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack AtomS3",
    "objects": {
@@ -65846,6 +66154,7 @@
   },
   "m5stack_atoms3_lite": {
    "aliases": [],
+   "image": "m5stack_atoms3_lite.png",
    "mcu": "ESP32S3",
    "name": "M5Stack AtomS3 Lite",
    "objects": {
@@ -65959,6 +66268,7 @@
   },
   "m5stack_atoms3u": {
    "aliases": [],
+   "image": "m5stack_atoms3u.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack AtomS3U",
    "objects": {
@@ -66058,6 +66368,7 @@
   },
   "m5stack_cardputer": {
    "aliases": [],
+   "image": "m5stack_cardputer.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack Cardputer",
    "objects": {
@@ -66306,6 +66617,7 @@
   },
   "m5stack_cardputer_ros": {
    "aliases": [],
+   "image": "m5stack_cardputer.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack Cardputer (ROS version)",
    "objects": {
@@ -66554,6 +66866,7 @@
   },
   "m5stack_core2": {
    "aliases": [],
+   "image": "m5stack_core2.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Core2",
    "objects": {
@@ -66792,6 +67105,7 @@
   },
   "m5stack_core_basic": {
    "aliases": [],
+   "image": "m5stack_core_basic.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Core Basic",
    "objects": {
@@ -67037,6 +67351,7 @@
   },
   "m5stack_core_fire": {
    "aliases": [],
+   "image": "m5stack_core_fire.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Core Fire",
    "objects": {
@@ -67266,6 +67581,7 @@
   },
   "m5stack_cores3": {
    "aliases": [],
+   "image": "m5stack_cores3.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack CoreS3",
    "objects": {
@@ -67550,6 +67866,7 @@
   },
   "m5stack_cores3_se": {
    "aliases": [],
+   "image": "m5stack_cores3_se.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack CoreS3 SE",
    "objects": {
@@ -67767,6 +68084,7 @@
   },
   "m5stack_dial": {
    "aliases": [],
+   "image": "m5stack_dial.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack Dial",
    "objects": {
@@ -67955,6 +68273,7 @@
   },
   "m5stack_dinmeter": {
    "aliases": [],
+   "image": "m5stack_dinmeter.jpg",
    "mcu": "ESP32S3",
    "name": "M5Stack DinMeter",
    "objects": {
@@ -68125,6 +68444,7 @@
   },
   "m5stack_m5paper": {
    "aliases": [],
+   "image": "m5stack_m5paper.jpg",
    "mcu": "ESP32",
    "name": "M5Stack M5Paper",
    "objects": {
@@ -68328,6 +68648,7 @@
   },
   "m5stack_stamp_c3": {
    "aliases": [],
+   "image": "m5stack_stamp_c3.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "M5STACK STAMP-C3",
    "objects": {
@@ -68464,6 +68785,7 @@
   },
   "m5stack_stamp_s3": {
    "aliases": [],
+   "image": "m5stack_stamp_s3.jpg",
    "mcu": "ESP32-S3FN8",
    "name": "M5Stack Stamp-S3",
    "objects": {
@@ -68772,6 +69094,7 @@
   },
   "m5stack_stick_c": {
    "aliases": [],
+   "image": "m5stack_stick_c.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Stick C",
    "objects": {
@@ -68936,6 +69259,7 @@
   },
   "m5stack_stick_c_plus": {
    "aliases": [],
+   "image": "m5stack_stick_c_plus.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Stick C Plus",
    "objects": {
@@ -69106,6 +69430,7 @@
   },
   "m5stack_stick_c_plus2": {
    "aliases": [],
+   "image": "m5stack_stick_c_plus2.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Stick C Plus2",
    "objects": {
@@ -69298,6 +69623,7 @@
   },
   "m5stack_tab5": {
    "aliases": [],
+   "image": "m5stack_tab5.jpg",
    "mcu": "ESP32P4",
    "name": "M5Stack Tab5",
    "objects": {
@@ -69673,6 +69999,7 @@
   },
   "m5stack_timer_camera_x": {
    "aliases": [],
+   "image": "m5stack_timer_camera_x.jpg",
    "mcu": "ESP32",
    "name": "M5Stack Timer Camera X",
    "objects": {
@@ -69859,6 +70186,7 @@
   },
   "magiclick_s3_n4r2": {
    "aliases": [],
+   "image": "magiclick_s3.jpg",
    "mcu": "ESP32S3",
    "name": "MagiClick S3 N4R2",
    "objects": {
@@ -70143,6 +70471,7 @@
   },
   "maker_badge": {
    "aliases": [],
+   "image": "maker_badge.jpg",
    "mcu": "ESP32S2",
    "name": "Maker badge by Czech maker",
    "objects": {
@@ -70394,6 +70723,7 @@
   },
   "makerdiary_imxrt1011_nanokit": {
    "aliases": [],
+   "image": "makerdiary_imxrt1011_nanokit.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "iMX RT1011 Nano Kit",
    "objects": {
@@ -70662,6 +70992,7 @@
   },
   "makerdiary_m60_keyboard": {
    "aliases": [],
+   "image": "makerdiary_m60_keyboard.jpg",
    "mcu": "nRF52840",
    "name": "Makerdiary M60 Keyboard",
    "objects": {
@@ -70866,6 +71197,7 @@
   },
   "makerdiary_nrf52840_connectkit": {
    "aliases": [],
+   "image": "makerdiary_nrf52840_connectkit.jpg",
    "mcu": "nRF52840",
    "name": "Makerdiary nRF52840 Connect Kit",
    "objects": {
@@ -71179,6 +71511,7 @@
   },
   "makerdiary_nrf52840_m2_devkit": {
    "aliases": [],
+   "image": "makerdiary_nrf52840_m2_devkit.jpg",
    "mcu": "nRF52840",
    "name": "Makerdiary nRF52840 M.2 Developer Kit",
    "objects": {
@@ -71518,6 +71851,7 @@
   },
   "makerdiary_nrf52840_mdk": {
    "aliases": [],
+   "image": "nRF52840_micro_dev_kit.jpg",
    "mcu": "nRF52840",
    "name": "MakerDiary nRF52840 MDK",
    "objects": {
@@ -71771,6 +72105,7 @@
   },
   "makerdiary_nrf52840_mdk_usb_dongle": {
    "aliases": [],
+   "image": "nRF52840_micro_dev_kit_usb_dongle.jpg",
    "mcu": "nRF52840",
    "name": "MakerDiary nRF52840 MDK USB Dongle",
    "objects": {
@@ -71896,6 +72231,7 @@
   },
   "makerfabs_tft7": {
    "aliases": [],
+   "image": "makerfabs_tft7.jpg",
    "mcu": "ESP32S3",
    "name": "MakerFabs-ESP32-S3-Parallel-TFT-With-Touch-7inch",
    "objects": {
@@ -72049,6 +72385,7 @@
   },
   "makergo_esp32c3_supermini": {
    "aliases": [],
+   "image": "makergo-esp32c3-supermini.jpg",
    "mcu": "ESP32-C3",
    "name": "Maker Go ESP32C3 Supermini",
    "objects": {
@@ -72185,6 +72522,7 @@
   },
   "makergo_esp32c6_supermini": {
    "aliases": [],
+   "image": "makergo_esp32c6_supermini.jpg",
    "mcu": "ESP32-C6",
    "name": "Maker Go ESP32C6 Supermini",
    "objects": {
@@ -72320,6 +72658,7 @@
   },
   "maple_elite_pi": {
    "aliases": [],
+   "image": "maple_elite_pi.jpg",
    "mcu": "rp2040",
    "name": "Maple Computing Elite-Pi",
    "objects": {
@@ -72553,6 +72892,7 @@
   },
   "matrixportal_m4": {
    "aliases": [],
+   "image": "matrixportal_m4.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Matrix Portal M4",
    "objects": {
@@ -72838,6 +73178,7 @@
   },
   "max32690evkit": {
    "aliases": [],
+   "image": "max32690evkit.jpg",
    "mcu": "max32690",
    "name": "MAX32690 EvKit",
    "objects": {
@@ -73506,6 +73847,7 @@
   },
   "melopero_shake_rp2040": {
    "aliases": [],
+   "image": "melopero_shake_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Melopero Shake RP2040",
    "objects": {
@@ -73697,6 +74039,7 @@
   },
   "meowbit_v121": {
    "aliases": [],
+   "image": "meowbit_v121.jpg",
    "mcu": "STM32F401xE",
    "name": "MEOWBIT",
    "objects": {
@@ -73969,6 +74312,7 @@
   },
   "meowmeow": {
    "aliases": [],
+   "image": "meowmeow.jpg",
    "mcu": "samd21g18",
    "name": "Meow Meow",
    "objects": {
@@ -74161,6 +74505,7 @@
   },
   "metro_m0_express": {
    "aliases": [],
+   "image": "metro_m0_express.jpg",
    "mcu": "samd21g18",
    "name": "Adafruit Metro M0 Express",
    "objects": {
@@ -74368,6 +74713,7 @@
   },
   "metro_m4_airlift_lite": {
    "aliases": [],
+   "image": "metro_m4_airlift_lite.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Metro M4 Airlift Lite",
    "objects": {
@@ -74629,6 +74975,7 @@
   },
   "metro_m4_express": {
    "aliases": [],
+   "image": "metro_m4_express.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Metro M4 Express",
    "objects": {
@@ -74848,6 +75195,7 @@
   },
   "metro_m7_1011": {
    "aliases": [],
+   "image": "metro_m7_1011.jpg",
    "mcu": "IMXRT1011DAE5A",
    "name": "Metro MIMXRT1011",
    "objects": {
@@ -75088,6 +75436,7 @@
   },
   "metro_nrf52840_express": {
    "aliases": [],
+   "image": "metro_nrf52840_express.png",
    "mcu": "nRF52840",
    "name": "Adafruit Metro nRF52840 Express",
    "objects": {
@@ -75332,6 +75681,7 @@
   },
   "microbit_v2": {
    "aliases": [],
+   "image": "microbit_v2.jpg",
    "mcu": "nRF52833",
    "name": "micro:bit v2",
    "objects": {
@@ -75554,6 +75904,7 @@
   },
   "microchip_curiosity_circuitpython": {
    "aliases": [],
+   "image": "microchip_curiosity_circuitpython.jpg",
    "mcu": "same51j20",
    "name": "Microchip Curiosity CircuitPython",
    "objects": {
@@ -75869,6 +76220,7 @@
   },
   "microdev_micro_c3": {
    "aliases": [],
+   "image": "microdev_micro_c3.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "MicroDev microC3",
    "objects": {
@@ -76064,6 +76416,7 @@
   },
   "microdev_micro_s2": {
    "aliases": [],
+   "image": "microdev_micro_s2.jpg",
    "mcu": "ESP32-S2",
    "name": "MicroDev microS2",
    "objects": {
@@ -76351,6 +76704,7 @@
   },
   "mini_sam_m4": {
    "aliases": [],
+   "image": "mini_sam_m4.jpg",
    "mcu": "samd51g19",
    "name": "Mini SAM M4",
    "objects": {
@@ -76536,6 +76890,7 @@
   },
   "mixgo_ce_serial": {
    "aliases": [],
+   "image": "mixgo_ce_serial.jpg",
    "mcu": "ESP32S2",
    "name": "MixGo CE",
    "objects": {
@@ -76778,6 +77133,7 @@
   },
   "mixgo_ce_udisk": {
    "aliases": [],
+   "image": "mixgo_ce_udisk.jpg",
    "mcu": "ESP32S2",
    "name": "MixGo CE",
    "objects": {
@@ -77020,6 +77376,7 @@
   },
   "monster_m4sk": {
    "aliases": [],
+   "image": "monster_m4sk.jpg",
    "mcu": "samd51g19",
    "name": "Adafruit Monster M4SK",
    "objects": {
@@ -77187,6 +77544,7 @@
   },
   "morpheans_morphesp-240": {
    "aliases": [],
+   "image": "morpheans_morphesp-240.jpg",
    "mcu": "ESP32S2",
    "name": "MORPHEANS MorphESP-240",
    "objects": {
@@ -77404,6 +77762,7 @@
   },
   "mtm_computer": {
    "aliases": [],
+   "image": "mtm_computer.jpg",
    "mcu": "rp2040",
    "name": "Music Thing Modular Workshop Computer",
    "objects": {
@@ -77645,6 +78004,7 @@
   },
   "muselab_nanoesp32_s2_wroom": {
    "aliases": [],
+   "image": "muselab_nanoesp32_s2.jpg",
    "mcu": "ESP32S2",
    "name": "nanoESP32-S2 w/Wroom",
    "objects": {
@@ -77887,6 +78247,7 @@
   },
   "muselab_nanoesp32_s2_wrover": {
    "aliases": [],
+   "image": "muselab_nanoesp32_s2.jpg",
    "mcu": "ESP32S2",
    "name": "nanoESP32-S2  w/Wrover",
    "objects": {
@@ -78129,6 +78490,7 @@
   },
   "ndgarage_ndbit6": {
    "aliases": [],
+   "image": "ndgarage_ndbit6.jpg",
    "mcu": "samd21e18",
    "name": "ndGarage[n\u00b0]Bit6:FeatherSnow",
    "objects": {
@@ -78294,6 +78656,7 @@
   },
   "ndgarage_ndbit6_v2": {
    "aliases": [],
+   "image": "ndgarage_ndbit6_v2.jpg",
    "mcu": "samd21e18",
    "name": "ndGarage[n\u00b0] Bit6: FeatherSnow-v2",
    "objects": {
@@ -78461,6 +78824,7 @@
   },
   "neopixel_trinkey_m0": {
    "aliases": [],
+   "image": "neopixel_trinkey_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit NeoPixel Trinkey M0",
    "objects": {
@@ -78496,6 +78860,7 @@
   },
   "nfc_copy_cat": {
    "aliases": [],
+   "image": "nfc_copy_cat.jpg",
    "mcu": "samd21e18",
    "name": "Electronic Cats NFC Copy Cat",
    "objects": {
@@ -78608,6 +78973,7 @@
   },
   "nhbsystems_jl401_4mbflash_2mbpsram": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "ESP32S3",
    "name": "NHB Systems JL401-S3 4MB Flash 2MB PSRAM",
    "objects": {
@@ -78853,6 +79219,7 @@
   },
   "nice_nano": {
    "aliases": [],
+   "image": "nice_nano.jpg",
    "mcu": "nRF52840",
    "name": "nice!nano",
    "objects": {
@@ -79073,6 +79440,7 @@
   },
   "nodemcu_esp32c2": {
    "aliases": [],
+   "image": "nodemcu_esp32c2.jpg",
    "mcu": "ESP32C2",
    "name": "NodeMcu-ESP32-C2",
    "objects": {
@@ -79182,6 +79550,7 @@
   },
   "nucleo_f446re": {
    "aliases": [],
+   "image": "nucleo_f446re.jpg",
    "mcu": "STM32F446xx",
    "name": "NUCLEO F446RE",
    "objects": {
@@ -79520,6 +79889,7 @@
   },
   "nucleo_f746zg": {
    "aliases": [],
+   "image": "nucleo_f746zg.jpg",
    "mcu": "STM32F746",
    "name": "NUCLEO STM32F746",
    "objects": {
@@ -79868,6 +80238,7 @@
   },
   "nucleo_f767zi": {
    "aliases": [],
+   "image": "nucleo_f767zi.jpg",
    "mcu": "STM32F767",
    "name": "NUCLEO STM32F767",
    "objects": {
@@ -80527,6 +80898,7 @@
   },
   "nucleo_h743zi_2": {
    "aliases": [],
+   "image": "nucleo_h743zi_2.jpg",
    "mcu": "STM32H743",
    "name": "NUCLEO STM32H743",
    "objects": {
@@ -81037,6 +81409,7 @@
   },
   "nullbits_bit_c_pro": {
    "aliases": [],
+   "image": "nullbits_bit_c_pro.jpg",
    "mcu": "rp2040",
    "name": "nullbits Bit-C PRO",
    "objects": {
@@ -81223,6 +81596,7 @@
   },
   "odt_bread_2040": {
    "aliases": [],
+   "image": "odt_bread_2040.jpg",
    "mcu": "rp2040",
    "name": "Oak Dev Tech BREAD2040",
    "objects": {
@@ -81462,6 +81836,7 @@
   },
   "odt_cast_away_rp2040": {
    "aliases": [],
+   "image": "odt_cast_away_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Oak Dev Tech Cast-Away RP2040",
    "objects": {
@@ -81616,6 +81991,7 @@
   },
   "odt_pixelwing_esp32_s2": {
    "aliases": [],
+   "image": "odt_pixelwing_esp32_s2.jpg",
    "mcu": "ESP32S2",
    "name": "Oak Dev Tech PixelWing ESP32S2",
    "objects": {
@@ -81668,6 +82044,7 @@
   },
   "odt_rpga_feather": {
    "aliases": [],
+   "image": "odt_rpga_feather.jpg",
    "mcu": "rp2040",
    "name": "Oak Dev Tech RPGA Feather",
    "objects": {
@@ -81912,6 +82289,7 @@
   },
   "ohs2020_badge": {
    "aliases": [],
+   "image": "ohs2020_badge.jpg",
    "mcu": "nRF52840",
    "name": "Open Hardware Summit 2020 Badge",
    "objects": {
@@ -82039,6 +82417,7 @@
   },
   "omnimo_nrf52840": {
    "aliases": [],
+   "image": "eafaq_omnimo_nrf52840.jpg",
    "mcu": "nRF52840",
    "name": "OMNIMO nRF52840",
    "objects": {
@@ -82339,6 +82718,7 @@
   },
   "openbook_m4": {
    "aliases": [],
+   "image": "openbook_m4.jpg",
    "mcu": "samd51j19",
    "name": "The Open Book Feather",
    "objects": {
@@ -82642,6 +83022,7 @@
   },
   "openmv_h7": {
    "aliases": [],
+   "image": "openmv_h7.jpg",
    "mcu": "STM32H743",
    "name": "OPENMV-H7 R1",
    "objects": {
@@ -82759,6 +83140,7 @@
   },
   "orpheus_pico": {
    "aliases": [],
+   "image": "orpheus_pico.jpg",
    "mcu": "rp2040",
    "name": "Orpheus Pico",
    "objects": {
@@ -82959,6 +83341,7 @@
   },
   "oxocard_artwork": {
    "aliases": [],
+   "image": "oxocard_artwork.jpg",
    "mcu": "ESP32",
    "name": "Oxocard Artwork",
    "objects": {
@@ -83113,6 +83496,7 @@
   },
   "oxocard_connect": {
    "aliases": [],
+   "image": "oxocard_connect.jpg",
    "mcu": "ESP32",
    "name": "Oxocard Connect",
    "objects": {
@@ -83284,6 +83668,7 @@
   },
   "oxocard_galaxy": {
    "aliases": [],
+   "image": "oxocard_galaxy.jpg",
    "mcu": "ESP32",
    "name": "Oxocard Galaxy",
    "objects": {
@@ -83438,6 +83823,7 @@
   },
   "oxocard_science": {
    "aliases": [],
+   "image": "oxocard_science.jpg",
    "mcu": "ESP32",
    "name": "Oxocard Science",
    "objects": {
@@ -83592,6 +83978,7 @@
   },
   "p1am_200": {
    "aliases": [],
+   "image": "p1am_200.jpg",
    "mcu": "samd51p20",
    "name": "P1AM-200",
    "objects": {
@@ -83895,6 +84282,7 @@
   },
   "pajenicko_picopad": {
    "aliases": [],
+   "image": "pajenicko_picopad.jpg",
    "mcu": "rp2040",
    "name": "Pajenicko PicoPad",
    "objects": {
@@ -84153,6 +84541,7 @@
   },
   "particle_argon": {
    "aliases": [],
+   "image": "particle_argon.jpg",
    "mcu": "nRF52840",
    "name": "Particle Argon",
    "objects": {
@@ -84433,6 +84822,7 @@
   },
   "particle_boron": {
    "aliases": [],
+   "image": "particle_boron.jpg",
    "mcu": "nRF52840",
    "name": "Particle Boron",
    "objects": {
@@ -84718,6 +85108,7 @@
   },
   "particle_xenon": {
    "aliases": [],
+   "image": "particle_xenon.jpg",
    "mcu": "nRF52840",
    "name": "Particle Xenon",
    "objects": {
@@ -84956,6 +85347,7 @@
   },
   "pca10056": {
    "aliases": [],
+   "image": "nRF52840_dk.jpg",
    "mcu": "nRF52840",
    "name": "PCA10056 nRF52840-DK",
    "objects": {
@@ -85318,6 +85710,7 @@
   },
   "pca10059": {
    "aliases": [],
+   "image": "nRF52840_dongle.jpg",
    "mcu": "nRF52840",
    "name": "PCA10059 nRF52840 Dongle",
    "objects": {
@@ -85515,6 +85908,7 @@
   },
   "pca10100": {
    "aliases": [],
+   "image": "pca10100.jpg",
    "mcu": "nRF52833",
    "name": "PCA10100 nRF52833 DK",
    "objects": {
@@ -85744,6 +86138,7 @@
   },
   "pcbcupid_glyph_c3": {
    "aliases": [],
+   "image": "pcbcupid_glyph_c3.jpg",
    "mcu": "ESP32-C3",
    "name": "PCBCupid GLYPH C3",
    "objects": {
@@ -85890,6 +86285,7 @@
   },
   "pcbcupid_glyph_c6": {
    "aliases": [],
+   "image": "pcbcupid_glyph_c6.jpg",
    "mcu": "ESP32-C6",
    "name": "Pcbcupid GLYPH C6",
    "objects": {
@@ -86076,6 +86472,7 @@
   },
   "pcbcupid_glyph_h2": {
    "aliases": [],
+   "image": "pcbcupid_glyph_h2.jpg",
    "mcu": "ESP32H2",
    "name": "Pcbcupid GLYPH H2",
    "objects": {
@@ -86255,6 +86652,7 @@
   },
   "pcbcupid_glyph_mini_2040": {
    "aliases": [],
+   "image": "pcbcupid_glyph_mini_2040.jpg",
    "mcu": "rp2040",
    "name": "PCBCupid Glyph Mini 2040",
    "objects": {
@@ -86405,6 +86803,7 @@
   },
   "pcbcupid_glyph_s3": {
    "aliases": [],
+   "image": "pcbcupid_glyph_s3.jpg",
    "mcu": "ESP32S3",
    "name": "PCBCupid GLYPH S3",
    "objects": {
@@ -86588,6 +86987,7 @@
   },
   "pctel_wsc_1450": {
    "aliases": [],
+   "image": "pctel_wsc_1450.jpg",
    "mcu": "nRF52840",
    "name": "WSC-1450",
    "objects": {
@@ -86919,6 +87319,7 @@
   },
   "pewpew10": {
    "aliases": [],
+   "image": "pewpew_10.2.jpg",
    "mcu": "samd21e18",
    "name": "PewPew 10.2",
    "objects": {
@@ -87119,6 +87520,7 @@
   },
   "pewpew_lcd": {
    "aliases": [],
+   "image": "pewpew_lcd.jpg",
    "mcu": "samd21e18",
    "name": "PewPew LCD",
    "objects": {
@@ -87249,6 +87651,7 @@
   },
   "pewpew_m4": {
    "aliases": [],
+   "image": "pewpew_m4.jpg",
    "mcu": "samd51g19",
    "name": "PewPew M4",
    "objects": {
@@ -87424,6 +87827,7 @@
   },
   "picoplanet": {
    "aliases": [],
+   "image": "picoplanet.jpg",
    "mcu": "samd21e18",
    "name": "PicoPlanet",
    "objects": {
@@ -87539,6 +87943,7 @@
   },
   "pillbug": {
    "aliases": [],
+   "image": "pillbug.jpg",
    "mcu": "nRF52840",
    "name": "PillBug",
    "objects": {
@@ -87765,6 +88170,7 @@
   },
   "pimoroni_badger2040": {
    "aliases": [],
+   "image": "pimoroni_badger2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Badger 2040",
    "objects": {
@@ -87967,6 +88373,7 @@
   },
   "pimoroni_badger2040w": {
    "aliases": [],
+   "image": "pimoroni_badger2040w.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Badger 2040 W",
    "objects": {
@@ -88210,6 +88617,7 @@
   },
   "pimoroni_badger2350": {
    "aliases": [],
+   "image": "pimoroni_badger2350.jpg",
    "mcu": "rp2350a",
    "name": "Pimoroni Badger 2350",
    "objects": {
@@ -88436,6 +88844,7 @@
   },
   "pimoroni_explorer2350": {
    "aliases": [],
+   "image": "pimoroni_explorer2350.jpg",
    "mcu": "rp2350b",
    "name": "Pimoroni Explorer",
    "objects": {
@@ -88772,6 +89181,7 @@
   },
   "pimoroni_inky_frame_5_7": {
    "aliases": [],
+   "image": "pimoroni_inky_frame_5_7.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Inky Frame 5.7",
    "objects": {
@@ -89019,6 +89429,7 @@
   },
   "pimoroni_inky_frame_7_3": {
    "aliases": [],
+   "image": "pimoroni_inky_frame_7_3.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Inky Frame 7.3",
    "objects": {
@@ -89265,6 +89676,7 @@
   },
   "pimoroni_interstate75": {
    "aliases": [],
+   "image": "pimoroni_interstate75.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Interstate 75",
    "objects": {
@@ -89459,6 +89871,7 @@
   },
   "pimoroni_keybow2040": {
    "aliases": [],
+   "image": "pimoroni_keybow2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Keybow 2040",
    "objects": {
@@ -89630,6 +90043,7 @@
   },
   "pimoroni_motor2040": {
    "aliases": [],
+   "image": "pimoroni_motor2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Motor 2040",
    "objects": {
@@ -89860,6 +90274,7 @@
   },
   "pimoroni_pga2040": {
    "aliases": [],
+   "image": "pimoroni_pga2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni PGA2040",
    "objects": {
@@ -90065,6 +90480,7 @@
   },
   "pimoroni_pga2350": {
    "aliases": [],
+   "image": "pimoroni_pga2350.jpg",
    "mcu": "rp2350b",
    "name": "Pimoroni PGA2350",
    "objects": {
@@ -90364,6 +90780,7 @@
   },
   "pimoroni_pico_dv_base": {
    "aliases": [],
+   "image": "pimoroni_pico_dv_base.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Pico dv Base",
    "objects": {
@@ -90608,6 +91025,7 @@
   },
   "pimoroni_pico_dv_base_w": {
    "aliases": [],
+   "image": "pimoroni_pico_dv_base_w.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Pico DV Base W",
    "objects": {
@@ -90844,6 +91262,7 @@
   },
   "pimoroni_pico_plus2": {
    "aliases": [],
+   "image": "pimoroni_pico_plus2.jpg",
    "mcu": "rp2350b",
    "name": "Pimoroni Pico Plus 2",
    "objects": {
@@ -91119,6 +91538,7 @@
   },
   "pimoroni_pico_plus2w": {
    "aliases": [],
+   "image": "pimoroni_pico_plus2w.jpg",
    "mcu": "rp2350b",
    "name": "Pimoroni Pico Plus 2 W",
    "objects": {
@@ -91353,6 +91773,7 @@
   },
   "pimoroni_picolipo_16mb": {
    "aliases": [],
+   "image": "pimoroni_picolipo.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Pico LiPo (16MB)",
    "objects": {
@@ -91571,6 +91992,7 @@
   },
   "pimoroni_picolipo_4mb": {
    "aliases": [],
+   "image": "pimoroni_picolipo.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Pico LiPo (4MB)",
    "objects": {
@@ -91789,6 +92211,7 @@
   },
   "pimoroni_picosystem": {
    "aliases": [],
+   "image": "pimoroni_picosystem.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni PicoSystem",
    "objects": {
@@ -91974,6 +92397,7 @@
   },
   "pimoroni_plasma2040": {
    "aliases": [],
+   "image": "pimoroni_plasma2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Plasma 2040",
    "objects": {
@@ -92103,6 +92527,7 @@
   },
   "pimoroni_plasma2040w": {
    "aliases": [],
+   "image": "pimoroni_plasma2040w.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Plasma 2040W",
    "objects": {
@@ -92321,6 +92746,7 @@
   },
   "pimoroni_plasma2350": {
    "aliases": [],
+   "image": "pimoroni_plasma2350.jpg",
    "mcu": "rp2350a",
    "name": "Pimoroni Plasma 2350",
    "objects": {
@@ -92510,6 +92936,7 @@
   },
   "pimoroni_plasma2350w": {
    "aliases": [],
+   "image": "pimoroni_plasma2350w.jpg",
    "mcu": "rp2350a",
    "name": "Pimoroni Plasma 2350W",
    "objects": {
@@ -92670,6 +93097,7 @@
   },
   "pimoroni_servo2040": {
    "aliases": [],
+   "image": "pimoroni_servo2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Servo 2040",
    "objects": {
@@ -92888,6 +93316,7 @@
   },
   "pimoroni_tiny2040": {
    "aliases": [],
+   "image": "pimoroni_tiny2040.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Tiny 2040 (8MB)",
    "objects": {
@@ -93010,6 +93439,7 @@
   },
   "pimoroni_tiny2040_2mb": {
    "aliases": [],
+   "image": "pimoroni_tiny2040_2mb.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Tiny 2040 (2MB)",
    "objects": {
@@ -93131,6 +93561,7 @@
   },
   "pimoroni_tiny2350": {
    "aliases": [],
+   "image": "pimoroni_tiny2350.jpg",
    "mcu": "rp2350a",
    "name": "Pimoroni Tiny 2350",
    "objects": {
@@ -93278,6 +93709,7 @@
   },
   "pimoroni_tinyfx": {
    "aliases": [],
+   "image": "pimoroni_tinyfx.jpg",
    "mcu": "rp2040",
    "name": "Pimoroni Tiny FX",
    "objects": {
@@ -93418,6 +93850,7 @@
   },
   "pitaya_go": {
    "aliases": [],
+   "image": "pitaya_go.jpg",
    "mcu": "nRF52840",
    "name": "Makerdiary Pitaya Go",
    "objects": {
@@ -93672,6 +94105,7 @@
   },
   "prokyber_ai_on_the_edge_cam": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S3",
    "name": "Prokyber Ai-On-The-Edge-Cam",
    "objects": {
@@ -93922,6 +94356,7 @@
   },
   "proveskit_rp2040_v4": {
    "aliases": [],
+   "image": "proveskit_rp2040_v4.jpg",
    "mcu": "rp2040",
    "name": "PROVES Kit v4",
    "objects": {
@@ -94150,6 +94585,7 @@
   },
   "pyb_nano_v2": {
    "aliases": [],
+   "image": "pyb_nano_v2.jpg",
    "mcu": "STM32F411CE",
    "name": "PYB LR Nano V2",
    "objects": {
@@ -94357,6 +94793,7 @@
    "aliases": [
     "edgebadge"
    ],
+   "image": "pybadge.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit Pybadge",
    "objects": {
@@ -94642,6 +95079,7 @@
   },
   "pyboard_v11": {
    "aliases": [],
+   "image": "pyboard_v11.jpg",
    "mcu": "STM32F405RG",
    "name": "PyboardV1_1",
    "objects": {
@@ -94879,6 +95317,7 @@
   },
   "pycubed": {
    "aliases": [],
+   "image": "pycubed.jpg",
    "mcu": "samd51j19",
    "name": "PyCubedv04",
    "objects": {
@@ -95149,6 +95588,7 @@
   },
   "pycubed_mram": {
    "aliases": [],
+   "image": "pycubed.jpg",
    "mcu": "samd51j19",
    "name": "PyCubedv04-MRAM",
    "objects": {
@@ -95419,6 +95859,7 @@
   },
   "pycubed_mram_v05": {
    "aliases": [],
+   "image": "pycubed_v05.jpg",
    "mcu": "samd51j19",
    "name": "PyCubedv05-MRAM",
    "objects": {
@@ -95699,6 +96140,7 @@
   },
   "pycubed_v05": {
    "aliases": [],
+   "image": "pycubed_v05.jpg",
    "mcu": "samd51j19",
    "name": "PyCubedv05",
    "objects": {
@@ -95979,6 +96421,7 @@
   },
   "pygamer": {
    "aliases": [],
+   "image": "pygamer.jpg",
    "mcu": "samd51j19",
    "name": "Adafruit PyGamer",
    "objects": {
@@ -96279,6 +96722,7 @@
    "aliases": [
     "pyportal_pynt"
    ],
+   "image": "pyportal.jpg",
    "mcu": "samd51j20",
    "name": "Adafruit PyPortal",
    "objects": {
@@ -96571,6 +97015,7 @@
   },
   "pyportal_titano": {
    "aliases": [],
+   "image": "pyportal_titano.jpg",
    "mcu": "samd51j20",
    "name": "Adafruit PyPortal Titano",
    "objects": {
@@ -96863,6 +97308,7 @@
   },
   "pyruler": {
    "aliases": [],
+   "image": "pyruler.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit PyRuler",
    "objects": {
@@ -97022,6 +97468,7 @@
   },
   "qtpy_m0": {
    "aliases": [],
+   "image": "qtpy_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit QT Py M0",
    "objects": {
@@ -97165,6 +97612,7 @@
   },
   "qtpy_m0_haxpress": {
    "aliases": [],
+   "image": "qtpy_m0_haxpress.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit QT Py M0 Haxpress",
    "objects": {
@@ -97308,6 +97756,7 @@
   },
   "raspberry_pi_pico": {
    "aliases": [],
+   "image": "raspberry_pi_pico.jpg",
    "mcu": "rp2040",
    "name": "Raspberry Pi Pico",
    "objects": {
@@ -97525,6 +97974,7 @@
   },
   "raspberry_pi_pico2": {
    "aliases": [],
+   "image": "raspberry_pi_pico2.jpg",
    "mcu": "rp2350a",
    "name": "Raspberry Pi Pico 2",
    "objects": {
@@ -97742,6 +98192,7 @@
   },
   "raspberry_pi_pico2_w": {
    "aliases": [],
+   "image": "raspberry_pi_pico2_w.jpg",
    "mcu": "rp2350a",
    "name": "Raspberry Pi Pico 2 W",
    "objects": {
@@ -97956,6 +98407,7 @@
   },
   "raspberry_pi_pico_w": {
    "aliases": [],
+   "image": "raspberry_pi_pico_w.jpg",
    "mcu": "rp2040",
    "name": "Raspberry Pi Pico W",
    "objects": {
@@ -98170,6 +98622,7 @@
   },
   "raspberrypi_cm4": {
    "aliases": [],
+   "image": "raspberry_pi_cm4.jpg",
    "mcu": null,
    "name": "Raspberry Pi Compute Module 4",
    "objects": {
@@ -98379,6 +98832,7 @@
   },
   "raspberrypi_cm4io": {
    "aliases": [],
+   "image": "raspberrypi_cm4io.jpg",
    "mcu": null,
    "name": "Raspberry Pi Compute Module 4 IO Board",
    "objects": {
@@ -98601,6 +99055,7 @@
   },
   "raspberrypi_pi4b": {
    "aliases": [],
+   "image": "raspberry_pi_4b.jpg",
    "mcu": null,
    "name": "Raspberry Pi 4B",
    "objects": {
@@ -98823,6 +99278,7 @@
   },
   "raspberrypi_zero": {
    "aliases": [],
+   "image": "raspberry_pi_zero.jpg",
    "mcu": null,
    "name": "Raspberry Pi Zero",
    "objects": {
@@ -99039,6 +99495,7 @@
   },
   "raspberrypi_zero2w": {
    "aliases": [],
+   "image": "raspberry_pi_zero_2_w.jpg",
    "mcu": null,
    "name": "Raspberry Pi Zero 2W",
    "objects": {
@@ -99261,6 +99718,7 @@
   },
   "raspberrypi_zero_w": {
    "aliases": [],
+   "image": "raspberry_pi_zero_w.jpg",
    "mcu": null,
    "name": "Raspberry Pi Zero W",
    "objects": {
@@ -99477,6 +99935,7 @@
   },
   "raytac_mdbt50q-db-40": {
    "aliases": [],
+   "image": "raytac_mdbt50q-db-40.jpg",
    "mcu": "nRF52840",
    "name": "MDBT50Q-DB-40",
    "objects": {
@@ -99792,6 +100251,7 @@
   },
   "raytac_mdbt50q-rx": {
    "aliases": [],
+   "image": "raytac_mdbt50q-rx.jpg",
    "mcu": "nRF52840",
    "name": "MDBT50Q-RX Dongle",
    "objects": {
@@ -99823,6 +100283,7 @@
   },
   "red-s2-wroom": {
    "aliases": [],
+   "image": "red-s2-wroom.jpg",
    "mcu": "ESP32S2",
    "name": "Red S2-WROOM",
    "objects": {
@@ -100064,6 +100525,7 @@
   },
   "renode_cortex_m0plus": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "cortex-m0+",
    "name": "Renode Cortex-M0+",
    "objects": {
@@ -100103,6 +100565,7 @@
   },
   "rfguru_rp2040": {
    "aliases": [],
+   "image": "rfguru_rp2040.jpg",
    "mcu": "rp2040",
    "name": "RF.Guru RP2040",
    "objects": {
@@ -100308,6 +100771,7 @@
   },
   "robohatmm1_m4": {
    "aliases": [],
+   "image": "robohatmm1.jpg",
    "mcu": "samd51g19",
    "name": "Robo HAT MM1 M4",
    "objects": {
@@ -100586,6 +101050,7 @@
   },
   "sam32": {
    "aliases": [],
+   "image": "sam32.jpg",
    "mcu": "samd51j20",
    "name": "SAM32v26",
    "objects": {
@@ -100901,6 +101366,7 @@
   },
   "same54_xplained": {
    "aliases": [],
+   "image": "same54_xplained.jpg",
    "mcu": "same54p20",
    "name": "SAM E54 Xplained Pro",
    "objects": {
@@ -101344,6 +101810,7 @@
   },
   "seeed_xiao_esp32_s3_sense": {
    "aliases": [],
+   "image": "seeed_xiao_esp32s3_sense.jpg",
    "mcu": "ESP32S3",
    "name": "Seeed Xiao ESP32-S3 Sense",
    "objects": {
@@ -101598,6 +102065,7 @@
   },
   "seeed_xiao_esp32c3": {
    "aliases": [],
+   "image": "seeed_xiao_esp32c3.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "Seeed Studio XIAO ESP32C3",
    "objects": {
@@ -101723,6 +102191,7 @@
   },
   "seeed_xiao_esp32c6": {
    "aliases": [],
+   "image": "seeed_xiao_esp32c6.jpg",
    "mcu": "ESP32-C6FH4",
    "name": "Seeed Xiao ESP32-C6 4MB Flash 512KB SRAM",
    "objects": {
@@ -101885,6 +102354,7 @@
   },
   "seeeduino_wio_terminal": {
    "aliases": [],
+   "image": "seeeduino_wio_terminal.jpg",
    "mcu": "samd51p19",
    "name": "Seeeduino Wio Terminal",
    "objects": {
@@ -102310,6 +102780,7 @@
   },
   "seeeduino_xiao": {
    "aliases": [],
+   "image": "seeeduino_xiao.jpg",
    "mcu": "samd21g18",
    "name": "Seeeduino XIAO",
    "objects": {
@@ -102463,6 +102934,7 @@
   },
   "seeeduino_xiao_kb": {
    "aliases": [],
+   "image": "seeeduino_xiao.jpg",
    "mcu": "samd21g18",
    "name": "Seeeduino XIAO KB",
    "objects": {
@@ -102606,6 +103078,7 @@
   },
   "seeeduino_xiao_rp2040": {
    "aliases": [],
+   "image": "seeeduino_xiao_rp2040.jpg",
    "mcu": "rp2040",
    "name": "Seeeduino XIAO RP2040",
    "objects": {
@@ -102762,6 +103235,7 @@
   },
   "seeeduino_xiao_rp2350": {
    "aliases": [],
+   "image": "seeeduino_xiao_rp2350.jpg",
    "mcu": "rp2350",
    "name": "Seeeduino XIAO RP2350",
    "objects": {
@@ -102965,6 +103439,7 @@
   },
   "sensebox_mcu": {
    "aliases": [],
+   "image": "sensebox_mcu.jpg",
    "mcu": "senseBox",
    "name": "senseBox MCU",
    "objects": {
@@ -103193,6 +103668,7 @@
   },
   "sensebox_mcu_esp32s2": {
    "aliases": [],
+   "image": "sensebox_mcu_esp32s2.jpg",
    "mcu": "ESP32S2",
    "name": "senseBox MCU-S2 ESP32S2",
    "objects": {
@@ -103453,6 +103929,7 @@
   },
   "sensebox_mcu_eye_esp32s3": {
    "aliases": [],
+   "image": "sensebox_mcu_eye_esp32s3.png",
    "mcu": "ESP32S3",
    "name": "senseBox MCU Eye ESP32S3",
    "objects": {
@@ -103685,6 +104162,7 @@
   },
   "serpente": {
    "aliases": [],
+   "image": "serpente.jpg",
    "mcu": "samd21e18",
    "name": "Serpente",
    "objects": {
@@ -103802,6 +104280,7 @@
   },
   "shirtty": {
    "aliases": [],
+   "image": "shirtty.jpg",
    "mcu": "samd21e18",
    "name": "@sarfata shIRtty",
    "objects": {
@@ -103916,6 +104395,7 @@
   },
   "silicognition-m4-shim": {
    "aliases": [],
+   "image": "silicognition-m4-shim.jpg",
    "mcu": "samd51j19",
    "name": "Silicognition LLC M4-Shim",
    "objects": {
@@ -104108,6 +104588,7 @@
   },
   "silicognition_rp2040_shim": {
    "aliases": [],
+   "image": "silicognition-rp2040-shim.jpg",
    "mcu": "rp2040",
    "name": "Silicognition LLC RP2040-Shim",
    "objects": {
@@ -104291,6 +104772,7 @@
   },
   "simmel": {
    "aliases": [],
+   "image": "simmel.jpg",
    "mcu": "nRF52833",
    "name": "Simmel",
    "objects": {
@@ -104376,6 +104858,7 @@
   },
   "smartbeedesigns_bee_data_logger": {
    "aliases": [],
+   "image": "smartbeedesigns_bee-data-logger.jpg",
    "mcu": "ESP32S3",
    "name": "Bee-Data-Logger",
    "objects": {
@@ -104600,6 +105083,7 @@
   },
   "smartbeedesigns_bee_motion_s3": {
    "aliases": [],
+   "image": "smartbeedesigns_bee_motion_s3.jpg",
    "mcu": "ESP32S3",
    "name": "Bee-Motion-S3",
    "objects": {
@@ -104845,6 +105329,7 @@
   },
   "smartbeedesigns_bee_s3": {
    "aliases": [],
+   "image": "smartbeedesigns_bee_s3.jpg",
    "mcu": "ESP32S3",
    "name": "Bee-S3",
    "objects": {
@@ -105033,6 +105518,7 @@
   },
   "snekboard": {
    "aliases": [],
+   "image": "snekboard.jpg",
    "mcu": "samd21g18",
    "name": "keithp.com snekboard",
    "objects": {
@@ -105176,6 +105662,7 @@
   },
   "solderparty_bbq20kbd": {
    "aliases": [],
+   "image": "solderparty_bbq20kbd.jpg",
    "mcu": "rp2040",
    "name": "BBQ20KBD",
    "objects": {
@@ -105354,6 +105841,7 @@
   },
   "solderparty_esp32p4_stamp_xl": {
    "aliases": [],
+   "image": "solderparty_esp32p4_stamp_xl.jpg",
    "mcu": "ESP32P4",
    "name": "ESP32-P4 Stamp XL",
    "objects": {
@@ -105595,6 +106083,7 @@
   },
   "solderparty_rp2040_stamp": {
    "aliases": [],
+   "image": "solderparty_rp2040_stamp.jpg",
    "mcu": "rp2040",
    "name": "RP2040 Stamp",
    "objects": {
@@ -105801,6 +106290,7 @@
   },
   "solderparty_rp2350_stamp": {
    "aliases": [],
+   "image": "solderparty_rp2350_stamp.jpg",
    "mcu": "rp2350a",
    "name": "RP2350 Stamp",
    "objects": {
@@ -106002,6 +106492,7 @@
   },
   "solderparty_rp2350_stamp_xl": {
    "aliases": [],
+   "image": "solderparty_rp2350_stamp_xl.jpg",
    "mcu": "rp2350b",
    "name": "RP2350 Stamp XL",
    "objects": {
@@ -106315,6 +106806,7 @@
   },
   "sparkfun_lumidrive": {
    "aliases": [],
+   "image": "sparkfun_lumidrive_01.jpg",
    "mcu": "samd21g18",
    "name": "SparkFun LUMIDrive",
    "objects": {
@@ -106406,6 +106898,7 @@
   },
   "sparkfun_micromod_rp2040": {
    "aliases": [],
+   "image": "sparkfun_micromod_rp2040.jpg",
    "mcu": "rp2040",
    "name": "SparkFun MicroMod RP2040 Processor",
    "objects": {
@@ -106689,6 +107182,7 @@
   },
   "sparkfun_nrf52840_micromod": {
    "aliases": [],
+   "image": "sparkfun_nrf52840_micromod.jpg",
    "mcu": "nRF52840",
    "name": "SparkFun MicroMod nRF52840 Processor",
    "objects": {
@@ -107035,6 +107529,7 @@
   },
   "sparkfun_nrf52840_mini": {
    "aliases": [],
+   "image": "sparkfun_nrf52840_mini-01.jpg",
    "mcu": "nRF52840",
    "name": "SparkFun Pro nRF52840 Mini",
    "objects": {
@@ -107229,6 +107724,7 @@
   },
   "sparkfun_pro_micro_rp2040": {
    "aliases": [],
+   "image": "sparkfun_pro_micro_rp2040.jpg",
    "mcu": "rp2040",
    "name": "SparkFun Pro Micro RP2040",
    "objects": {
@@ -107413,6 +107909,7 @@
   },
   "sparkfun_pro_micro_rp2350": {
    "aliases": [],
+   "image": "sparkfun_pro_micro_rp2350.jpg",
    "mcu": "rp2350a",
    "name": "SparkFun Pro Micro RP2350",
    "objects": {
@@ -107597,6 +108094,7 @@
   },
   "sparkfun_qwiic_micro_no_flash": {
    "aliases": [],
+   "image": "sparkfun_qwiic_micro.jpg",
    "mcu": "samd21e18",
    "name": "SparkFun Qwiic Micro",
    "objects": {
@@ -107732,6 +108230,7 @@
   },
   "sparkfun_qwiic_micro_with_flash": {
    "aliases": [],
+   "image": "sparkfun_qwiic_micro.jpg",
    "mcu": "samd21e18",
    "name": "SparkFun Qwiic Micro",
    "objects": {
@@ -107867,6 +108366,7 @@
   },
   "sparkfun_redboard_turbo": {
    "aliases": [],
+   "image": "sparkfun_redboard_turbo.jpg",
    "mcu": "samd21g18",
    "name": "SparkFun RedBoard Turbo",
    "objects": {
@@ -108087,6 +108587,7 @@
   },
   "sparkfun_samd21_dev": {
    "aliases": [],
+   "image": "sparkfun_samd21_dev.jpg",
    "mcu": "samd21g18",
    "name": "SparkFun SAMD21 Dev Breakout",
    "objects": {
@@ -108321,6 +108822,7 @@
   },
   "sparkfun_samd21_mini": {
    "aliases": [],
+   "image": "sparkfun_samd21_mini.jpg",
    "mcu": "samd21g18",
    "name": "SparkFun SAMD21 Mini Breakout",
    "objects": {
@@ -108508,6 +109010,7 @@
   },
   "sparkfun_samd51_micromod": {
    "aliases": [],
+   "image": "sparkfun_samd51_micromod.jpg",
    "mcu": "samd51j20",
    "name": "SparkFun MicroMod SAMD51 Processor",
    "objects": {
@@ -108833,6 +109336,7 @@
   },
   "sparkfun_samd51_thing_plus": {
    "aliases": [],
+   "image": "sparkfun_samd51_thing_plus.jpg",
    "mcu": "samd51j20",
    "name": "SparkFun Thing Plus - SAMD51",
    "objects": {
@@ -109016,6 +109520,7 @@
   },
   "sparkfun_stm32_thing_plus": {
    "aliases": [],
+   "image": "sparkfun_stm32_thing_plus.jpg",
    "mcu": "STM32F405RG",
    "name": "SparkFun Thing Plus - STM32",
    "objects": {
@@ -109206,6 +109711,7 @@
   },
   "sparkfun_stm32f405_micromod": {
    "aliases": [],
+   "image": "sparkfun_stm32f405_micromod.jpg",
    "mcu": "STM32F405RG",
    "name": "SparkFun STM32 MicroMod Processor",
    "objects": {
@@ -109506,6 +110012,7 @@
   },
   "sparkfun_teensy_micromod": {
    "aliases": [],
+   "image": "sparkfun_teensy_micromod.jpg",
    "mcu": "IMXRT1062DVL6A",
    "name": "SparkFun Teensy MicroMod Processor",
    "objects": {
@@ -109946,6 +110453,7 @@
   },
   "sparkfun_thing_plus_rp2040": {
    "aliases": [],
+   "image": "sparkfun_thing_plus_rp2040.jpg",
    "mcu": "rp2040",
    "name": "SparkFun Thing Plus - RP2040",
    "objects": {
@@ -110151,6 +110659,7 @@
   },
   "sparkfun_thing_plus_rp2350": {
    "aliases": [],
+   "image": "sparkfun_thing_plus_rp2350.jpg",
    "mcu": "rp2350a",
    "name": "SparkFun Thing Plus RP2350",
    "objects": {
@@ -110373,6 +110882,7 @@
   },
   "splitkb_liatris": {
    "aliases": [],
+   "image": "splitkb_liatris.jpg",
    "mcu": "rp2040",
    "name": "splitkb.com Liatris",
    "objects": {
@@ -110588,6 +111098,7 @@
   },
   "spotpear_esp32c3_lcd_1_44": {
    "aliases": [],
+   "image": "spotpear_esp32c3_lcd_1_44.jpg",
    "mcu": "ESP32-C3FH4",
    "name": "Spotpear ESP32C3 LCD 1.44",
    "objects": {
@@ -110711,6 +111222,7 @@
   },
   "spotpear_esp32c3_lcd_1_69": {
    "aliases": [],
+   "image": "spotpear_esp32c3_lcd_1_69.jpg",
    "mcu": "ESP32-C3FH4",
    "name": "Spotpear ESP32C3 LCD 1.69",
    "objects": {
@@ -110846,6 +111358,7 @@
   },
   "spresense": {
    "aliases": [],
+   "image": "spresense.jpg",
    "mcu": "CXD5602",
    "name": "SPRESENSE",
    "objects": {
@@ -111149,6 +111662,7 @@
   },
   "sqfmi_watchy": {
    "aliases": [],
+   "image": "sqfmi_watchy.jpg",
    "mcu": "ESP32-PICO-D4",
    "name": "SQFMI Watchy",
    "objects": {
@@ -111289,6 +111803,7 @@
   },
   "ssci_isp1807_dev_board": {
    "aliases": [],
+   "image": "ssci_isp1807_dev_board.jpg",
    "mcu": "nRF52840",
    "name": "SSCI ISP1807 Dev Board",
    "objects": {
@@ -111502,6 +112017,7 @@
   },
   "ssci_isp1807_micro_board": {
    "aliases": [],
+   "image": "ssci_isp1807_micro_board.jpg",
    "mcu": "nRF52840",
    "name": "SSCI ISP1807 Micro Board",
    "objects": {
@@ -111679,6 +112195,7 @@
   },
   "stackrduino_m0_pro": {
    "aliases": [],
+   "image": "stackrduino_m0_pro.jpg",
    "mcu": "samd21g18",
    "name": "StackRduino M0 PRO",
    "objects": {
@@ -111896,6 +112413,7 @@
   },
   "stm32f411ce_blackpill": {
    "aliases": [],
+   "image": "stm32f411ce_blackpill.jpg",
    "mcu": "STM32F411CE",
    "name": "stm32f411ce-blackpill",
    "objects": {
@@ -112118,6 +112636,7 @@
   },
   "stm32f411ce_blackpill_with_flash": {
    "aliases": [],
+   "image": "stm32f411ce_blackpill.jpg",
    "mcu": "STM32F411CE",
    "name": "stm32f411ce-blackpill-with-flash",
    "objects": {
@@ -112340,6 +112859,7 @@
   },
   "stm32f411ve_discovery": {
    "aliases": [],
+   "image": "stm32f411.jpg",
    "mcu": "STM32F411xE",
    "name": "STM32F411E_DISCO",
    "objects": {
@@ -112837,6 +113357,7 @@
   },
   "stm32f412zg_discovery": {
    "aliases": [],
+   "image": "stm32f412.jpg",
    "mcu": "STM32F412xG",
    "name": "STM32F412G_DISCO",
    "objects": {
@@ -113251,6 +113772,7 @@
   },
   "stm32f4_discovery": {
    "aliases": [],
+   "image": "stm32f407.jpg",
    "mcu": "STM32F407VG",
    "name": "STM32F4_DISCO",
    "objects": {
@@ -113754,6 +114276,7 @@
   },
   "stm32f746g_discovery": {
    "aliases": [],
+   "image": "stm32f746g_discovery.jpg",
    "mcu": "STM32F746",
    "name": "ST STM32F746G Discovery",
    "objects": {
@@ -114366,6 +114889,7 @@
   },
   "stringcar_m0_express": {
    "aliases": [],
+   "image": "stringcar_m0_express.jpg",
    "mcu": "samd21e18",
    "name": "Cedar Grove StringCar M0 Express",
    "objects": {
@@ -114470,6 +114994,7 @@
   },
   "studiolab_picoexpander": {
    "aliases": [],
+   "image": "studiolab_picoexpander.jpg",
    "mcu": "rp2350a",
    "name": "Studiolab Pico Expander",
    "objects": {
@@ -114726,6 +115251,7 @@
   },
   "sunton_esp32_2424S012": {
    "aliases": [],
+   "image": "sunton_esp32_2424S012.jpg",
    "mcu": "ESP32-C3FN4",
    "name": "Sunton ESP32-2424S012",
    "objects": {
@@ -114859,6 +115385,7 @@
   },
   "sunton_esp32_2432S024C": {
    "aliases": [],
+   "image": "sunton_esp32_2432S024C.jpg",
    "mcu": "ESP32-D0WD-V3",
    "name": "sunton_esp32_2432S024C",
    "objects": {
@@ -115056,6 +115583,7 @@
   },
   "sunton_esp32_2432S028": {
    "aliases": [],
+   "image": "sunton_esp32_2432S028.jpg",
    "mcu": "ESP32",
    "name": "sunton_esp32_2432S028",
    "objects": {
@@ -115278,6 +115806,7 @@
   },
   "sunton_esp32_2432S032C": {
    "aliases": [],
+   "image": "sunton_esp32_2432S032C.jpg",
    "mcu": "ESP32",
    "name": "sunton_esp32_2432S032C",
    "objects": {
@@ -115476,6 +116005,7 @@
   },
   "sunton_esp32_8048S050": {
    "aliases": [],
+   "image": "sunton_esp32_8048S050.jpg",
    "mcu": "ESP32S3",
    "name": "Sunton-ESP32-8048S050",
    "objects": {
@@ -115646,6 +116176,7 @@
   },
   "sunton_esp32_8048S070": {
    "aliases": [],
+   "image": "sunton_esp32_8048S070.jpg",
    "mcu": "ESP32S3",
    "name": "Sunton-ESP32-8048S070",
    "objects": {
@@ -115816,6 +116347,7 @@
   },
   "supermini_nrf52840": {
    "aliases": [],
+   "image": "supermini_nrf52840.png",
    "mcu": "nRF52840",
    "name": "SuperMini NRF52840",
    "objects": {
@@ -116036,6 +116568,7 @@
   },
   "swan_r5": {
    "aliases": [],
+   "image": "swan_r5.jpg",
    "mcu": "STM32L4R5ZIY6",
    "name": "Swan R5",
    "objects": {
@@ -116472,6 +117005,7 @@
   },
   "takayoshiotake_octave_rp2040": {
    "aliases": [],
+   "image": "takayoshiotake_octave_rp2040.jpg",
    "mcu": "rp2040",
    "name": "takayoshiotake Octave RP2040",
    "objects": {
@@ -116675,6 +117209,7 @@
   },
   "targett_module_clip_wroom": {
    "aliases": [],
+   "image": "targett_module_clip_wroom.jpg",
    "mcu": "ESP32S2",
    "name": "Targett Module Clip w/Wroom",
    "objects": {
@@ -116916,6 +117451,7 @@
   },
   "targett_module_clip_wrover": {
    "aliases": [],
+   "image": "targett_module_clip_wrover.jpg",
    "mcu": "ESP32S2",
    "name": "Targett Module Clip w/Wrover",
    "objects": {
@@ -117157,6 +117693,7 @@
   },
   "teenage_engineering_ep2350": {
    "aliases": [],
+   "image": "teenage_engineering_ep2350.jpg",
    "mcu": "rp2350a",
    "name": "Teenage Engineering ting fx EP-2350",
    "objects": {
@@ -117392,6 +117929,7 @@
   },
   "teensy40": {
    "aliases": [],
+   "image": "teensy40.jpg",
    "mcu": "IMXRT1062DVJ6A",
    "name": "Teensy 4.0",
    "objects": {
@@ -117752,6 +118290,7 @@
   },
   "teensy41": {
    "aliases": [],
+   "image": "teensy41.jpg",
    "mcu": "IMXRT1062DVJ6A",
    "name": "Teensy 4.1",
    "objects": {
@@ -118215,6 +118754,7 @@
   },
   "teknikio_bluebird": {
    "aliases": [],
+   "image": "teknikio_bluebird.jpg",
    "mcu": "nRF52840",
    "name": "Teknikio Bluebird",
    "objects": {
@@ -118396,6 +118936,7 @@
   },
   "thingpulse_pendrive_s3": {
    "aliases": [],
+   "image": null,
    "mcu": "ESP32S3",
    "name": "ThingPulse Pendrive S3",
    "objects": {
@@ -118507,6 +119048,7 @@
   },
   "thunderpack_v11": {
    "aliases": [],
+   "image": "thunderpack_v11.jpg",
    "mcu": "STM32F411CE",
    "name": "THUNDERPACK_v11",
    "objects": {
@@ -118642,6 +119184,7 @@
   },
   "thunderpack_v12": {
    "aliases": [],
+   "image": "thunderpack_v12.jpg",
    "mcu": "STM32F411CE",
    "name": "THUNDERPACK_v12",
    "objects": {
@@ -118791,6 +119334,7 @@
   },
   "tinkeringtech_scoutmakes_azul": {
    "aliases": [],
+   "image": "scoutmakes_azul.jpg",
    "mcu": "nRF52840",
    "name": "TinkeringTech ScoutMakes Azul",
    "objects": {
@@ -119012,6 +119556,7 @@
   },
   "tinycircuits_thumby": {
    "aliases": [],
+   "image": "tinycircuits_thumby.jpg",
    "mcu": "rp2040",
    "name": "TinyCircuits Thumby",
    "objects": {
@@ -119132,6 +119677,7 @@
   },
   "tinycircuits_thumby_color": {
    "aliases": [],
+   "image": "tinycircuits_thumby_color.jpg",
    "mcu": "rp2350",
    "name": "TinyCircuits Thumby Color",
    "objects": {
@@ -119282,6 +119828,7 @@
   },
   "trellis_m4_express": {
    "aliases": [],
+   "image": "trellis_m4_express.jpg",
    "mcu": "samd51g19",
    "name": "Adafruit Trellis M4 Express",
    "objects": {
@@ -119457,6 +120004,7 @@
   },
   "trinket_m0": {
    "aliases": [],
+   "image": "trinket_m0.jpg",
    "mcu": "samd21e18",
    "name": "Adafruit Trinket M0",
    "objects": {
@@ -119568,6 +120116,7 @@
   },
   "trinket_m0_haxpress": {
    "aliases": [],
+   "image": "trinket_m0_haxpress.jpg",
    "mcu": "samd21e18",
    "name": "Trinket M0 Haxpress",
    "objects": {
@@ -119679,6 +120228,7 @@
   },
   "ttgo_t8_v1_7": {
    "aliases": [],
+   "image": "ttgo_t8_v1_7.jpg",
    "mcu": "ESP32",
    "name": "Espressif ESP32 TTGO T8 v1.7",
    "objects": {
@@ -119884,6 +120434,7 @@
   },
   "uartlogger2": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "samd51j19",
    "name": "UARTLogger II",
    "objects": {
@@ -120144,6 +120695,7 @@
   },
   "uchip": {
    "aliases": [],
+   "image": "uchip.jpg",
    "mcu": "samd21e18",
    "name": "uChip",
    "objects": {
@@ -120320,6 +120872,7 @@
   },
   "ugame10": {
    "aliases": [],
+   "image": "ugame_10.jpg",
    "mcu": "samd21e18",
    "name": "uGame10",
    "objects": {
@@ -120455,6 +121008,7 @@
   },
   "ugame22": {
    "aliases": [],
+   "image": "ugame22.jpg",
    "mcu": "rp2040",
    "name": "uGame22",
    "objects": {
@@ -120595,6 +121149,7 @@
   },
   "unexpectedmaker_bling": {
    "aliases": [],
+   "image": "unexpectedmaker_bling.jpg",
    "mcu": "ESP32S3",
    "name": "BLING!",
    "objects": {
@@ -120793,6 +121348,7 @@
   },
   "unexpectedmaker_blizzard_s3": {
    "aliases": [],
+   "image": "unexpectedmaker_blizzard_s3.jpg",
    "mcu": "ESP32S3",
    "name": "BlizzardS3",
    "objects": {
@@ -121070,6 +121626,7 @@
   },
   "unexpectedmaker_edges3d": {
    "aliases": [],
+   "image": "unexpectedmaker_edges3d.jpg",
    "mcu": "ESP32S3",
    "name": "EDGES3D",
    "objects": {
@@ -121339,6 +121896,7 @@
   },
   "unexpectedmaker_feathers2": {
    "aliases": [],
+   "image": "unexpectedmaker_feathers2.jpg",
    "mcu": "ESP32S2",
    "name": "FeatherS2",
    "objects": {
@@ -121587,6 +122145,7 @@
   },
   "unexpectedmaker_feathers2_neo": {
    "aliases": [],
+   "image": "unexpectedmaker_feathers2_neo.jpg",
    "mcu": "ESP32S2",
    "name": "FeatherS2 Neo",
    "objects": {
@@ -121863,6 +122422,7 @@
   },
   "unexpectedmaker_feathers2_prerelease": {
    "aliases": [],
+   "image": "unexpectedmaker_feathers2_prerelease.jpg",
    "mcu": "ESP32S2",
    "name": "FeatherS2 PreRelease",
    "objects": {
@@ -122109,6 +122669,7 @@
   },
   "unexpectedmaker_feathers3": {
    "aliases": [],
+   "image": "unexpectedmaker_feathers3.jpg",
    "mcu": "ESP32S3",
    "name": "FeatherS3",
    "objects": {
@@ -122401,6 +122962,7 @@
   },
   "unexpectedmaker_feathers3_neo": {
    "aliases": [],
+   "image": "unexpectedmaker_feathers3_neo.jpg",
    "mcu": "ESP32S3",
    "name": "FeatherS3 Neo",
    "objects": {
@@ -122674,6 +123236,7 @@
   },
   "unexpectedmaker_nanos3": {
    "aliases": [],
+   "image": "unexpectedmaker_nanos3.jpg",
    "mcu": "ESP32S3",
    "name": "NanoS3",
    "objects": {
@@ -122952,6 +123515,7 @@
   },
   "unexpectedmaker_omgs3": {
    "aliases": [],
+   "image": "unexpectedmaker_omgs3.jpg",
    "mcu": "ESP32S3",
    "name": "OMGS3",
    "objects": {
@@ -123163,6 +123727,7 @@
   },
   "unexpectedmaker_pros3": {
    "aliases": [],
+   "image": "unexpectedmaker_pros3.jpg",
    "mcu": "ESP32S3",
    "name": "ProS3",
    "objects": {
@@ -123460,6 +124025,7 @@
   },
   "unexpectedmaker_rgbtouch_mini": {
    "aliases": [],
+   "image": "unexpectedmaker_rgbtouch_mini.jpg",
    "mcu": "ESP32S3",
    "name": "RGBTouch Mini",
    "objects": {
@@ -123583,6 +124149,7 @@
   },
   "unexpectedmaker_tinyc6": {
    "aliases": [],
+   "image": "unexpectedmaker_tinyc6.jpg",
    "mcu": "ESP32C6",
    "name": "TinyC6",
    "objects": {
@@ -123795,6 +124362,7 @@
   },
   "unexpectedmaker_tinypico": {
    "aliases": [],
+   "image": "unexpectedmaker_tinypico.jpg",
    "mcu": "ESP32-PICO-D4",
    "name": "TinyPICO",
    "objects": {
@@ -123990,6 +124558,7 @@
   },
   "unexpectedmaker_tinypico_nano": {
    "aliases": [],
+   "image": "unexpectedmaker_tinypico_nano.jpg",
    "mcu": "ESP32-PICO-D4",
    "name": "TinyPICO Nano",
    "objects": {
@@ -124250,6 +124819,7 @@
   },
   "unexpectedmaker_tinys2": {
    "aliases": [],
+   "image": "unexpectedmaker_tinys2.jpg",
    "mcu": "ESP32S2",
    "name": "TinyS2",
    "objects": {
@@ -124463,6 +125033,7 @@
   },
   "unexpectedmaker_tinys3": {
    "aliases": [],
+   "image": "unexpectedmaker_tinys3.jpg",
    "mcu": "ESP32S3",
    "name": "TinyS3",
    "objects": {
@@ -124678,6 +125249,7 @@
   },
   "unexpectedmaker_tinywatch_s3": {
    "aliases": [],
+   "image": "unexpectedmaker_tinywatch_s3.jpg",
    "mcu": "ESP32S3",
    "name": "TinyWATCH S3",
    "objects": {
@@ -124889,6 +125461,7 @@
   },
   "vcc_gnd_yd_rp2040": {
    "aliases": [],
+   "image": "vcc_gnd_yd_rp2040.jpg",
    "mcu": "rp2040",
    "name": "VCC-GND Studio YD RP2040",
    "objects": {
@@ -125096,6 +125669,7 @@
   },
   "vidi_x": {
    "aliases": [],
+   "image": "vidi_x.jpg",
    "mcu": "ESP32",
    "name": "VIDI X V1.1",
    "objects": {
@@ -125346,6 +125920,7 @@
   },
   "warmbit_bluepixel": {
    "aliases": [],
+   "image": "unknown.jpg",
    "mcu": "nRF52840",
    "name": "WarmBit BluePixel nRF52840",
    "objects": {
@@ -125489,6 +126064,7 @@
   },
   "waveshare_esp32_c6_lcd_1_47": {
    "aliases": [],
+   "image": "waveshare_esp32_c6_lcd_1_47.jpg",
    "mcu": "ESP32-C6FH4",
    "name": "Waveshare ESP32-C6 LCD 1.47",
    "objects": {
@@ -125676,6 +126252,7 @@
   },
   "waveshare_esp32_s2_pico_lcd": {
    "aliases": [],
+   "image": "waveshare_esp32_s2_pico_lcd.jpg",
    "mcu": "ESP32S2",
    "name": "Waveshare ESP32-S2-Pico-LCD",
    "objects": {
@@ -125937,6 +126514,7 @@
   },
   "waveshare_esp32_s3_amoled_241": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_amoled_241.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Touch-AMOLED-2.41",
    "objects": {
@@ -126174,6 +126752,7 @@
   },
   "waveshare_esp32_s3_eth": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_eth.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-ETH",
    "objects": {
@@ -126436,6 +127015,7 @@
   },
   "waveshare_esp32_s3_geek": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_geek.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-GEEK",
    "objects": {
@@ -126651,6 +127231,7 @@
   },
   "waveshare_esp32_s3_lcd_1_28": {
    "aliases": [],
+   "image": "waveshare_esp32s3_lcd_1_28.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32S3 LCD 1.28",
    "objects": {
@@ -126923,6 +127504,7 @@
   },
   "waveshare_esp32_s3_lcd_1_47": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_lcd_1_47.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3 LCD 1.47",
    "objects": {
@@ -127103,6 +127685,7 @@
   },
   "waveshare_esp32_s3_matrix": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_matrix.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Matrix",
    "objects": {
@@ -127304,6 +127887,7 @@
   },
   "waveshare_esp32_s3_pico": {
    "aliases": [],
+   "image": "ESP32-S3-Pico.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Pico",
    "objects": {
@@ -127540,6 +128124,7 @@
   },
   "waveshare_esp32_s3_tiny": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_tiny.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Tiny",
    "objects": {
@@ -127810,6 +128395,7 @@
   },
   "waveshare_esp32_s3_tiny_n8r8": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_tiny.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Tiny-N8R8",
    "objects": {
@@ -128080,6 +128666,7 @@
   },
   "waveshare_esp32_s3_touch_lcd_1_47": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_touch_lcd_1_47.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3 Touch LCD 1.47",
    "objects": {
@@ -128289,6 +128876,7 @@
   },
   "waveshare_esp32_s3_touch_lcd_2": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_touch_lcd_2.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32S3 Touch LCD 2",
    "objects": {
@@ -128560,6 +129148,7 @@
   },
   "waveshare_esp32_s3_touch_lcd_2_8": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_touch_lcd_2_8.jpg",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3 Touch LCD 2.8",
    "objects": {
@@ -128818,6 +129407,7 @@
   },
   "waveshare_esp32_s3_zero": {
    "aliases": [],
+   "image": "waveshare_esp32_s3_zero.png",
    "mcu": "ESP32S3",
    "name": "Waveshare ESP32-S3-Zero",
    "objects": {
@@ -129119,6 +129709,7 @@
   },
   "waveshare_esp32s2_pico": {
    "aliases": [],
+   "image": "waveshare_esp32s2_pico.jpg",
    "mcu": "ESP32S2",
    "name": "Waveshare ESP32-S2-Pico",
    "objects": {
@@ -129331,6 +129922,7 @@
   },
   "waveshare_rp2040_geek": {
    "aliases": [],
+   "image": "waveshare_rp2040_geek.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-GEEK",
    "objects": {
@@ -129536,6 +130128,7 @@
   },
   "waveshare_rp2040_lcd_0_96": {
    "aliases": [],
+   "image": "waveshare_rp2040_lcd_0_96.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-LCD-0.96",
    "objects": {
@@ -129775,6 +130368,7 @@
   },
   "waveshare_rp2040_lcd_1_28": {
    "aliases": [],
+   "image": "waveshare_rp2040_lcd_1_28.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-LCD-1.28",
    "objects": {
@@ -129989,6 +130583,7 @@
   },
   "waveshare_rp2040_one": {
    "aliases": [],
+   "image": "waveshare_rp2040_one.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-One",
    "objects": {
@@ -130215,6 +130810,7 @@
   },
   "waveshare_rp2040_pizero": {
    "aliases": [],
+   "image": "waveshare_rp2040_pizero.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-PiZero",
    "objects": {
@@ -130471,6 +131067,7 @@
   },
   "waveshare_rp2040_plus_16mb": {
    "aliases": [],
+   "image": "waveshare_rp2040_plus.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-Plus (16MB)",
    "objects": {
@@ -130678,6 +131275,7 @@
   },
   "waveshare_rp2040_plus_4mb": {
    "aliases": [],
+   "image": "waveshare_rp2040_plus.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-Plus (4MB)",
    "objects": {
@@ -130885,6 +131483,7 @@
   },
   "waveshare_rp2040_tiny": {
    "aliases": [],
+   "image": "waveshare_rp2040_tiny.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-Tiny",
    "objects": {
@@ -131049,6 +131648,7 @@
   },
   "waveshare_rp2040_touch_lcd_1_28": {
    "aliases": [],
+   "image": "waveshare_rp2040_touch_lcd_1_28.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-TOUCH-LCD-1.28",
    "objects": {
@@ -131263,6 +131863,7 @@
   },
   "waveshare_rp2040_zero": {
    "aliases": [],
+   "image": "waveshare_rp2040_zero.jpg",
    "mcu": "rp2040",
    "name": "Waveshare RP2040-Zero",
    "objects": {
@@ -131481,6 +132082,7 @@
   },
   "waveshare_rp2350_geek": {
    "aliases": [],
+   "image": "waveshare_rp2350_geek.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-GEEK",
    "objects": {
@@ -131686,6 +132288,7 @@
   },
   "waveshare_rp2350_lcd_0_96": {
    "aliases": [],
+   "image": "waveshare_rp2350_lcd_0_96.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-LCD-0.96",
    "objects": {
@@ -131925,6 +132528,7 @@
   },
   "waveshare_rp2350_lcd_1_28": {
    "aliases": [],
+   "image": "waveshare_rp2350_lcd_1_28.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-LCD-1.28",
    "objects": {
@@ -132139,6 +132743,7 @@
   },
   "waveshare_rp2350_one": {
    "aliases": [],
+   "image": "waveshare_rp2350_one.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-One",
    "objects": {
@@ -132365,6 +132970,7 @@
   },
   "waveshare_rp2350_plus": {
    "aliases": [],
+   "image": "waveshare_rp2350_plus.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-Plus",
    "objects": {
@@ -132572,6 +133178,7 @@
   },
   "waveshare_rp2350_tiny": {
    "aliases": [],
+   "image": "waveshare_rp2350_tiny.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-Tiny",
    "objects": {
@@ -132736,6 +133343,7 @@
   },
   "waveshare_rp2350_touch_lcd_1_28": {
    "aliases": [],
+   "image": "waveshare_rp2350_touch_lcd_1_28.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-TOUCH-LCD-1.28",
    "objects": {
@@ -132950,6 +133558,7 @@
   },
   "waveshare_rp2350_zero": {
    "aliases": [],
+   "image": "waveshare_rp2350_zero.jpg",
    "mcu": "rp2350",
    "name": "Waveshare RP2350-Zero",
    "objects": {
@@ -133168,6 +133777,7 @@
   },
   "weact_esp32c6_n4": {
    "aliases": [],
+   "image": "weact_esp32c6.jpg",
    "mcu": "ESP32-C6N4",
    "name": "WeAct ESP32-C6 (4MB)",
    "objects": {
@@ -133323,6 +133933,7 @@
   },
   "weact_esp32c6_n8": {
    "aliases": [],
+   "image": "weact_esp32c6.jpg",
    "mcu": "ESP32-C6N4",
    "name": "WeAct ESP32-C6 (8MB)",
    "objects": {
@@ -133478,6 +134089,7 @@
   },
   "weact_studio_pico": {
    "aliases": [],
+   "image": "weact_studio_pico.jpg",
    "mcu": "rp2040",
    "name": "WeAct Studio Pico",
    "objects": {
@@ -133684,6 +134296,7 @@
   },
   "weact_studio_pico_16mb": {
    "aliases": [],
+   "image": "weact_studio_pico.jpg",
    "mcu": "rp2040",
    "name": "WeAct Studio Pico 16MB",
    "objects": {
@@ -133890,6 +134503,7 @@
   },
   "weact_studio_rp2350b_core": {
    "aliases": [],
+   "image": "weact_studio_rp2350b_core.jpg",
    "mcu": "rp2350b",
    "name": "WeAct Studio RP2350B Core",
    "objects": {
@@ -134213,6 +134827,7 @@
   },
   "weenoisemakers_noisenugget": {
    "aliases": [],
+   "image": "weenoisemakers_noisenugget.jpg",
    "mcu": "rp2040",
    "name": "Noise Nugget 2040",
    "objects": {
@@ -134419,6 +135034,7 @@
   },
   "wemos_lolin32_lite": {
    "aliases": [],
+   "image": "wemos_lolin32_lite.jpg",
    "mcu": "ESP32",
    "name": "WeMos LOLIN32 Lite",
    "objects": {
@@ -134595,6 +135211,7 @@
   },
   "winterbloom_big_honking_button": {
    "aliases": [],
+   "image": "honk.jpg",
    "mcu": "samd21g18",
    "name": "Winterbloom Big Honking Button",
    "objects": {
@@ -134648,6 +135265,7 @@
   },
   "winterbloom_sol": {
    "aliases": [],
+   "image": "sol.jpg",
    "mcu": "samd51j20",
    "name": "Winterbloom Sol",
    "objects": {
@@ -134730,6 +135348,7 @@
   },
   "wisdpi_ardu2040m": {
    "aliases": [],
+   "image": "wisdpi_ardu2040m.jpg",
    "mcu": "rp2040",
    "name": "WisdPi Ardu2040M",
    "objects": {
@@ -134958,6 +135577,7 @@
   },
   "wisdpi_tiny_rp2040": {
    "aliases": [],
+   "image": "wisdpi_tiny_rp2040.jpg",
    "mcu": "rp2040",
    "name": "WisdPi Tiny RP2040",
    "objects": {
@@ -135161,6 +135781,7 @@
   },
   "wiznet_w5100s_evb_pico": {
    "aliases": [],
+   "image": "w5100s-evb-pico.jpg",
    "mcu": "rp2040",
    "name": "W5100S-EVB-Pico",
    "objects": {
@@ -135405,6 +136026,7 @@
   },
   "wiznet_w5100s_evb_pico2": {
    "aliases": [],
+   "image": "wiznet_w5100s_evb_pico2.jpg",
    "mcu": "rp2350a",
    "name": "W5100S-EVB-Pico2",
    "objects": {
@@ -135649,6 +136271,7 @@
   },
   "wiznet_w5500_evb_pico": {
    "aliases": [],
+   "image": "w5500-evb-pico.jpg",
    "mcu": "rp2040",
    "name": "W5500-EVB-Pico",
    "objects": {
@@ -135893,6 +136516,7 @@
   },
   "wiznet_w5500_evb_pico2": {
    "aliases": [],
+   "image": "wiznet_w5500_evb_pico2.jpg",
    "mcu": "rp2350a",
    "name": "W5500-EVB-Pico2",
    "objects": {
@@ -136137,6 +136761,7 @@
   },
   "wk-50": {
    "aliases": [],
+   "image": "wk_50.jpg",
    "mcu": "rp2040",
    "name": "WK-50 Trackball Keyboard",
    "objects": {
@@ -136298,6 +136923,7 @@
   },
   "xinabox_cc03": {
    "aliases": [],
+   "image": "xinabox_cc03.jpg",
    "mcu": "samd21g18",
    "name": "XinaBox CC03",
    "objects": {
@@ -136389,6 +137015,7 @@
   },
   "xinabox_cs11": {
    "aliases": [],
+   "image": "xinabox_cs11.jpg",
    "mcu": "samd21g18",
    "name": "XinaBox CS11",
    "objects": {
@@ -136509,6 +137136,7 @@
   },
   "xteink_x4": {
    "aliases": [],
+   "image": "xteink_x4.jpg",
    "mcu": "ESP32-C3",
    "name": "Xteink X4",
    "objects": {
@@ -136629,6 +137257,7 @@
   },
   "yd_esp32_s3_n16r8": {
    "aliases": [],
+   "image": "yd_esp32_s3.jpg",
    "mcu": "ESP32S3",
    "name": "VCC-GND YD-ESP32-S3 (N16R8)",
    "objects": {
@@ -136865,6 +137494,7 @@
   },
   "yd_esp32_s3_n8r8": {
    "aliases": [],
+   "image": "yd_esp32_s3.jpg",
    "mcu": "ESP32S3",
    "name": "VCC-GND YD-ESP32-S3 (N8R8)",
    "objects": {
@@ -137101,6 +137731,7 @@
   },
   "yoto_mini_2024": {
    "aliases": [],
+   "image": "yoto_mini_2024.jpg",
    "mcu": "ESP32",
    "name": "Yoto Mini 2024",
    "objects": {
@@ -137141,6 +137772,7 @@
   },
   "yoto_player_v3": {
    "aliases": [],
+   "image": "yoto_player_v3.jpg",
    "mcu": "ESP32",
    "name": "Yoto Player V3",
    "objects": {
@@ -137182,6 +137814,7 @@
   },
   "zrichard_rp2.65-f": {
    "aliases": [],
+   "image": "zrichard_rp2.65-f.jpg",
    "mcu": "rp2040",
    "name": "RP2.65-F",
    "objects": {

@@ -21,6 +21,16 @@ jobs:
       # trigger a blob fetch per file.
       run: git clone --depth=1 https://github.com/adafruit/circuitpython.git
 
+    - name: Sparse-clone circuitpython-org (_board/ only)
+      # blob:none + sparse-checkout so we don't pull hundreds of board
+      # photos — only the tiny _board/*.md front-matter files.
+      run: |
+        git clone --filter=blob:none --no-checkout --depth=1 \
+          https://github.com/adafruit/circuitpython-org.git
+        cd circuitpython-org
+        git sparse-checkout set _board
+        git checkout
+
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
@@ -28,6 +38,9 @@ jobs:
 
     - name: Generate board data
       run: python tools/gen_board_data.py --cp circuitpython
+
+    - name: Add board images
+      run: python tools/gen_board_images.py --cpyorg circuitpython-org
 
     - name: Commit if changed
       run: |
