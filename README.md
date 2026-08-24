@@ -11,6 +11,8 @@ and if so, which pins actually back them.
 
 Live site: [https://todbot.github.io/CircuitPython_BoardViewer/](https://todbot.github.io/CircuitPython_BoardViewer/)
 
+<a href="https://todbot.github.io/CircuitPython_BoardViewer/"><img src="./docs/screenshot.png" width="500"></a>
+
 ## Why
 
 I use many different boards with CircuitPython and often get confused how 

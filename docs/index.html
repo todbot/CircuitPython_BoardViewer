@@ -435,7 +435,7 @@ function objectCard(label, obj) {
   }
   const available = obj.available !== false;
   const badge = available
-    ? (obj.note ? '<span class="badge warn">defined, see note</span>' : '<span class="badge ok">available</span>')
+    ? (obj.note ? '<span class="badge warn">defined</span>' : '<span class="badge ok">available</span>')
     : '<span class="badge warn">pins configured, not exposed</span>';
   const pinsHtml = obj.pins
     ? '<div class="obj-pins">' + Object.entries(obj.pins).map(([k, v]) =>
