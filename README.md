@@ -14,9 +14,13 @@ Live site: [https://todbot.github.io/CircuitPython_BoardViewer/](https://todbot.
 ## Why
 
 I use many different boards with CircuitPython and often get confused how 
-`board.` pins are named for different boards. So I resort to poking around the 
-[circuitpython source](https://github.com/adafruit/circuitpython/)'s "pins.c" files.
-So I slop-ily made this tool to show the pin definitions for a CircuitPython build.
+`board.*` pins are named for different boards, and for a given board,
+is `board.I2C()` or `board.DISPLAY()` is defined.
+Normally I would resort to poking around the 
+[circuitpython source](https://github.com/adafruit/circuitpython/)'s "pins.c" files
+using `grep` & `awk`. 
+Instead, let's make a web app!  So I slop-ily made this tool to show the pin
+definitions for a CircuitPython build.
 
 For instance, with this tool you can easily see the differences in how GPIO pins
 are named on these three ESP32-S3 boards:
