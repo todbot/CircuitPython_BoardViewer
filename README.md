@@ -11,6 +11,20 @@ and if so, which pins actually back them.
 
 Live site: [https://todbot.github.io/CircuitPython_BoardViewer/](https://todbot.github.io/CircuitPython_BoardViewer/)
 
+## Why
+
+I use many different boards with CircuitPython and often get confused how 
+`board.` pins are named for different boards. So I resort to poking around the 
+[circuitpython source](https://github.com/adafruit/circuitpython/)'s "pins.c" files.
+So I slop-ily made this tool to show the pin definitions for a CircuitPython build.
+
+For instance, with this tool you can easily see the differences in how GPIO pins
+are named on these three ESP32-S3 boards:
+- [`board.IOx` on ESP32-S3 DevKitC](https://todbot.github.io/CircuitPython_BoardViewer/#board=espressif_esp32s3_devkitc_1_n16)
+- [`board.Dx` on QTPy ESP32-S3](https://todbot.github.io/CircuitPython_BoardViewer/#board=adafruit_qtpy_esp32s3_nopsram)
+- [`board.GPIOx` on YD-ESP32-S3](https://todbot.github.io/CircuitPython_BoardViewer/#board=yd_esp32_s3_n16r8)
+
+
 ## How it works
 
 - `tools/gen_board_data.py` parses a local CircuitPython checkout's
