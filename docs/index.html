@@ -217,6 +217,35 @@
   }
   .github-link:hover { color: var(--accent); }
   .github-link svg { width: 18px; height: 18px; fill: currentColor; }
+
+  .compare-toggle {
+    display: inline-block;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .search-wrap.compare-search { margin-top: 10px; }
+  .compare-bar { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+  .exit-compare {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .exit-compare:hover { color: var(--accent); border-color: var(--accent); }
+  .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 700px) {
+    .compare-grid { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
@@ -239,9 +268,14 @@
       </a>
     </div>
 
-    <div class="search-wrap">
+    <div class="search-wrap" id="search-wrap-a">
       <input id="search" type="text" placeholder="Search boards by name or id&hellip; or click quick board below (press / to focus)" autocomplete="off">
       <div id="dropdown"></div>
+    </div>
+    <button class="compare-toggle" id="compare-toggle" type="button">&#8644; Compare with another board</button>
+    <div class="search-wrap compare-search" id="search-wrap-b" style="display:none;">
+      <input id="search-b" type="text" placeholder="Compare with&hellip;" autocomplete="off">
+      <div id="dropdown-b"></div>
     </div>
     <div class="chips" id="quick-chips"></div>
   </div>
@@ -274,8 +308,8 @@ const DISPLAY_VARIANT_LABELS = {
 
 let DATA = null;
 let SEARCH_INDEX = [];
-let activeIndex = -1;
 let currentBoardId = null;
+let compareBoardId = null;
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({
@@ -294,6 +328,83 @@ function highlightMatch(text, query) {
   );
 }
 
+// Reusable board-search combo box: owns its own active-index state via
+// closure, so two independent instances (primary + compare) can coexist.
+function createBoardPicker(inputEl, dropdownEl, onSelect) {
+  let activeIndex = -1;
+
+  function updateActive(items) {
+    items.forEach((el, i) => el.classList.toggle("active", i === activeIndex));
+    if (activeIndex >= 0) items[activeIndex].scrollIntoView({ block: "nearest" });
+  }
+
+  function filter(query) {
+    const q = query.trim().toLowerCase();
+    const browsingAll = !q;
+    const matches = browsingAll
+      ? SEARCH_INDEX
+      : SEARCH_INDEX.filter((e) => e.haystack.includes(q)).slice(0, 25);
+
+    if (matches.length === 0) {
+      dropdownEl.innerHTML = '<div class="dd-item"><span class="dd-meta">No boards found</span></div>';
+      dropdownEl.classList.add("open");
+      activeIndex = -1;
+      return;
+    }
+
+    const headerHtml = browsingAll
+      ? `<div class="dd-header">All ${matches.length} boards, A&ndash;Z</div>` : "";
+
+    dropdownEl.innerHTML = headerHtml + matches.map((m, i) => `
+      <div class="dd-item" data-id="${escapeHtml(m.id)}" data-index="${i}">
+        <span class="dd-name">${highlightMatch(m.name, query)}</span>
+        <span class="dd-meta">${escapeHtml(m.port)} &middot; ${highlightMatch(m.id, query)}</span>
+      </div>`).join("");
+    dropdownEl.classList.add("open");
+    activeIndex = -1;
+
+    dropdownEl.querySelectorAll(".dd-item[data-id]").forEach((el) => {
+      el.addEventListener("click", () => onSelect(el.dataset.id));
+    });
+  }
+
+  function close() {
+    dropdownEl.classList.remove("open");
+    dropdownEl.innerHTML = "";
+    activeIndex = -1;
+  }
+
+  function onKeyDown(e) {
+    const items = dropdownEl.querySelectorAll(".dd-item[data-id]");
+    if (!dropdownEl.classList.contains("open") || items.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      activeIndex = Math.min(activeIndex + 1, items.length - 1);
+      updateActive(items);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      activeIndex = Math.max(activeIndex - 1, 0);
+      updateActive(items);
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      const target = activeIndex >= 0 ? items[activeIndex] : items[0];
+      if (target) onSelect(target.dataset.id);
+    } else if (e.key === "Escape") {
+      close();
+    }
+  }
+
+  inputEl.addEventListener("input", () => filter(inputEl.value));
+  inputEl.addEventListener("focus", () => filter(inputEl.value));
+  inputEl.addEventListener("keydown", onKeyDown);
+
+  return { filter, close };
+}
+
+let primaryPicker = null;
+let comparePicker = null;
+
 async function init() {
   const res = await fetch("board_data.json");
   DATA = await res.json();
@@ -306,12 +417,31 @@ async function init() {
   renderQuickChips();
   renderFooter();
 
-  const searchEl = document.getElementById("search");
-  searchEl.addEventListener("input", () => filterDropdown(searchEl.value));
-  searchEl.addEventListener("focus", () => filterDropdown(searchEl.value));
-  searchEl.addEventListener("keydown", onSearchKey);
+  primaryPicker = createBoardPicker(
+    document.getElementById("search"),
+    document.getElementById("dropdown"),
+    selectBoard
+  );
+  comparePicker = createBoardPicker(
+    document.getElementById("search-b"),
+    document.getElementById("dropdown-b"),
+    selectCompareBoard
+  );
+
   document.addEventListener("click", (e) => {
-    if (!e.target.closest(".search-wrap")) closeDropdown();
+    if (!e.target.closest("#search-wrap-a")) primaryPicker.close();
+    if (!e.target.closest("#search-wrap-b")) comparePicker.close();
+  });
+
+  document.getElementById("compare-toggle").addEventListener("click", () => {
+    const wrapB = document.getElementById("search-wrap-b");
+    if (wrapB.style.display === "none") {
+      wrapB.style.display = "block";
+      document.getElementById("compare-toggle").textContent = "✕ Cancel compare";
+      document.getElementById("search-b").focus();
+    } else {
+      exitCompare();
+    }
   });
 
   document.addEventListener("keydown", (e) => {
@@ -319,13 +449,24 @@ async function init() {
     const tag = document.activeElement && document.activeElement.tagName;
     if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
     e.preventDefault();
-    searchEl.focus();
+    document.getElementById("search").focus();
   });
 
-  const initial = location.hash.match(/board=([\w.-]+)/);
-  const initialId = initial && DATA.boards[initial[1]] ? initial[1] : DEFAULT_BOARD;
-  if (DATA.boards[initialId]) {
-    selectBoard(initialId);
+  const compareMatch = location.hash.match(/compare=([\w.-]+),([\w.-]+)/);
+  const boardMatch = location.hash.match(/board=([\w.-]+)/);
+
+  if (compareMatch && DATA.boards[compareMatch[1]] && DATA.boards[compareMatch[2]]) {
+    currentBoardId = compareMatch[1];
+    compareBoardId = compareMatch[2];
+    document.getElementById("search").value = DATA.boards[currentBoardId].name;
+    document.getElementById("search-b").value = DATA.boards[compareBoardId].name;
+    document.getElementById("search-wrap-b").style.display = "block";
+    document.getElementById("compare-toggle").textContent = "✕ Cancel compare";
+    render();
+  } else if (boardMatch && DATA.boards[boardMatch[1]]) {
+    selectBoard(boardMatch[1]);
+  } else if (DEFAULT_BOARD && DATA.boards[DEFAULT_BOARD]) {
+    selectBoard(DEFAULT_BOARD);
   } else {
     renderEmptyState();
   }
@@ -346,80 +487,52 @@ function renderQuickChips() {
   }
 }
 
-function filterDropdown(query) {
-  const dropdown = document.getElementById("dropdown");
-  const q = query.trim().toLowerCase();
-  const browsingAll = !q;
-  const matches = browsingAll
-    ? SEARCH_INDEX
-    : SEARCH_INDEX.filter((e) => e.haystack.includes(q)).slice(0, 25);
-
-  if (matches.length === 0) {
-    dropdown.innerHTML = '<div class="dd-item"><span class="dd-meta">No boards found</span></div>';
-    dropdown.classList.add("open");
-    activeIndex = -1;
-    return;
+function render() {
+  if (currentBoardId && compareBoardId) {
+    renderCompare(currentBoardId, compareBoardId);
+  } else if (currentBoardId) {
+    renderBoard(currentBoardId);
+  } else {
+    renderEmptyState();
   }
+  updateUrl();
+  updateChipSelection();
+}
 
-  const headerHtml = browsingAll
-    ? `<div class="dd-header">All ${matches.length} boards, A&ndash;Z</div>` : "";
+function updateUrl() {
+  if (currentBoardId && compareBoardId) {
+    history.replaceState(null, "", `#compare=${currentBoardId},${compareBoardId}`);
+  } else if (currentBoardId) {
+    history.replaceState(null, "", `#board=${currentBoardId}`);
+  }
+}
 
-  dropdown.innerHTML = headerHtml + matches.map((m, i) => `
-    <div class="dd-item" data-id="${escapeHtml(m.id)}" data-index="${i}">
-      <span class="dd-name">${highlightMatch(m.name, query)}</span>
-      <span class="dd-meta">${escapeHtml(m.port)} &middot; ${highlightMatch(m.id, query)}</span>
-    </div>`).join("");
-  dropdown.classList.add("open");
-  activeIndex = -1;
-
-  dropdown.querySelectorAll(".dd-item[data-id]").forEach((el) => {
-    el.addEventListener("click", () => selectBoard(el.dataset.id));
+function updateChipSelection() {
+  document.querySelectorAll("#quick-chips .chip").forEach((chip) => {
+    chip.classList.toggle("selected", currentBoardId && chip.textContent === DATA.boards[currentBoardId].name);
   });
-}
-
-function closeDropdown() {
-  const dropdown = document.getElementById("dropdown");
-  dropdown.classList.remove("open");
-  dropdown.innerHTML = "";
-  activeIndex = -1;
-}
-
-function onSearchKey(e) {
-  const dropdown = document.getElementById("dropdown");
-  const items = dropdown.querySelectorAll(".dd-item[data-id]");
-  if (!dropdown.classList.contains("open") || items.length === 0) return;
-
-  if (e.key === "ArrowDown") {
-    e.preventDefault();
-    activeIndex = Math.min(activeIndex + 1, items.length - 1);
-    updateActiveItem(items);
-  } else if (e.key === "ArrowUp") {
-    e.preventDefault();
-    activeIndex = Math.max(activeIndex - 1, 0);
-    updateActiveItem(items);
-  } else if (e.key === "Enter") {
-    e.preventDefault();
-    const target = activeIndex >= 0 ? items[activeIndex] : items[0];
-    if (target) selectBoard(target.dataset.id);
-  } else if (e.key === "Escape") {
-    closeDropdown();
-  }
-}
-
-function updateActiveItem(items) {
-  items.forEach((el, i) => el.classList.toggle("active", i === activeIndex));
-  if (activeIndex >= 0) items[activeIndex].scrollIntoView({ block: "nearest" });
 }
 
 function selectBoard(id) {
   currentBoardId = id;
   document.getElementById("search").value = DATA.boards[id].name;
-  closeDropdown();
-  history.replaceState(null, "", `#board=${id}`);
-  renderBoard(id);
-  document.querySelectorAll("#quick-chips .chip").forEach((chip) => {
-    chip.classList.toggle("selected", chip.textContent === DATA.boards[id].name);
-  });
+  primaryPicker.close();
+  render();
+}
+
+function selectCompareBoard(id) {
+  compareBoardId = id;
+  document.getElementById("search-b").value = DATA.boards[id].name;
+  comparePicker.close();
+  render();
+}
+
+function exitCompare() {
+  compareBoardId = null;
+  document.getElementById("search-b").value = "";
+  document.getElementById("search-wrap-b").style.display = "none";
+  document.getElementById("compare-toggle").textContent = "⇄ Compare with another board";
+  render();
 }
 
 function renderEmptyState() {
@@ -467,9 +580,8 @@ function displayCard(display) {
   </div>`;
 }
 
-function renderBoard(id) {
+function boardCardsHtml(id) {
   const b = DATA.boards[id];
-  const view = document.getElementById("board-view");
 
   const aliasHtml = (b.aliases && b.aliases.length)
     ? ` &middot; also known as ${b.aliases.map(escapeHtml).join(", ")}`
@@ -518,7 +630,7 @@ function renderBoard(id) {
 
   const cpyorgUrl = `https://circuitpython.org/board/${encodeURIComponent(id)}/`;
 
-  view.innerHTML = `
+  return `
     <div class="card board-header">
       <div class="board-header-text">
         <h2>${escapeHtml(b.name)}</h2>
@@ -549,6 +661,22 @@ function renderBoard(id) {
       </table>
       ${unmappedHtml}
     </div>`;
+}
+
+function renderBoard(id) {
+  document.getElementById("board-view").innerHTML = boardCardsHtml(id);
+}
+
+function renderCompare(idA, idB) {
+  document.getElementById("board-view").innerHTML = `
+    <div class="compare-bar">
+      <button class="exit-compare" type="button" id="exit-compare-btn">✕ Exit compare</button>
+    </div>
+    <div class="compare-grid">
+      <div class="compare-col">${boardCardsHtml(idA)}</div>
+      <div class="compare-col">${boardCardsHtml(idB)}</div>
+    </div>`;
+  document.getElementById("exit-compare-btn").addEventListener("click", exitCompare);
 }
 
 function renderFooter() {
