@@ -80,10 +80,11 @@
   h1 { font-size: 24px; font-weight: 700; margin: 0 0 6px; color: var(--accent); }
   .subtitle { color: var(--muted); margin: 0; font-size: 14px; }
   .search-wrap { position: relative; margin-top: 18px; }
-  #search {
+  #search, #search-b {
     width: 100%;
     padding: 12px 16px;
-    font-size: 15px;
+    /* 16px minimum: below this, Mobile Safari auto-zooms the page on focus */
+    font-size: 16px;
     border: 2px solid var(--accent);
     border-radius: 12px;
     background: var(--panel);
@@ -158,6 +159,32 @@
   }
   .board-thumb img { display: block; height: 100%; width: auto; transform: scale(1.1); }
   .board-header-text { min-width: 0; }
+
+  /* The header's side-by-side title+photo layout only has room to work
+     when its container is reasonably wide. Query the container itself
+     (not the viewport) since compare-mode columns are narrow even on
+     a wide screen. */
+  #board-view, .compare-col { container-type: inline-size; }
+  @container (max-width: 480px) {
+    .card.board-header { flex-direction: column; align-items: stretch; }
+    .board-thumb {
+      height: auto;
+      max-height: 180px;
+      width: 100%;
+      margin: 12px 0 0;
+      display: flex;
+      justify-content: center;
+      overflow: visible;
+    }
+    .board-thumb img {
+      height: auto;
+      max-height: 180px;
+      width: auto;
+      max-width: 100%;
+      transform: none;
+      border-radius: 10px;
+    }
+  }
   .board-header h2 { margin: 0 0 4px; font-size: 21px; font-weight: 700; }
   .card h3 { margin: 0; font-size: 16px; font-weight: 700; }
   .board-meta { color: var(--muted); font-size: 13.5px; }
