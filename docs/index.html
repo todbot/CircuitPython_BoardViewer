@@ -143,11 +143,18 @@
     margin-bottom: 16px;
   }
   .card.board-header {
+    overflow: hidden;
+    /* Query against this card's own rendered width (not the viewport):
+       compare-mode puts it in a narrow grid column even on a wide
+       screen, where the side-by-side title+photo layout below has no
+       room to work. */
+    container-type: inline-size;
+  }
+  .board-header-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    overflow: hidden;
   }
   .board-thumb {
     flex: none;
@@ -160,13 +167,8 @@
   .board-thumb img { display: block; height: 100%; width: auto; transform: scale(1.1); }
   .board-header-text { min-width: 0; }
 
-  /* The header's side-by-side title+photo layout only has room to work
-     when its container is reasonably wide. Query the container itself
-     (not the viewport) since compare-mode columns are narrow even on
-     a wide screen. */
-  #board-view, .compare-col { container-type: inline-size; }
   @container (max-width: 480px) {
-    .card.board-header { flex-direction: column; align-items: stretch; }
+    .board-header-row { flex-direction: column; align-items: stretch; }
     .board-thumb {
       height: auto;
       max-height: 180px;
@@ -270,8 +272,18 @@
   }
   .exit-compare:hover { color: var(--accent); border-color: var(--accent); }
   .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .compare-grid .card { margin-bottom: 0; }
   @media (max-width: 700px) {
     .compare-grid { grid-template-columns: 1fr; }
+    /* Cards are in header/objects/pins-interleaved DOM order (so the
+       2-column layout above aligns matching rows) — regroup each
+       board's own three cards together once stacked into one column. */
+    .compare-grid > *:nth-child(1) { order: 1; }
+    .compare-grid > *:nth-child(3) { order: 2; }
+    .compare-grid > *:nth-child(5) { order: 3; }
+    .compare-grid > *:nth-child(2) { order: 4; }
+    .compare-grid > *:nth-child(4) { order: 5; }
+    .compare-grid > *:nth-child(6) { order: 6; }
   }
 </style>
 </head>
@@ -608,6 +620,11 @@ function displayCard(display) {
 }
 
 function boardCardsHtml(id) {
+  const parts = boardCardParts(id);
+  return parts.header + parts.objects + parts.pins;
+}
+
+function boardCardParts(id) {
   const b = DATA.boards[id];
 
   const aliasHtml = (b.aliases && b.aliases.length)
@@ -657,29 +674,35 @@ function boardCardsHtml(id) {
 
   const cpyorgUrl = `https://circuitpython.org/board/${encodeURIComponent(id)}/`;
 
-  return `
+  const header = `
     <div class="card board-header">
-      <div class="board-header-text">
-        <h2>${escapeHtml(b.name)}</h2>
-        <div class="board-meta">
-          <code title="Board id — matches the board's directory name in the CircuitPython source and this tool's #board= URL">${escapeHtml(id)}</code>
-          &middot; <span title="CircuitPython port — the ports/ directory grouping boards by microcontroller family/toolchain">${escapeHtml(b.port)}</span>
-          &middot; <span title="Microcontroller — from MICROPY_HW_MCU_NAME in the board's mpconfigboard.h">${escapeHtml(b.mcu || "unknown MCU")}</span>${aliasHtml}
-          &middot; <a href="${cpyorgUrl}" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
+      <div class="board-header-row">
+        <div class="board-header-text">
+          <h2>${escapeHtml(b.name)}</h2>
+          <div class="board-meta">
+            <code title="Board id — matches the board's directory name in the CircuitPython source and this tool's #board= URL">${escapeHtml(id)}</code>
+            &middot; <span title="CircuitPython port — the ports/ directory grouping boards by microcontroller family/toolchain">${escapeHtml(b.port)}</span>
+            &middot; <span title="Microcontroller — from MICROPY_HW_MCU_NAME in the board's mpconfigboard.h">${escapeHtml(b.mcu || "unknown MCU")}</span>${aliasHtml}
+            &middot; <a href="${cpyorgUrl}" target="_blank" rel="noopener">circuitpython.org &#8599;</a>
+          </div>
         </div>
+        ${b.image ? `
+        <a class="board-thumb" href="${cpyorgUrl}" target="_blank" rel="noopener">
+          <img src="https://circuitpython.org/assets/images/boards/small/${encodeURIComponent(b.image)}"
+               alt="${escapeHtml(b.name)}"
+               onerror="this.closest('.board-thumb').style.display='none'">
+        </a>` : ""}
       </div>
-      ${b.image ? `
-      <a class="board-thumb" href="${cpyorgUrl}" target="_blank" rel="noopener">
-        <img src="https://circuitpython.org/assets/images/boards/small/${encodeURIComponent(b.image)}"
-             alt="${escapeHtml(b.name)}"
-             onerror="this.closest('.board-thumb').style.display='none'">
-      </a>` : ""}
-    </div>
+    </div>`;
+
+  const objects = `
     <div class="card">
       <h3>Board objects</h3>
       ${objectsHtml}
       ${otherHtml}
-    </div>
+    </div>`;
+
+  const pins = `
     <div class="card">
       <h3>Pins (${b.pins.length})</h3>
       <table>
@@ -688,6 +711,8 @@ function boardCardsHtml(id) {
       </table>
       ${unmappedHtml}
     </div>`;
+
+  return { header, objects, pins };
 }
 
 function renderBoard(id) {
@@ -695,13 +720,20 @@ function renderBoard(id) {
 }
 
 function renderCompare(idA, idB) {
+  const a = boardCardParts(idA);
+  const b = boardCardParts(idB);
+  // Each pair (a.X, b.X) lands in the same grid row via plain source-order
+  // auto-placement in a 2-column grid, so corresponding cards — header,
+  // objects, pins — line up across both columns regardless of how tall
+  // either board's content is (grid rows auto-size to their tallest cell).
   document.getElementById("board-view").innerHTML = `
     <div class="compare-bar">
       <button class="exit-compare" type="button" id="exit-compare-btn">✕ Exit compare</button>
     </div>
     <div class="compare-grid">
-      <div class="compare-col">${boardCardsHtml(idA)}</div>
-      <div class="compare-col">${boardCardsHtml(idB)}</div>
+      ${a.header}${b.header}
+      ${a.objects}${b.objects}
+      ${a.pins}${b.pins}
     </div>`;
   document.getElementById("exit-compare-btn").addEventListener("click", exitCompare);
 }
