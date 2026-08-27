@@ -122,19 +122,45 @@
   .dd-meta { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
   mark { background: var(--accent-bg); color: var(--accent); border-radius: 3px; padding: 0 1px; }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
   .chip {
-    padding: 4px 11px;
+    padding: 2px 9px;
     border-radius: 999px;
     border: 1.5px solid var(--accent);
     background: var(--panel);
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     color: var(--accent);
   }
   .chip:hover { background: var(--accent-bg); }
   .chip.selected { background: var(--accent); color: var(--accent-text); }
+
+  .chips-row { margin-top: 14px; }
+  .chips-row .chips { margin-top: 6px; }
+  .chips-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+  }
+  .clear-recent {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .clear-recent:hover { color: var(--accent); }
 
   .card {
     background: var(--panel);
@@ -316,6 +342,13 @@
       <input id="search-b" type="text" placeholder="Compare with&hellip;" autocomplete="off">
       <div id="dropdown-b"></div>
     </div>
+    <div class="chips-row" id="recent-row" style="display:none;">
+      <div class="chips-label">
+        Recently viewed
+        <button class="clear-recent" id="clear-recent" type="button">clear</button>
+      </div>
+      <div class="chips" id="recent-chips"></div>
+    </div>
     <div class="chips" id="quick-chips"></div>
   </div>
 
@@ -338,6 +371,9 @@ const QUICK_BOARDS = [
 ];
 
 const DEFAULT_BOARD = ""; //raspberry_pi_pico";
+
+const RECENT_KEY = "cpbv_recent_boards";
+const MAX_RECENT = 8;
 
 const DISPLAY_VARIANT_LABELS = {
   display: "regular display",
@@ -454,7 +490,13 @@ async function init() {
   })).sort((a, b) => a.name.localeCompare(b.name));
 
   renderQuickChips();
+  renderRecentChips();
   renderFooter();
+
+  document.getElementById("clear-recent").addEventListener("click", () => {
+    localStorage.removeItem(RECENT_KEY);
+    renderRecentChips();
+  });
 
   primaryPicker = createBoardPicker(
     document.getElementById("search"),
@@ -501,6 +543,8 @@ async function init() {
     document.getElementById("search-b").value = DATA.boards[compareBoardId].name;
     document.getElementById("search-wrap-b").style.display = "block";
     document.getElementById("compare-toggle").textContent = "✕ Cancel compare";
+    addRecent(compareBoardId);
+    addRecent(currentBoardId);
     render();
   } else if (boardMatch && DATA.boards[boardMatch[1]]) {
     selectBoard(boardMatch[1]);
@@ -511,10 +555,10 @@ async function init() {
   }
 }
 
-function renderQuickChips() {
-  const wrap = document.getElementById("quick-chips");
+function renderChipRow(containerId, ids) {
+  const wrap = document.getElementById(containerId);
   wrap.innerHTML = "";
-  for (const id of QUICK_BOARDS) {
+  for (const id of ids) {
     const board = DATA.boards[id];
     if (!board) continue;
     const chip = document.createElement("button");
@@ -524,6 +568,31 @@ function renderQuickChips() {
     chip.addEventListener("click", () => selectBoard(id));
     wrap.appendChild(chip);
   }
+}
+
+function renderQuickChips() {
+  renderChipRow("quick-chips", QUICK_BOARDS);
+}
+
+function loadRecent() {
+  try {
+    return JSON.parse(localStorage.getItem(RECENT_KEY)) || [];
+  } catch {
+    return [];
+  }
+}
+
+function addRecent(id) {
+  const recent = loadRecent();
+  if (!recent.includes(id)) recent.unshift(id);
+  localStorage.setItem(RECENT_KEY, JSON.stringify(recent.slice(0, MAX_RECENT)));
+  renderRecentChips();
+}
+
+function renderRecentChips() {
+  const recent = loadRecent().filter((id) => DATA.boards[id]);
+  document.getElementById("recent-row").style.display = recent.length ? "block" : "none";
+  renderChipRow("recent-chips", recent);
 }
 
 function render() {
@@ -547,7 +616,7 @@ function updateUrl() {
 }
 
 function updateChipSelection() {
-  document.querySelectorAll("#quick-chips .chip").forEach((chip) => {
+  document.querySelectorAll("#quick-chips .chip, #recent-chips .chip").forEach((chip) => {
     chip.classList.toggle("selected", currentBoardId && chip.textContent === DATA.boards[currentBoardId].name);
   });
 }
@@ -556,6 +625,7 @@ function selectBoard(id) {
   currentBoardId = id;
   document.getElementById("search").value = DATA.boards[id].name;
   primaryPicker.close();
+  addRecent(id);
   render();
 }
 
@@ -563,6 +633,7 @@ function selectCompareBoard(id) {
   compareBoardId = id;
   document.getElementById("search-b").value = DATA.boards[id].name;
   comparePicker.close();
+  addRecent(id);
   render();
 }
 
