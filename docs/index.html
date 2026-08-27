@@ -583,6 +583,7 @@ function loadRecent() {
 }
 
 function addRecent(id) {
+  if (QUICK_BOARDS.includes(id)) return;
   const recent = loadRecent();
   if (!recent.includes(id)) recent.unshift(id);
   localStorage.setItem(RECENT_KEY, JSON.stringify(recent.slice(0, MAX_RECENT)));
@@ -590,7 +591,7 @@ function addRecent(id) {
 }
 
 function renderRecentChips() {
-  const recent = loadRecent().filter((id) => DATA.boards[id]);
+  const recent = loadRecent().filter((id) => DATA.boards[id] && !QUICK_BOARDS.includes(id));
   document.getElementById("recent-row").style.display = recent.length ? "block" : "none";
   renderChipRow("recent-chips", recent);
 }
