@@ -684,10 +684,16 @@ function displayCard(display) {
     </div>`;
   }
   const label = DISPLAY_VARIANT_LABELS[display.variant] || display.variant;
+  const size = display.size;
+  const sizeHtml = size
+    ? `<div class="obj-pins">${size.width}&times;${size.height}px${
+        size.color_depth ? `, ${size.color_depth}-bit color` : ""
+      }</div>`
+    : `<div class="obj-note">size not extractable from board data</div>`;
   return `<div class="obj-card">
     <div class="obj-title">DISPLAY <span class="badge ok">available</span></div>
     <div class="obj-names">type: <span class="pin-alias">${escapeHtml(label)}</span></div>
-    <div class="obj-note">size/driver chip not extractable from board data</div>
+    ${sizeHtml}
   </div>`;
 }
 

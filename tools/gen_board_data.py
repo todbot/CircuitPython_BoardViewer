@@ -155,6 +155,99 @@ def join_line_continuations(text):
     return re.sub(r"\\\r?\n\s*", " ", text)
 
 
+def strip_c_comments(text):
+    text = re.sub(r"/\*.*?\*/", "", text, flags=re.DOTALL)
+    text = re.sub(r"//[^\n]*", "", text)
+    return text
+
+
+def find_call_args(text, func_name):
+    """Return the raw text inside the matching parens of a call to
+    func_name(...), or None if the call isn't present."""
+    m = re.search(re.escape(func_name) + r"\s*\(", text)
+    if not m:
+        return None
+    depth = 1
+    i = m.end()
+    while i < len(text) and depth > 0:
+        if text[i] == "(":
+            depth += 1
+        elif text[i] == ")":
+            depth -= 1
+        i += 1
+    return text[m.end() : i - 1]
+
+
+def split_top_level_args(arg_text):
+    """Split a C call's argument text on commas, ignoring commas nested
+    inside parens/brackets/braces (e.g. struct initializers)."""
+    args = []
+    depth = 0
+    current = []
+    for ch in arg_text:
+        if ch in "([{":
+            depth += 1
+        elif ch in ")]}":
+            depth -= 1
+        if ch == "," and depth == 0:
+            args.append("".join(current).strip())
+            current = []
+        else:
+            current.append(ch)
+    if current:
+        args.append("".join(current).strip())
+    return args
+
+
+def resolve_int(token, macros, _seen=frozenset()):
+    """Resolve a C integer literal or #define'd macro name to an int.
+    Returns None for anything more complex (expressions, unknown names)."""
+    token = token.strip()
+    m = re.match(r"^(0[xX][0-9a-fA-F]+|\d+)[uUlL]*$", token)
+    if m:
+        return int(m.group(1), 0)
+    if token in macros and token not in _seen:
+        return resolve_int(macros[token], macros, _seen | {token})
+    return None
+
+
+def parse_display_size(board_c_text, variant):
+    """Extract width/height/color_depth for a board's primary display from
+    board.c, for the two display driver families with a fixed, parseable
+    call shape. Returns None if not extractable (e.g. framebuffer-backed
+    displays, whose dimensions live on a per-driver-type constructor with
+    no single common shape)."""
+    text = strip_c_comments(board_c_text)
+    macros = {k: v.strip() for k, v in re.findall(r"#define\s+(\w+)\s+([^\n]+)", text)}
+
+    if variant == "display":
+        args_text = find_call_args(text, "common_hal_busdisplay_busdisplay_construct")
+        if args_text is None:
+            return None
+        args = split_top_level_args(args_text)
+        if len(args) < 8:
+            return None
+        width = resolve_int(args[2], macros)
+        height = resolve_int(args[3], macros)
+        color_depth = resolve_int(args[7], macros)
+        if width is None or height is None:
+            return None
+        return {"width": width, "height": height, "color_depth": color_depth}
+
+    if variant == "epaper_display":
+        w_match = re.search(r"args\.width\s*=\s*([^;]+);", text)
+        h_match = re.search(r"args\.height\s*=\s*([^;]+);", text)
+        if not w_match or not h_match:
+            return None
+        width = resolve_int(w_match.group(1), macros)
+        height = resolve_int(h_match.group(1), macros)
+        if width is None or height is None:
+            return None
+        return {"width": width, "height": height, "color_depth": None}
+
+    return None
+
+
 def parse_mpconfigboard_h(header_text):
     header_text = join_line_continuations(header_text)
     name_match = re.search(r'#define\s+MICROPY_HW_BOARD_NAME\s+"([^"]*)"', header_text)
@@ -248,7 +341,12 @@ def build_board_record(board_id, info, discrepancy_counts):
     display = None
     if displays:
         primary = displays[0]
-        display = {"names": primary["names"], "variant": primary["variant"]}
+        display = {"names": primary["names"], "variant": primary["variant"], "size": None}
+        board_c = board_dir / "board.c"
+        if board_c.exists():
+            display["size"] = parse_display_size(
+                board_c.read_text(encoding="utf-8"), primary["variant"]
+            )
 
     return {
         "name": header_info["name"] or board_id,

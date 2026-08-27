@@ -92,8 +92,12 @@ Then open `http://localhost:8000/`.
 
 - silabs (`pins.csv`) and zephyr-cp (`circuitpython.toml`) boards
   are not parsed — they use a different board-definition format.
-- `board.DISPLAY` is shown as present/absent only; its size and
-  driver chip live in board-specific C code and aren't extracted.
+- `board.DISPLAY`'s driver chip isn't extracted. Its pixel size and
+  color depth are extracted from `board.c` for the two most common
+  display driver families (regular bus-driven and e-paper displays,
+  ~85% of boards with a display); framebuffer-backed displays (e.g.
+  HUB75 matrices, DVI/HDMI output) aren't extracted since their
+  dimensions live on a per-driver constructor with no fixed shape.
 - Backing pins for non-standard board objects (e.g. `STEMMA_I2C`
   when it's a separate bus from `I2C`, `SD_SPI`) usually aren't
   extractable, since they're wired up in board-specific C code with

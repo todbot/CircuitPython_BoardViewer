@@ -10,6 +10,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 1,
+      "height": 40,
+      "width": 72
+     },
      "variant": "display"
     },
     "i2c": {
@@ -2047,6 +2052,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -2915,6 +2925,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -3167,6 +3182,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -3830,6 +3850,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -4082,6 +4107,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -5203,6 +5233,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "framebuffer_display"
     },
     "i2c": {
@@ -7056,6 +7087,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "framebuffer_display"
     },
     "i2c": {
@@ -7603,6 +7635,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -8663,6 +8700,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 1,
+      "height": 64,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -8873,6 +8915,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 128,
+      "width": 296
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -22133,6 +22180,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 200,
+      "width": 200
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -23344,7 +23396,7 @@
   },
   "cezerio_dev_ESP32C6": {
    "aliases": [],
-   "image": null,
+   "image": "cezerio_dev_esp32c6.jpg",
    "mcu": "ESP32C6",
    "name": "cezerio dev ESP32C6",
    "objects": {
@@ -27560,6 +27612,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -34108,6 +34165,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -34287,6 +34349,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -35565,6 +35628,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 24,
+      "height": 480,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -35815,6 +35883,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": null,
@@ -40841,6 +40910,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -41058,6 +41132,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -41506,253 +41585,6 @@
      "names": [
       "IO48",
       "NEOPIXEL"
-     ]
-    }
-   ],
-   "port": "espressif",
-   "unmapped": []
-  },
-  "espressif_esp32s3_devkitc_1_n32r16": {
-   "aliases": [],
-   "image": "espressif_esp32s3_devkitc_1.jpg",
-   "mcu": "ESP32S3",
-   "name": "ESP32-S3-DevKitC-1-N32R16",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO44",
-      "tx": "GPIO43"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "IO0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "IO1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "IO2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "IO3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "IO4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "IO5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "IO6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "IO7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "IO8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "IO9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "IO10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "IO11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "IO12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "IO13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "IO14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "IO15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "IO16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "IO17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "IO18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "IO19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "IO20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "IO21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO35",
-     "names": [
-      "IO35"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO36",
-     "names": [
-      "IO36"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO37",
-     "names": [
-      "IO37"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO38",
-     "names": [
-      "IO38",
-      "NEOPIXEL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO39",
-     "names": [
-      "IO39"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO40",
-     "names": [
-      "IO40"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO41",
-     "names": [
-      "IO41"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "IO42"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO43",
-     "names": [
-      "IO43",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO44",
-     "names": [
-      "IO44",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO45",
-     "names": [
-      "IO45"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO46",
-     "names": [
-      "IO46"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO47",
-     "names": [
-      "IO47"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO48",
-     "names": [
-      "IO48"
      ]
     }
    ],
@@ -43004,6 +42836,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -43538,6 +43371,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -43710,6 +43548,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -43818,6 +43657,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -43926,6 +43766,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -45649,6 +45494,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": null,
@@ -52098,6 +51944,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -52345,6 +52196,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -52585,6 +52441,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -52855,6 +52716,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -53018,6 +52884,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 280,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -53271,6 +53142,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 280,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -53526,6 +53402,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 1,
+      "height": 64,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -53853,6 +53734,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 128,
+      "width": 296
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -54104,6 +53990,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 122,
+      "width": 250
+     },
      "variant": "epaper_display"
     },
     "i2c": null,
@@ -54268,6 +54159,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -54493,6 +54389,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -54876,6 +54777,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -60016,6 +59922,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -60248,6 +60159,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -60520,6 +60436,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 170,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -60745,6 +60666,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 480,
+      "width": 222
+     },
      "variant": "display"
     },
     "i2c": {
@@ -61038,6 +60964,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 80,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -61192,6 +61123,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 170,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -61465,6 +61401,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -61639,6 +61580,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -62455,6 +62401,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -62700,6 +62651,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -62863,6 +62819,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -63038,6 +62999,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -63219,6 +63185,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -64263,6 +64234,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 1,
+      "height": 32,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -65038,6 +65014,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -66251,6 +66232,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -66623,6 +66609,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -66872,6 +66863,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -67121,6 +67117,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -67360,6 +67361,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -67606,6 +67612,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -67836,6 +67847,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -68121,6 +68137,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -68339,6 +68360,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -68528,6 +68554,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -69349,6 +69380,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 160,
+      "width": 80
+     },
      "variant": "display"
     },
     "i2c": {
@@ -69514,6 +69550,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 135
+     },
      "variant": "display"
     },
     "i2c": {
@@ -69685,6 +69726,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 135
+     },
      "variant": "display"
     },
     "i2c": {
@@ -69878,6 +69924,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -71766,6 +71813,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -72486,6 +72538,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -74294,6 +74347,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -77632,6 +77690,11 @@
       "DISPLAY",
       "RIGHT_DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -77799,6 +77862,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -82544,6 +82612,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -82973,6 +83046,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 400,
+      "width": 300
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -83596,6 +83674,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -83751,6 +83834,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -83923,6 +84011,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -84078,6 +84171,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -84537,6 +84635,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -87775,6 +87878,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -87906,6 +88014,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -88425,6 +88538,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 128,
+      "width": 296
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -88628,6 +88746,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 128,
+      "width": 296
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -88872,6 +88995,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 176,
+      "width": 264
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -89099,6 +89227,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -89436,6 +89569,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 448,
+      "width": 600
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -89684,6 +89822,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 480,
+      "width": 800
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -91035,6 +91178,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "framebuffer_display"
     },
     "i2c": null,
@@ -92466,6 +92610,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -95048,6 +95197,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -96676,6 +96830,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -96977,6 +97136,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -97270,6 +97434,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 320,
+      "width": 480
+     },
      "variant": "display"
     },
     "i2c": {
@@ -98877,6 +99046,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": null,
@@ -99087,6 +99257,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -99310,6 +99481,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -99533,6 +99705,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -99750,6 +99923,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -99973,6 +100147,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -102310,166 +102485,6 @@
     "{ MP_ROM_QSTR(MP_QSTR_CAM_DATA), MP_ROM_PTR(&camera_data_tuple) },"
    ]
   },
-  "seeed_xiao_esp32_s3_trmnl_diy_kit": {
-   "aliases": [],
-   "image": null,
-   "mcu": "ESP32S3",
-   "name": "Seeed Xiao ESP32-S3 Trmnl DIY Kit",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": {
-     "available": true,
-     "names": [
-      "SPI"
-     ],
-     "note": null,
-     "pins": {
-      "clock": "GPIO7",
-      "mosi": "GPIO9"
-     }
-    },
-    "stemma_i2c": null,
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO41",
-      "tx": "GPIO42"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "BAT_ADC"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "BTN1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "BTN2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "EDP_BUSY"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "BTN3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "ADC_EN"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "SPI0_CLK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "SPI0_MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "EDP_DC"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "SPI1_MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "SPI1_MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "SPI1_CLK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "LED"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO38",
-     "names": [
-      "EDP_RES"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO39",
-     "names": [
-      "SPI1_CS0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO40",
-     "names": [
-      "SPI1_CS1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO41",
-     "names": [
-      "D14",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "D15",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO43",
-     "names": [
-      "PWR_EN"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO44",
-     "names": [
-      "SPI0_CS"
-     ]
-    }
-   ],
-   "port": "espressif",
-   "unmapped": []
-  },
   "seeed_xiao_esp32c3": {
    "aliases": [],
    "image": "seeed_xiao_esp32c3.jpg",
@@ -102769,6 +102784,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -111513,6 +111533,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -111637,6 +111662,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 280
+     },
      "variant": "display"
     },
     "i2c": {
@@ -112077,6 +112107,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 200,
+      "width": 200
+     },
      "variant": "epaper_display"
     },
     "i2c": {
@@ -115666,6 +115701,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -115800,6 +115840,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -115998,6 +116043,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -116221,6 +116271,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -116420,6 +116475,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -116591,6 +116647,7 @@
      "names": [
       "DISPLAY"
      ],
+     "size": null,
      "variant": "display"
     },
     "i2c": {
@@ -119971,6 +120028,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 1,
+      "height": 40,
+      "width": 72
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -120092,6 +120154,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": {
@@ -121287,6 +121354,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -121423,6 +121495,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -126084,6 +126161,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -126479,6 +126561,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 320,
+      "width": 172
+     },
      "variant": "display"
     },
     "i2c": {
@@ -126667,6 +126754,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 80,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -126929,6 +127021,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 450,
+      "width": 600
+     },
      "variant": "display"
     },
     "i2c": null,
@@ -127430,6 +127527,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -127646,6 +127748,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -127919,6 +128026,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 320,
+      "width": 172
+     },
      "variant": "display"
     },
     "i2c": {
@@ -129081,6 +129193,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 320,
+      "width": 172
+     },
      "variant": "display"
     },
     "i2c": {
@@ -129291,6 +129408,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -129563,6 +129685,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 240,
+      "width": 320
+     },
      "variant": "display"
     },
     "i2c": {
@@ -130337,6 +130464,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -130543,6 +130675,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 80,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -132497,6 +132634,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 135,
+      "width": 240
+     },
      "variant": "display"
     },
     "i2c": {
@@ -132703,6 +132845,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": 16,
+      "height": 80,
+      "width": 160
+     },
      "variant": "display"
     },
     "i2c": {
@@ -137166,235 +137313,6 @@
    "port": "raspberrypi",
    "unmapped": []
   },
-  "wiznet_w55rp20_evb_pico": {
-   "aliases": [],
-   "image": null,
-   "mcu": "rp2040",
-   "name": "W55RP20-EVB-Pico",
-   "objects": {
-    "display": null,
-    "i2c": {
-     "available": true,
-     "names": [
-      "STEMMA_I2C"
-     ],
-     "note": "no default pins configured; calling this may raise NotImplementedError",
-     "pins": null
-    },
-    "spi": {
-     "available": true,
-     "names": [
-      "W5K_SPI"
-     ],
-     "note": null,
-     "pins": {
-      "miso": "GPIO22",
-      "mosi": "GPIO23",
-      "sck": "GPIO21"
-     }
-    },
-    "stemma_i2c": null,
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO1",
-      "tx": "GPIO0"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "GP0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "GP1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "GP2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "GP3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "GP4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "GP5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "GP6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "GP7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "GP8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "GP9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "GP10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "GP11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "GP12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "GP13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "GP14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "GP15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "VBUS_SENSE",
-      "GP18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "LED",
-      "GP19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "W5K_CS",
-      "GP20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "W5K_SCK",
-      "GP21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "W5K_MISO",
-      "GP22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "W5K_MOSI",
-      "GP23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "W5K_INT",
-      "GP24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "W5K_RST",
-      "GP25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "GP26_A0",
-      "GP26",
-      "A0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "GP27_A1",
-      "GP27",
-      "A1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO28",
-     "names": [
-      "GP28_A2",
-      "GP28",
-      "A2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO29",
-     "names": [
-      "A3",
-      "VOLTAGE_MONITOR"
-     ]
-    }
-   ],
-   "port": "raspberrypi",
-   "unmapped": []
-  },
   "wk-50": {
    "aliases": [],
    "image": "wk_50.jpg",
@@ -137780,6 +137698,11 @@
      "names": [
       "DISPLAY"
      ],
+     "size": {
+      "color_depth": null,
+      "height": 480,
+      "width": 800
+     },
      "variant": "epaper_display"
     },
     "i2c": null,
@@ -138599,13 +138522,9 @@
    "unmapped": []
   }
  },
- "cp_sha": "cd3da4a",
- "generated": "2026-08-24T06:19:19Z",
+ "cp_sha": "42cf63a5fd",
+ "generated": "2026-08-27T18:54:49Z",
  "skipped": {
-  "adafruit_clue_nrf52840_zephyr": {
-   "port": "zephyr-cp",
-   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
-  },
   "adafruit_feather_nrf52840_sense_zephyr": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
@@ -138631,10 +138550,6 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "native_nrf5340bsim": {
-   "port": "zephyr-cp",
-   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
-  },
-  "native_nrf54lm20bsim": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
