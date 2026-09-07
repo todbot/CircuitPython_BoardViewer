@@ -38871,6 +38871,161 @@
    "port": "espressif",
    "unmapped": []
   },
+  "espressif_esp32c5_devkitc_1_n8r8": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32C5",
+   "name": "ESP32-C5-DevKitC-1-N8R8",
+   "objects": {
+    "display": null,
+    "i2c": null,
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO12",
+      "tx": "GPIO11"
+     }
+    }
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "IO0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "IO1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "IO2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "IO3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "IO4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "IO5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "IO6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "IO7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "IO8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "IO9"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "IO10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "IO13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "IO14"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO23",
+     "names": [
+      "IO23"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO24",
+     "names": [
+      "IO24"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO25",
+     "names": [
+      "IO25"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "IO26"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "IO27",
+      "NEOPIXEL"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "IO28"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "RX"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "espressif_esp32c61_devkitc_1_n8r2": {
    "aliases": [],
    "image": "espressif_esp32c61_devkitc_1.jpg",
@@ -118798,6 +118953,246 @@
    "port": "raspberrypi",
    "unmapped": []
   },
+  "teenage_engineering_sp1": {
+   "aliases": [],
+   "image": "teenage_engineering_sp1.jpg",
+   "mcu": "nRF52840",
+   "name": "Teenage Engineering SP-1",
+   "objects": {
+    "display": null,
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "P1_11",
+      "sda": "P1_07"
+     }
+    },
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "P0_05",
+     "names": [
+      "FADER1"
+     ]
+    },
+    {
+     "mcu_pin": "P0_30",
+     "names": [
+      "FADER2"
+     ]
+    },
+    {
+     "mcu_pin": "P0_04",
+     "names": [
+      "FADER3"
+     ]
+    },
+    {
+     "mcu_pin": "P0_31",
+     "names": [
+      "FADER4"
+     ]
+    },
+    {
+     "mcu_pin": "P0_02",
+     "names": [
+      "LADDER1"
+     ]
+    },
+    {
+     "mcu_pin": "P0_03",
+     "names": [
+      "LADDER2"
+     ]
+    },
+    {
+     "mcu_pin": "P1_10",
+     "names": [
+      "LADDER_POWER"
+     ]
+    },
+    {
+     "mcu_pin": "P0_27",
+     "names": [
+      "BUTTON"
+     ]
+    },
+    {
+     "mcu_pin": "P1_13",
+     "names": [
+      "LED_PLAY1"
+     ]
+    },
+    {
+     "mcu_pin": "P0_00",
+     "names": [
+      "LED_PLAY2"
+     ]
+    },
+    {
+     "mcu_pin": "P1_12",
+     "names": [
+      "LED_PLAY3"
+     ]
+    },
+    {
+     "mcu_pin": "P0_01",
+     "names": [
+      "LED_PLAY4"
+     ]
+    },
+    {
+     "mcu_pin": "P0_29",
+     "names": [
+      "LED_TRACK1"
+     ]
+    },
+    {
+     "mcu_pin": "P0_26",
+     "names": [
+      "LED_TRACK2"
+     ]
+    },
+    {
+     "mcu_pin": "P1_15",
+     "names": [
+      "LED_TRACK3"
+     ]
+    },
+    {
+     "mcu_pin": "P1_14",
+     "names": [
+      "LED_TRACK4"
+     ]
+    },
+    {
+     "mcu_pin": "P1_11",
+     "names": [
+      "SCL"
+     ]
+    },
+    {
+     "mcu_pin": "P1_07",
+     "names": [
+      "SDA"
+     ]
+    },
+    {
+     "mcu_pin": "P0_09",
+     "names": [
+      "TAS_RESET"
+     ]
+    },
+    {
+     "mcu_pin": "P0_15",
+     "names": [
+      "CS42_RESET"
+     ]
+    },
+    {
+     "mcu_pin": "P1_09",
+     "names": [
+      "I2S_DOUT"
+     ]
+    },
+    {
+     "mcu_pin": "P0_11",
+     "names": [
+      "I2S_LRCLK"
+     ]
+    },
+    {
+     "mcu_pin": "P0_12",
+     "names": [
+      "I2S_BCLK"
+     ]
+    },
+    {
+     "mcu_pin": "P0_13",
+     "names": [
+      "OSC_EN"
+     ]
+    },
+    {
+     "mcu_pin": "P0_06",
+     "names": [
+      "EMMC_CLK"
+     ]
+    },
+    {
+     "mcu_pin": "P0_07",
+     "names": [
+      "EMMC_DAT0"
+     ]
+    },
+    {
+     "mcu_pin": "P0_08",
+     "names": [
+      "EMMC_CMD"
+     ]
+    },
+    {
+     "mcu_pin": "P1_08",
+     "names": [
+      "EMMC_RESET"
+     ]
+    },
+    {
+     "mcu_pin": "P0_14",
+     "names": [
+      "EMMC_VCCQ"
+     ]
+    },
+    {
+     "mcu_pin": "P1_00",
+     "names": [
+      "CHARGE_ISET"
+     ]
+    },
+    {
+     "mcu_pin": "P0_21",
+     "names": [
+      "CHARGE_ENABLE"
+     ]
+    },
+    {
+     "mcu_pin": "P0_22",
+     "names": [
+      "CHARGE_STATUS"
+     ]
+    },
+    {
+     "mcu_pin": "P0_24",
+     "names": [
+      "POWER_GOOD"
+     ]
+    },
+    {
+     "mcu_pin": "P0_28",
+     "names": [
+      "VBATT",
+      "BATTERY",
+      "VOLTAGE_MONITOR"
+     ]
+    },
+    {
+     "mcu_pin": "P0_10",
+     "names": [
+      "BT_RESET"
+     ]
+    }
+   ],
+   "port": "nordic",
+   "unmapped": []
+  },
   "teensy40": {
    "aliases": [],
    "image": "teensy40.jpg",
@@ -139158,8 +139553,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "d897c15",
- "generated": "2026-08-31T06:34:31Z",
+ "cp_sha": "7b6fe33",
+ "generated": "2026-09-07T06:35:06Z",
  "skipped": {
   "adafruit_clue_nrf52840_zephyr": {
    "port": "zephyr-cp",
