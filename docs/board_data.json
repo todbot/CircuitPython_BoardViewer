@@ -24582,6 +24582,247 @@
    "port": "raspberrypi",
    "unmapped": []
   },
+  "challenger_rp2040_nfc": {
+   "aliases": [],
+   "image": "challenger_rp2040_nfc.jpg",
+   "mcu": "rp2040",
+   "name": "Challenger RP2040 NFC",
+   "objects": {
+    "display": null,
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO0"
+     }
+    },
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "miso": "GPIO20",
+      "mosi": "GPIO23",
+      "sck": "GPIO22"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO17",
+      "tx": "GPIO16"
+     }
+    }
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "SDA",
+      "GP0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "SCL",
+      "GP1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "D5",
+      "GP2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "D6",
+      "GP3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "D9",
+      "GP4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "D10",
+      "GP5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "D11",
+      "GP6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "D12",
+      "GP7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "D13",
+      "GP8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "NFC_IRQ",
+      "GP9"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "NFC_SDA",
+      "GP10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "NFC_SCL",
+      "GP11"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "NFC_RESET",
+      "GP12"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "GP13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "NEOPIXEL",
+      "GP14"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "D0",
+      "TX",
+      "GP16"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "D1",
+      "RX",
+      "GP17"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO20",
+     "names": [
+      "MISO",
+      "SDI",
+      "GP20"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO22",
+     "names": [
+      "SCK",
+      "GP22"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO23",
+     "names": [
+      "MOSI",
+      "SDO",
+      "GP23"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO24",
+     "names": [
+      "LED",
+      "GP24"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "A4",
+      "GP19"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "A5",
+      "GP21"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "A0",
+      "GP26"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "A1",
+      "GP27"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "A2",
+      "GP28"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO29",
+     "names": [
+      "A3",
+      "GP29"
+     ]
+    }
+   ],
+   "port": "raspberrypi",
+   "unmapped": []
+  },
   "challenger_rp2040_sdrtc": {
    "aliases": [],
    "image": "challenger_rp2040_sdrtc.jpg",
@@ -139553,8 +139794,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "7b6fe33",
- "generated": "2026-09-07T06:35:06Z",
+ "cp_sha": "7396914",
+ "generated": "2026-09-14T06:35:30Z",
  "skipped": {
   "adafruit_clue_nrf52840_zephyr": {
    "port": "zephyr-cp",
@@ -139581,6 +139822,10 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "native_native_sim": {
+   "port": "zephyr-cp",
+   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
+  },
+  "native_native_sim_asan": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
