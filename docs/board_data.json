@@ -34580,169 +34580,6 @@
    "port": "espressif",
    "unmapped": []
   },
-  "diodes_delight_piunora": {
-   "aliases": [],
-   "image": "diodes_delight_piunora.jpg",
-   "mcu": null,
-   "name": "Diodes Delight Piunora",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "GPIO5",
-      "D0",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "GPIO4",
-      "D1",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "GPIO18",
-      "D2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "GPIO19",
-      "D3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "GPIO20",
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "GPIO21",
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "GPIO22",
-      "D6",
-      "SDA6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "GPIO23",
-      "D7",
-      "SCL6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "GPIO6",
-      "D8",
-      "SDA4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "GPIO7",
-      "D9",
-      "SCL4",
-      "SPI0_CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "GPIO8",
-      "D10",
-      "SPI0_CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "GPIO10",
-      "D11",
-      "SPI0_MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "GPIO9",
-      "D12",
-      "SPI0_MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "GPIO11",
-      "D13",
-      "SPI0_SCLK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "SDA",
-      "SDA1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "GPIO12",
-      "NEOPIXEL"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
   "doit_esp32_devkit_v1": {
    "aliases": [],
    "image": "doit_esp32_devkit_v1.jpg",
@@ -39397,7 +39234,7 @@
   },
   "espressif_esp32c5_devkitc_1_n8r8": {
    "aliases": [],
-   "image": null,
+   "image": "espressif_esp32c5_devkitc_1_n8r8.jpg",
    "mcu": "ESP32C5",
    "name": "ESP32-C5-DevKitC-1-N8R8",
    "objects": {
@@ -41803,7 +41640,7 @@
   },
   "espressif_esp32s3_box_3": {
    "aliases": [],
-   "image": null,
+   "image": "espressif_esp32s3_box_3.jpg",
    "mcu": "ESP32S3",
    "name": "ESP32-S3-Box-3",
    "objects": {
@@ -50848,48 +50685,6 @@
    "port": "atmel-samd",
    "unmapped": []
   },
-  "fomu": {
-   "aliases": [],
-   "image": "fomu.jpg",
-   "mcu": "VexRiscv",
-   "name": "Fomu",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "TOUCH1",
-     "names": [
-      "TOUCH1"
-     ]
-    },
-    {
-     "mcu_pin": "TOUCH2",
-     "names": [
-      "TOUCH2"
-     ]
-    },
-    {
-     "mcu_pin": "TOUCH3",
-     "names": [
-      "TOUCH3"
-     ]
-    },
-    {
-     "mcu_pin": "TOUCH4",
-     "names": [
-      "TOUCH4"
-     ]
-    }
-   ],
-   "port": "litex",
-   "unmapped": []
-  },
   "franzininho_wifi_wroom": {
    "aliases": [],
    "image": "Franzininho-wifi-wroom.jpg",
@@ -56555,9 +56350,270 @@
    "port": "raspberrypi",
    "unmapped": []
   },
+  "ide_tudelft_realpicoexpander": {
+   "aliases": [],
+   "image": "ide_tudelft_realpicoexpander.jpg",
+   "mcu": "rp2350a",
+   "name": "IDE-TUDelft RealPicoExpander",
+   "objects": {
+    "display": null,
+    "i2c": {
+     "available": true,
+     "names": [
+      "STEMMA_I2C",
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO5",
+      "sda": "GPIO4"
+     }
+    },
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO16",
+      "mosi": "GPIO19"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "D0",
+      "GP0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "D1",
+      "GP1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "D2",
+      "GP2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "D3",
+      "GP3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "SDA",
+      "D4",
+      "GP4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "SCL",
+      "D5",
+      "GP5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "D6",
+      "GP6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "D7",
+      "GP7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "D8",
+      "GP8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "D9",
+      "GP9"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "D10",
+      "GP10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "D11",
+      "GP11"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "D12",
+      "GP12"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "D13",
+      "GP13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "D14",
+      "GP14"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "BTN",
+      "BUTTON",
+      "D15",
+      "GP15"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "MISO",
+      "D16",
+      "GP16"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "CS",
+      "D17",
+      "GP17"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO18",
+     "names": [
+      "SCK",
+      "D18",
+      "GP18"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "MOSI",
+      "D19",
+      "GP19"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO20",
+     "names": [
+      "D20",
+      "GP20"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "D21",
+      "GP21"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO22",
+     "names": [
+      "D22",
+      "GP22"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "A26",
+      "GP26_A0",
+      "GP26",
+      "A0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "A27",
+      "GP27_A1",
+      "GP27",
+      "A1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "A28",
+      "GP28_A2",
+      "GP28",
+      "A2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO29",
+     "names": [
+      "A3",
+      "VOLTAGE_MONITOR"
+     ]
+    },
+    {
+     "mcu_pin": "CYW1",
+     "names": [
+      "SMPS_MODE"
+     ]
+    },
+    {
+     "mcu_pin": "CYW0",
+     "names": [
+      "LED"
+     ]
+    },
+    {
+     "mcu_pin": "CYW2",
+     "names": [
+      "VBUS_SENSE"
+     ]
+    }
+   ],
+   "port": "raspberrypi",
+   "unmapped": []
+  },
   "ikea_alpstuga_esp32_s3": {
    "aliases": [],
-   "image": null,
+   "image": "unknown.jpg",
    "mcu": "ESP32S3",
    "name": "Ikea Alpstuga Drop-In ESP32S3 4MB Flash 2MB PSRAM",
    "objects": {
@@ -100178,1325 +100234,6 @@
    "port": "raspberrypi",
    "unmapped": []
   },
-  "raspberrypi_cm4": {
-   "aliases": [],
-   "image": "raspberry_pi_cm4.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi Compute Module 4",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": null,
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "ID_SD"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "ID_SC"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "GPIO2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "GPIO3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "GPIO4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "GPIO5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "GPIO6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "GPIO7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "GPIO8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "GPIO9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "GPIO10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "GPIO11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "GPIO12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "GPIO13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "GPIO14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "GPIO15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "GPIO16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "GPIO17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "GPIO18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "GPIO19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "GPIO20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "GPIO21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "GPIO22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "GPIO23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "GPIO24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "GPIO25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "GPIO26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "GPIO27"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "LED_nACT",
-      "LED"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO44",
-     "names": [
-      "SDA0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO45",
-     "names": [
-      "SCL0"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
-  "raspberrypi_cm4io": {
-   "aliases": [],
-   "image": "raspberrypi_cm4io.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi Compute Module 4 IO Board",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "SDA"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "SCLK",
-      "SCK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "TXD",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "D15",
-      "RXD",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "MISO_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "MOSI_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "SCLK_1",
-      "SCK_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "D23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "D24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "D25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "D26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "D27"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "LED"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
-  "raspberrypi_pi4b": {
-   "aliases": [],
-   "image": "raspberry_pi_4b.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi 4B",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "SDA"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "SCLK",
-      "SCK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "TXD",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "D15",
-      "RXD",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "MISO_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "MOSI_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "SCLK_1",
-      "SCK_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "D23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "D24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "D25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "D26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "D27"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO42",
-     "names": [
-      "LED"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
-  "raspberrypi_zero": {
-   "aliases": [],
-   "image": "raspberry_pi_zero.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi Zero",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "SDA"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "SCLK",
-      "SCK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "TXD",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "D15",
-      "RXD",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "MISO_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "MOSI_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "SCLK_1",
-      "SCK_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "D23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "D24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "D25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "D26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "D27"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
-  "raspberrypi_zero2w": {
-   "aliases": [],
-   "image": "raspberry_pi_zero_2_w.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi Zero 2W",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "SDA"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "SCLK",
-      "SCK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "TXD",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "D15",
-      "RXD",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "MISO_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "MOSI_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "SCLK_1",
-      "SCK_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "D23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "D24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "D25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "D26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "D27"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO29",
-     "names": [
-      "LED"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
-  "raspberrypi_zero_w": {
-   "aliases": [],
-   "image": "raspberry_pi_zero_w.jpg",
-   "mcu": null,
-   "name": "Raspberry Pi Zero W",
-   "objects": {
-    "display": {
-     "names": [
-      "DISPLAY"
-     ],
-     "size": null,
-     "variant": "display"
-    },
-    "i2c": {
-     "available": true,
-     "names": [
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO3",
-      "sda": "GPIO2"
-     }
-    },
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "SDA"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "SCL"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "D4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "D5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "CE1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "CE0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "MISO"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "MOSI"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "SCLK",
-      "SCK"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "TXD",
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "D15",
-      "RXD",
-      "RX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "MISO_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "MOSI_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "SCLK_1",
-      "SCK_1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO23",
-     "names": [
-      "D23"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO24",
-     "names": [
-      "D24"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO25",
-     "names": [
-      "D25"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "D26"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "D27"
-     ]
-    }
-   ],
-   "port": "broadcom",
-   "unmapped": []
-  },
   "raytac_mdbt50q-db-40": {
    "aliases": [],
    "image": "raytac_mdbt50q-db-40.jpg",
@@ -102085,46 +100822,6 @@
     }
    ],
    "port": "espressif",
-   "unmapped": []
-  },
-  "renode_cortex_m0plus": {
-   "aliases": [],
-   "image": "unknown.jpg",
-   "mcu": "cortex-m0+",
-   "name": "Renode Cortex-M0+",
-   "objects": {
-    "display": null,
-    "i2c": null,
-    "spi": null,
-    "stemma_i2c": null,
-    "uart": {
-     "available": true,
-     "names": [
-      "UART"
-     ],
-     "note": null,
-     "pins": {
-      "rx": "GPIO1",
-      "tx": "GPIO0"
-     }
-    }
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "TX"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "RX"
-     ]
-    }
-   ],
-   "port": "renode",
    "unmapped": []
   },
   "rfguru_rp2040": {
@@ -116882,263 +115579,6 @@
     }
    ],
    "port": "atmel-samd",
-   "unmapped": []
-  },
-  "studiolab_picoexpander": {
-   "aliases": [],
-   "image": "studiolab_picoexpander.jpg",
-   "mcu": "rp2350a",
-   "name": "Studiolab Pico Expander",
-   "objects": {
-    "display": null,
-    "i2c": {
-     "available": true,
-     "names": [
-      "STEMMA_I2C",
-      "I2C"
-     ],
-     "note": null,
-     "pins": {
-      "scl": "GPIO5",
-      "sda": "GPIO4"
-     }
-    },
-    "spi": {
-     "available": true,
-     "names": [
-      "SPI"
-     ],
-     "note": null,
-     "pins": {
-      "clock": "GPIO18",
-      "miso": "GPIO16",
-      "mosi": "GPIO19"
-     }
-    },
-    "stemma_i2c": null,
-    "uart": null
-   },
-   "other_objects": [],
-   "pins": [
-    {
-     "mcu_pin": "GPIO0",
-     "names": [
-      "D0",
-      "GP0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO1",
-     "names": [
-      "D1",
-      "GP1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO2",
-     "names": [
-      "D2",
-      "GP2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO3",
-     "names": [
-      "D3",
-      "GP3"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO4",
-     "names": [
-      "SDA",
-      "D4",
-      "GP4"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO5",
-     "names": [
-      "SCL",
-      "D5",
-      "GP5"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO6",
-     "names": [
-      "D6",
-      "GP6"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO7",
-     "names": [
-      "D7",
-      "GP7"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO8",
-     "names": [
-      "D8",
-      "GP8"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO9",
-     "names": [
-      "D9",
-      "GP9"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO10",
-     "names": [
-      "D10",
-      "GP10"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO11",
-     "names": [
-      "D11",
-      "GP11"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO12",
-     "names": [
-      "D12",
-      "GP12"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO13",
-     "names": [
-      "D13",
-      "GP13"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO14",
-     "names": [
-      "D14",
-      "GP14"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO15",
-     "names": [
-      "BTN",
-      "BUTTON",
-      "D15",
-      "GP15"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO16",
-     "names": [
-      "D16",
-      "GP16"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO17",
-     "names": [
-      "D17",
-      "GP17"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO18",
-     "names": [
-      "D18",
-      "GP18"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO19",
-     "names": [
-      "D19",
-      "GP19"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO20",
-     "names": [
-      "D20",
-      "GP20"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO21",
-     "names": [
-      "D21",
-      "GP21"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO22",
-     "names": [
-      "D22",
-      "GP22"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO26",
-     "names": [
-      "A26",
-      "GP26_A0",
-      "GP26",
-      "A0"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO27",
-     "names": [
-      "A27",
-      "GP27_A1",
-      "GP27",
-      "A1"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO28",
-     "names": [
-      "A28",
-      "GP28_A2",
-      "GP28",
-      "A2"
-     ]
-    },
-    {
-     "mcu_pin": "GPIO29",
-     "names": [
-      "A3",
-      "VOLTAGE_MONITOR"
-     ]
-    },
-    {
-     "mcu_pin": "CYW1",
-     "names": [
-      "SMPS_MODE"
-     ]
-    },
-    {
-     "mcu_pin": "CYW0",
-     "names": [
-      "LED"
-     ]
-    },
-    {
-     "mcu_pin": "CYW2",
-     "names": [
-      "VBUS_SENSE"
-     ]
-    }
-   ],
-   "port": "raspberrypi",
    "unmapped": []
   },
   "sunton_esp32_2424S012": {
@@ -139005,7 +137445,7 @@
   },
   "wiznet_w55rp20_evb_pico": {
    "aliases": [],
-   "image": null,
+   "image": "wiznet_w55rp20_evb_pico.jpg",
    "mcu": "rp2040",
    "name": "W55RP20-EVB-Pico",
    "objects": {
@@ -140441,8 +138881,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "9701f33",
- "generated": "2026-09-21T06:36:10Z",
+ "cp_sha": "4453bba",
+ "generated": "2026-09-28T06:39:08Z",
  "skipped": {
   "adafruit_clue_nrf52840_zephyr": {
    "port": "zephyr-cp",
@@ -140473,6 +138913,10 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "native_native_sim_asan": {
+   "port": "zephyr-cp",
+   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
+  },
+  "native_native_sim_lfs": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
