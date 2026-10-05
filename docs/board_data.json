@@ -126681,6 +126681,165 @@
    "port": "nordic",
    "unmapped": []
   },
+  "waveshare_esp32_c5_lcd_1_47": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32-C5",
+   "name": "Waveshare ESP32-C5 LCD 1.47",
+   "objects": {
+    "display": {
+     "names": [
+      "DISPLAY"
+     ],
+     "size": {
+      "color_depth": 16,
+      "height": 320,
+      "width": 172
+     },
+     "variant": "display"
+    },
+    "i2c": null,
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "miso": "GPIO5",
+      "mosi": "GPIO6",
+      "sck": "GPIO7"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "BUTTON",
+      "BOOT0",
+      "IO28"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "IO0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "NEOPIXEL",
+      "IO8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "SCK",
+      "LCD_CLK",
+      "SD_CLK",
+      "IO7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "MOSI",
+      "LCD_DIN",
+      "LCD_MOSI",
+      "SD_MOSI",
+      "IO6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "MISO",
+      "SD_MISO",
+      "IO5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO23",
+     "names": [
+      "LCD_CS",
+      "IO23"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO24",
+     "names": [
+      "LCD_DC",
+      "IO24"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "LCD_RST",
+      "IO26"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "LCD_BL",
+      "BACKLIGHT",
+      "IO10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "SD_CS",
+      "IO4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "IO1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "IO2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "IO3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "IO9"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO25",
+     "names": [
+      "IO25"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "IO27"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "waveshare_esp32_c6_lcd_1_47": {
    "aliases": [],
    "image": "waveshare_esp32_c6_lcd_1_47.jpg",
@@ -138881,8 +139040,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "4453bba",
- "generated": "2026-09-28T06:39:08Z",
+ "cp_sha": "35210c2",
+ "generated": "2026-10-05T06:41:48Z",
  "skipped": {
   "adafruit_clue_nrf52840_zephyr": {
    "port": "zephyr-cp",
