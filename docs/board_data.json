@@ -31118,6 +31118,235 @@
    "port": "raspberrypi",
    "unmapped": []
   },
+  "cytron_maker_sumo_rp2350": {
+   "aliases": [],
+   "image": null,
+   "mcu": "rp2350a",
+   "name": "Cytron Maker Sumo RP2350",
+   "objects": {
+    "display": null,
+    "i2c": null,
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "GP0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "GP1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "GP2",
+      "USR_BTN",
+      "BUTTON"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "GP3",
+      "USR_LED",
+      "LED"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "GP4",
+      "DIP1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "GP5",
+      "DIP2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "GP6",
+      "DIP3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "GP7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "GP8",
+      "OPP_R"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "GP9",
+      "PWM_R"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "GP10",
+      "DIR_R"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "GP11",
+      "OPP_L"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "GP12",
+      "BUZZER"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "GP13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "GP14",
+      "DIR_L"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "GP15",
+      "PWM_L"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "GP16",
+      "SERVO1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "GP17",
+      "SERVO2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO18",
+     "names": [
+      "GP18",
+      "IRST"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "GP19",
+      "FAULT_L"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO20",
+     "names": [
+      "GP20",
+      "OPP_FL"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "GP21",
+      "OPP_FC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO22",
+     "names": [
+      "GP22",
+      "OPP_FR"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO23",
+     "names": [
+      "GP23"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO24",
+     "names": [
+      "GP24"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO25",
+     "names": [
+      "GP25",
+      "FAULT_R"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "GP26",
+      "A0",
+      "EDGE_L"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "GP27",
+      "A1",
+      "EDGE_R"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "GP28",
+      "A2",
+      "POT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO29",
+     "names": [
+      "GP29",
+      "A3",
+      "VM_SENSE",
+      "VOLTAGE_MONITOR"
+     ]
+    }
+   ],
+   "port": "raspberrypi",
+   "unmapped": []
+  },
   "cytron_maker_uno_rp2040": {
    "aliases": [],
    "image": "cytron_maker_uno_rp2040.jpg",
@@ -129687,6 +129916,142 @@
    "port": "espressif",
    "unmapped": []
   },
+  "waveshare_esp32_s3_touch_lcd_1_69": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32S3",
+   "name": "Waveshare ESP32-S3-Touch-LCD-1.69",
+   "objects": {
+    "display": {
+     "names": [
+      "DISPLAY"
+     ],
+     "size": {
+      "color_depth": 16,
+      "height": 280,
+      "width": 240
+     },
+     "variant": "display"
+    },
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO10",
+      "sda": "GPIO11"
+     }
+    },
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "BUTTON",
+      "BOOT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "PWR_BUTTON",
+      "SYS_OUT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "SYS_EN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "BUZZER"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "BAT_ADC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "SCL"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "SDA"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "TP_INT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "TP_RST"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "RTC_INT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "LCD_SCK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "LCD_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "LCD_DC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "LCD_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "LCD_RST"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "LCD_BACKLIGHT"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "waveshare_esp32_s3_touch_lcd_2": {
    "aliases": [],
    "image": "waveshare_esp32_s3_touch_lcd_2.jpg",
@@ -129963,6 +130328,152 @@
    ],
    "port": "espressif",
    "unmapped": []
+  },
+  "waveshare_esp32_s3_touch_lcd_2_1": {
+   "aliases": [],
+   "image": "waveshare_esp32_s3_touch_lcd_2_1.jpg",
+   "mcu": "ESP32S3",
+   "name": "Waveshare ESP32-S3-Touch-LCD-2.1",
+   "objects": {
+    "display": {
+     "names": [
+      "DISPLAY"
+     ],
+     "size": null,
+     "variant": "display"
+    },
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO7",
+      "sda": "GPIO15"
+     }
+    },
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO44",
+      "tx": "GPIO43"
+     }
+    }
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "de"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "vsync"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO38",
+     "names": [
+      "hsync"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "dclk"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "IO0",
+      "BUTTON",
+      "BOOT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO43",
+     "names": [
+      "TX",
+      "IO43"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO44",
+     "names": [
+      "RX",
+      "IO44"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "SCL",
+      "IO7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "SDA",
+      "IO15"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "TP_INT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "BAT_ADC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "SD_CLK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "SD_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "SD_MISO"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "LCD_BACKLIGHT"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": [
+    "{ MP_ROM_QSTR(MP_QSTR_red), MP_ROM_PTR(&tft_r_pins) },",
+    "{ MP_ROM_QSTR(MP_QSTR_green), MP_ROM_PTR(&tft_g_pins) },",
+    "{ MP_ROM_QSTR(MP_QSTR_blue), MP_ROM_PTR(&tft_b_pins) },",
+    "{ MP_ROM_QSTR(MP_QSTR_TFT_PINS), MP_ROM_PTR(&tft_pins_dict) },",
+    "{ MP_ROM_QSTR(MP_QSTR_TFT_TIMINGS), MP_ROM_PTR(&tft_timings_dict) },"
+   ]
   },
   "waveshare_esp32_s3_touch_lcd_2_8": {
    "aliases": [],
@@ -139040,8 +139551,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "35210c2",
- "generated": "2026-10-05T06:41:48Z",
+ "cp_sha": "36a5653",
+ "generated": "2026-10-12T06:42:05Z",
  "skipped": {
   "adafruit_clue_nrf52840_zephyr": {
    "port": "zephyr-cp",
