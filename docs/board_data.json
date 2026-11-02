@@ -9308,7 +9308,7 @@
   },
   "adafruit_metro_esp32p4": {
    "aliases": [],
-   "image": null,
+   "image": "adafruit_metro_esp32p4.jpg",
    "mcu": "ESP32P4",
    "name": "Adafruit Metro ESP32-P4",
    "objects": {
@@ -37736,7 +37736,7 @@
   },
   "elio_eliobot_s3": {
    "aliases": [],
-   "image": null,
+   "image": "elio_eliobot_s3.jpg",
    "mcu": "ESP32S3",
    "name": "Eliobot",
    "objects": {
@@ -92467,6 +92467,13 @@
      ]
     },
     {
+     "mcu_pin": "GPIO29",
+     "names": [
+      "VOLTAGE_MONITOR",
+      "A3"
+     ]
+    },
+    {
      "mcu_pin": "CYW0",
      "names": [
       "PICO_LED"
@@ -120754,6 +120761,292 @@
    "port": "nordic",
    "unmapped": []
   },
+  "thepihut_baguette_s3": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32-S3-MINI-1-N8",
+   "name": "ThePiHut Baguette S3",
+   "objects": {
+    "display": null,
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C",
+      "STEMMA_I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO48",
+      "sda": "GPIO47"
+     }
+    },
+    "spi": {
+     "available": false,
+     "names": [],
+     "note": "pins configured in mpconfigboard.h but not exposed as board.X",
+     "pins": {
+      "clock": "GPIO9",
+      "miso": "GPIO11",
+      "mosi": "GPIO10"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO44",
+      "tx": "GPIO43"
+     }
+    }
+   },
+   "other_objects": [
+    {
+     "names": [
+      "SD_SPI"
+     ],
+     "note": null,
+     "pins": null,
+     "singleton": "board_sd_spi_obj"
+    }
+   ],
+   "pins": [
+    {
+     "mcu_pin": "GPIO44",
+     "names": [
+      "RX",
+      "D44"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO43",
+     "names": [
+      "TX",
+      "D43"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO48",
+     "names": [
+      "IO48",
+      "SCL",
+      "D48"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO47",
+     "names": [
+      "IO47",
+      "SDA",
+      "D47"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "IO2",
+      "D2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "IO3",
+      "D3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "IO4",
+      "D4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "IO5",
+      "D5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "IO6",
+      "D6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "IO12",
+      "D12"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "IO13",
+      "D13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "IO14",
+      "D14"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "IO15",
+      "D15"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "IO16",
+      "D16"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "IO17",
+      "D17"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO18",
+     "names": [
+      "IO18",
+      "D18"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "IO21",
+      "D21"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO33",
+     "names": [
+      "IO33",
+      "D33"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO34",
+     "names": [
+      "IO34",
+      "D34"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO35",
+     "names": [
+      "IO35",
+      "D35"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO36",
+     "names": [
+      "IO36",
+      "D36"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO37",
+     "names": [
+      "IO37",
+      "D37"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO38",
+     "names": [
+      "IO38",
+      "D38"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "IO39",
+      "D39"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "IO40",
+      "D40"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "IO41",
+      "D41"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "IO42",
+      "D42"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "SD_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "SD_SCK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "SD_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "SD_MISO"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "BUTTON",
+      "BOOT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "LED",
+      "NEOPIXEL"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "thingpulse_pendrive_s3": {
    "aliases": [],
    "image": "ThingPulse_Pendrive_S3.jpg",
@@ -141746,8 +142039,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "aeaba58",
- "generated": "2026-10-26T06:35:30Z",
+ "cp_sha": "ca454a6",
+ "generated": "2026-11-02T06:23:36Z",
  "skipped": {
   "adafruit_circuitplayground_bluefruit_zephyr": {
    "port": "zephyr-cp",
