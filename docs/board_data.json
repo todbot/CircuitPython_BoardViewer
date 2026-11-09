@@ -68923,6 +68923,174 @@
    "port": "espressif",
    "unmapped": []
   },
+  "m5stack_atoms3r": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32S3",
+   "name": "M5Stack AtomS3R",
+   "objects": {
+    "display": {
+     "names": [
+      "DISPLAY"
+     ],
+     "size": {
+      "color_depth": 16,
+      "height": 128,
+      "width": 128
+     },
+     "variant": "display"
+    },
+    "i2c": {
+     "available": true,
+     "names": [
+      "I2C"
+     ],
+     "note": null,
+     "pins": {
+      "scl": "GPIO0",
+      "sda": "GPIO45"
+     }
+    },
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": "no default pins configured; calling this may raise NotImplementedError",
+     "pins": null
+    },
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [
+    {
+     "names": [
+      "PORTA_I2C"
+     ],
+     "note": "guessed pins (position 1); not confirmed in board.c",
+     "pins": {
+      "scl": "GPIO1",
+      "sda": "GPIO2"
+     },
+     "singleton": "board_porta_i2c_obj"
+    }
+   ],
+   "pins": [
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "PORTA_SCL",
+      "A1",
+      "D1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "PORTA_SDA",
+      "A2",
+      "D2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "A4",
+      "D5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "A5",
+      "D6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "A6",
+      "D7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "A7",
+      "D8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO38",
+     "names": [
+      "D38"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "D39"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "SYS_SCL"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO45",
+     "names": [
+      "SYS_SDA"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "LCD_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "LCD_CLK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "LCD_DC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO48",
+     "names": [
+      "LCD_RST"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "LCD_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "BUTTON",
+      "BTN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO47",
+     "names": [
+      "IR_LED"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "m5stack_atoms3u": {
    "aliases": [],
    "image": "m5stack_atoms3u.jpg",
@@ -80274,6 +80442,305 @@
     }
    ],
    "port": "atmel-samd",
+   "unmapped": []
+  },
+  "moonyard_equinox": {
+   "aliases": [],
+   "image": null,
+   "mcu": "rp2350b",
+   "name": "MoonYard Equinox",
+   "objects": {
+    "display": null,
+    "i2c": {
+     "available": false,
+     "names": [],
+     "note": "pins configured in mpconfigboard.h but not exposed as board.X",
+     "pins": {
+      "scl": "GPIO5",
+      "sda": "GPIO4"
+     }
+    },
+    "spi": {
+     "available": false,
+     "names": [],
+     "note": "pins configured in mpconfigboard.h but not exposed as board.X",
+     "pins": {
+      "miso": "GPIO12",
+      "mosi": "GPIO11",
+      "sck": "GPIO14"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": null
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "BMP585_SDX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "BMP585_SCX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "BMI_INT1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "BMI1088_INT1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "LLCC68_DIO1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "BMI1088_INT3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "D10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "SPI_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "SPI_MISO"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "BME680_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "SPI_SCK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "H3LIS331DLTR_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "D16"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "D17"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO18",
+     "names": [
+      "LED_1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "INPUT_1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO20",
+     "names": [
+      "INPUT_2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "H3LIS331DLTR_INT1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO22",
+     "names": [
+      "LLCC68_RESET"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO23",
+     "names": [
+      "LLCC68_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO24",
+     "names": [
+      "LLCC68_BUSY"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO25",
+     "names": [
+      "GPS_TIMEPULSE"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO26",
+     "names": [
+      "GPS_RESET"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO27",
+     "names": [
+      "GPS_EXTINT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO28",
+     "names": [
+      "SERVO_1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO29",
+     "names": [
+      "SERVO_2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO30",
+     "names": [
+      "SERVO_3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO31",
+     "names": [
+      "SERVO_4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO32",
+     "names": [
+      "CHUTE_1_EN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO33",
+     "names": [
+      "CHUTE_2_EN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO34",
+     "names": [
+      "CHUTES_DIAG"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO35",
+     "names": [
+      "ESP32_EN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO44",
+     "names": [
+      "ESP32_TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO45",
+     "names": [
+      "ESP32_RX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO36",
+     "names": [
+      "GPS_TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO37",
+     "names": [
+      "GPS_RX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO38",
+     "names": [
+      "TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "RX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "A0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "A1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "CHUTE_2_MON"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO43",
+     "names": [
+      "TOUCH"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO46",
+     "names": [
+      "CHUTE_1_MON"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO47",
+     "names": [
+      "BATT_SENSE"
+     ]
+    }
+   ],
+   "port": "raspberrypi",
    "unmapped": []
   },
   "morpheans_morphesp-240": {
@@ -100611,6 +101078,7 @@
     "i2c": {
      "available": true,
      "names": [
+      "I2C",
       "STEMMA_I2C"
      ],
      "note": null,
@@ -100619,9 +101087,30 @@
       "sda": "GPIO4"
      }
     },
-    "spi": null,
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO16",
+      "mosi": "GPIO19"
+     }
+    },
     "stemma_i2c": null,
-    "uart": null
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO1",
+      "tx": "GPIO0"
+     }
+    }
    },
    "other_objects": [],
    "pins": [
@@ -100829,6 +101318,7 @@
     "i2c": {
      "available": true,
      "names": [
+      "I2C",
       "STEMMA_I2C"
      ],
      "note": null,
@@ -100837,9 +101327,30 @@
       "sda": "GPIO4"
      }
     },
-    "spi": null,
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO16",
+      "mosi": "GPIO19"
+     }
+    },
     "stemma_i2c": null,
-    "uart": null
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO1",
+      "tx": "GPIO0"
+     }
+    }
    },
    "other_objects": [],
    "pins": [
@@ -101047,6 +101558,7 @@
     "i2c": {
      "available": true,
      "names": [
+      "I2C",
       "STEMMA_I2C"
      ],
      "note": null,
@@ -101055,9 +101567,30 @@
       "sda": "GPIO4"
      }
     },
-    "spi": null,
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO16",
+      "mosi": "GPIO19"
+     }
+    },
     "stemma_i2c": null,
-    "uart": null
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO1",
+      "tx": "GPIO0"
+     }
+    }
    },
    "other_objects": [],
    "pins": [
@@ -101262,6 +101795,7 @@
     "i2c": {
      "available": true,
      "names": [
+      "I2C",
       "STEMMA_I2C"
      ],
      "note": null,
@@ -101270,9 +101804,30 @@
       "sda": "GPIO4"
      }
     },
-    "spi": null,
+    "spi": {
+     "available": true,
+     "names": [
+      "SPI"
+     ],
+     "note": null,
+     "pins": {
+      "clock": "GPIO18",
+      "miso": "GPIO16",
+      "mosi": "GPIO19"
+     }
+    },
     "stemma_i2c": null,
-    "uart": null
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO1",
+      "tx": "GPIO0"
+     }
+    }
    },
    "other_objects": [],
    "pins": [
@@ -120763,7 +121318,7 @@
   },
   "thepihut_baguette_s3": {
    "aliases": [],
-   "image": null,
+   "image": "thepihut_baguette_s3.jpg",
    "mcu": "ESP32-S3-MINI-1-N8",
    "name": "ThePiHut Baguette S3",
    "objects": {
@@ -142039,8 +142594,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "ca454a6",
- "generated": "2026-11-02T06:23:36Z",
+ "cp_sha": "985371f",
+ "generated": "2026-11-09T06:23:26Z",
  "skipped": {
   "adafruit_circuitplayground_bluefruit_zephyr": {
    "port": "zephyr-cp",
