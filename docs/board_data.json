@@ -36282,6 +36282,159 @@
    "port": "raspberrypi",
    "unmapped": []
   },
+  "elecrow_crowpanel_2_13_epaper": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32S3",
+   "name": "CrowPanel 2.13 EPaper",
+   "objects": {
+    "display": null,
+    "i2c": null,
+    "spi": {
+     "available": false,
+     "names": [],
+     "note": "pins configured in mpconfigboard.h but not exposed as board.X",
+     "pins": {
+      "clock": "GPIO12",
+      "mosi": "GPIO11"
+     }
+    },
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO44",
+      "tx": "GPIO43"
+     }
+    }
+   },
+   "other_objects": [
+    {
+     "names": [
+      "EPD_SPI"
+     ],
+     "note": null,
+     "pins": null,
+     "singleton": "board_epd_spi_obj"
+    }
+   ],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "BUTTON_BOOT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "BUTTON_EXIT"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "BUTTON_MENU"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "ROCKER_DOWN"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "ROCKER_CLICK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "ROCKER_UP"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "LED"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "EPD_ENABLE"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "EPD_BUSY"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "EPD_RES"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "EPD_DC"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "EPD_CS"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "EPD_CLK"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "EPD_MOSI"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "IO40"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "IO41"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO43",
+     "names": [
+      "TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO44",
+     "names": [
+      "RX"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
   "elecrow_crowpanel_3.5": {
    "aliases": [],
    "image": "elecrow_crowpanel_3.5.jpg",
@@ -43513,6 +43666,253 @@
      "names": [
       "IO48",
       "NEOPIXEL"
+     ]
+    }
+   ],
+   "port": "espressif",
+   "unmapped": []
+  },
+  "espressif_esp32s3_devkitc_1_n32r8_v1_1": {
+   "aliases": [],
+   "image": null,
+   "mcu": "ESP32S3",
+   "name": "ESP32-S3-DevKitC-1-N32R8 v1.1",
+   "objects": {
+    "display": null,
+    "i2c": null,
+    "spi": null,
+    "stemma_i2c": null,
+    "uart": {
+     "available": true,
+     "names": [
+      "UART"
+     ],
+     "note": null,
+     "pins": {
+      "rx": "GPIO44",
+      "tx": "GPIO43"
+     }
+    }
+   },
+   "other_objects": [],
+   "pins": [
+    {
+     "mcu_pin": "GPIO0",
+     "names": [
+      "IO0"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO1",
+     "names": [
+      "IO1"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO2",
+     "names": [
+      "IO2"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO3",
+     "names": [
+      "IO3"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO4",
+     "names": [
+      "IO4"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO5",
+     "names": [
+      "IO5"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO6",
+     "names": [
+      "IO6"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO7",
+     "names": [
+      "IO7"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO8",
+     "names": [
+      "IO8"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO9",
+     "names": [
+      "IO9"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO10",
+     "names": [
+      "IO10"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO11",
+     "names": [
+      "IO11"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO12",
+     "names": [
+      "IO12"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO13",
+     "names": [
+      "IO13"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO14",
+     "names": [
+      "IO14"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO15",
+     "names": [
+      "IO15"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO16",
+     "names": [
+      "IO16"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO17",
+     "names": [
+      "IO17"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO18",
+     "names": [
+      "IO18"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO19",
+     "names": [
+      "IO19"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO20",
+     "names": [
+      "IO20"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO21",
+     "names": [
+      "IO21"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO35",
+     "names": [
+      "IO35"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO36",
+     "names": [
+      "IO36"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO37",
+     "names": [
+      "IO37"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO38",
+     "names": [
+      "IO38",
+      "NEOPIXEL"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO39",
+     "names": [
+      "IO39"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO40",
+     "names": [
+      "IO40"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO41",
+     "names": [
+      "IO41"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO42",
+     "names": [
+      "IO42"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO43",
+     "names": [
+      "IO43",
+      "TX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO44",
+     "names": [
+      "IO44",
+      "RX"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO45",
+     "names": [
+      "IO45"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO46",
+     "names": [
+      "IO46"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO47",
+     "names": [
+      "IO47"
+     ]
+    },
+    {
+     "mcu_pin": "GPIO48",
+     "names": [
+      "IO48"
      ]
     }
    ],
@@ -142594,8 +142994,8 @@
    "unmapped": []
   }
  },
- "cp_sha": "985371f",
- "generated": "2026-11-09T06:23:26Z",
+ "cp_sha": "8373f3b",
+ "generated": "2026-11-16T06:26:46Z",
  "skipped": {
   "adafruit_circuitplayground_bluefruit_zephyr": {
    "port": "zephyr-cp",
@@ -142622,6 +143022,14 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "adafruit_macropad_rp2040_zephyr": {
+   "port": "zephyr-cp",
+   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
+  },
+  "adafruit_metro_m7_airlift_zephyr": {
+   "port": "zephyr-cp",
+   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
+  },
+  "adafruit_metro_m7_zephyr": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
@@ -142678,6 +143086,10 @@
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
   "nxp_frdm_rw612": {
+   "port": "zephyr-cp",
+   "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
+  },
+  "nxp_mimxrt1010_evk": {
    "port": "zephyr-cp",
    "reason": "non-classic layout (no pins.c/mpconfigboard.h)"
   },
