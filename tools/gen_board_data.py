@@ -42,11 +42,19 @@ BUS_OVERRIDE_MACROS = {
 DISPLAY_VARIANTS = ("display", "epaper_display", "framebuffer_display")
 
 
+def matrix_dir(cp_root):
+    for directory in ("tools", "docs"):
+        path = cp_root / directory
+        if (path / "shared_bindings_matrix.py").is_file():
+            return path
+    return None
+
+
 def find_cp_root(explicit_path):
     candidates = [explicit_path] if explicit_path else CP_CANDIDATES
     for candidate in candidates:
         path = Path(candidate).expanduser().resolve()
-        if (path / "docs" / "shared_bindings_matrix.py").exists():
+        if matrix_dir(path):
             return path
     raise SystemExit(
         "Could not find a CircuitPython checkout. Pass --cp PATH.\n"
@@ -55,7 +63,7 @@ def find_cp_root(explicit_path):
 
 
 def get_board_mapping(cp_root):
-    sys.path.insert(0, str(cp_root / "docs"))
+    sys.path.insert(0, str(matrix_dir(cp_root)))
     from shared_bindings_matrix import get_board_mapping as _get_board_mapping
 
     return _get_board_mapping()
