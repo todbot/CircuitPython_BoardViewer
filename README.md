@@ -9,7 +9,7 @@ and if so, which pins actually back them.
 
 [![View Boards](https://img.shields.io/badge/-View%20Boards-652f8f?style=for-the-badge)](https://todbot.github.io/CircuitPython_BoardViewer/)
 
-Live site: [https://todbot.github.io/CircuitPython_BoardViewer/](https://todbot.github.io/CircuitPython_BoardViewer/)
+Try it out: [https://todbot.github.io/CircuitPython_BoardViewer/#board=raspberry_pi_pico](https://todbot.github.io/CircuitPython_BoardViewer/#board=raspberry_pi_pico)
 
 <a href="https://todbot.github.io/CircuitPython_BoardViewer/"><img src="./docs/screenshot.png" width="500"></a>
 
